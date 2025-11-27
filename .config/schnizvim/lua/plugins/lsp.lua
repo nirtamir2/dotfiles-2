@@ -159,10 +159,9 @@ return {
           previous_on_attach(client, bufnr)
         end
       end
-      options = vim.tbl_deep_extend("keep", {
-        on_attach = new_on_attach,
-      }, options)
-      require("lspconfig")[server_name].setup(options)
+      options.on_attach = nil
+      vim.lsp.config(server_name, { settings = options, on_attach = new_on_attach })
+      vim.lsp.enable(server_name)
     end
 
     vim.lsp.set_log_level("off")

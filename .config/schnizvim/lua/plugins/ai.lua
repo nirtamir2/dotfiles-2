@@ -1,80 +1,94 @@
----@type LazySpec
 return {
-  "olimorris/codecompanion.nvim",
-  dependencies = {
-    "nvim-lua/plenary.nvim",
-    "nvim-treesitter/nvim-treesitter",
+  "folke/sidekick.nvim",
+  opts = {
+    cli = {
+      mux = {
+        backend = "tmux",
+        enabled = true,
+      },
+    },
   },
   keys = {
     {
-      "<leader>oa",
-      "<cmd>CodeCompanionChat Toggle<cr>",
-      mode = "n",
-      desc = "Toggle Code Companion chat",
-      noremap = true,
-      silent = true,
+      "<tab>",
+      function()
+        -- if there is a next edit, jump to it, otherwise apply it if any
+        if not require("sidekick").nes_jump_or_apply() then
+          return "<Tab>" -- fallback to normal tab
+        end
+      end,
+      expr = true,
+      desc = "Goto/Apply Next Edit Suggestion",
     },
     {
-      "<leader>oa",
-      ":CodeCompanion<cr>",
-      mode = "v",
-      desc = "Prompt Code Companion on the current selection",
-      noremap = true,
-      silent = true,
+      "<c-.>",
+      function()
+        require("sidekick.cli").toggle()
+      end,
+      desc = "Sidekick Toggle",
+      mode = { "n", "t", "i", "x" },
     },
-  },
-  opts = {
-    adapters = {
-      ---@return CodeCompanion.Adapter
-      devstral = function()
-        return require("codecompanion.adapters").extend("ollama", {
-          name = "devstral",
-          schema = {
-            model = {
-              default = "devstral:24b",
-            },
-          },
-        })
+    {
+      "<leader>aa",
+      function()
+        require("sidekick.cli").toggle()
       end,
-      copilot = function()
-        return require("codecompanion.adapters").extend("copilot", {
-          schema = {
-            model = {
-              default = "claude-sonnet-4",
-            },
-          },
-        })
-      end,
-      ---@return CodeCompanion.Adapter
-      v0 = function()
-        return require("codecompanion.adapters").extend("openai_compatible", {
-          env = {
-            url = "https://api.v0.dev",
-            api_key = "cmd:op read op://Projects/v0/credential --no-newline",
-          },
-          schema = {
-            model = {
-              default = "v0-1.0-md",
-            },
-          },
-        })
-      end,
+      desc = "Sidekick Toggle CLI",
     },
-    strategies = {
-      inline = {
-        adapter = "copilot",
-      },
-      chat = {
-        adapter = "copilot",
-        keymaps = {
-          send = {
-            modes = { i = "<C-;>" },
-          },
-          close = {
-            modes = { n = "<C-s>", i = "<C-s>" },
-          },
-        },
-      },
+    {
+      "<leader>as",
+      function()
+        require("sidekick.cli").select()
+      end,
+      -- Or to select only installed tools:
+      -- require("sidekick.cli").select({ filter = { installed = true } })
+      desc = "Select CLI",
+    },
+    {
+      "<leader>ad",
+      function()
+        require("sidekick.cli").close()
+      end,
+      desc = "Detach a CLI Session",
+    },
+    {
+      "<leader>at",
+      function()
+        require("sidekick.cli").send({ msg = "{this}" })
+      end,
+      mode = { "x", "n" },
+      desc = "Send This",
+    },
+    {
+      "<leader>af",
+      function()
+        require("sidekick.cli").send({ msg = "{file}" })
+      end,
+      desc = "Send File",
+    },
+    {
+      "<leader>av",
+      function()
+        require("sidekick.cli").send({ msg = "{selection}" })
+      end,
+      mode = { "x" },
+      desc = "Send Visual Selection",
+    },
+    {
+      "<leader>ap",
+      function()
+        require("sidekick.cli").prompt()
+      end,
+      mode = { "n", "x" },
+      desc = "Sidekick Select Prompt",
+    },
+    -- Example of a keybinding to open Claude directly
+    {
+      "<leader>ao",
+      function()
+        require("sidekick.cli").toggle({ name = "opencode", focus = true })
+      end,
+      desc = "Sidekick Toggle Claude",
     },
   },
 }

@@ -23,11 +23,9 @@ local servers = {
 
     return {
       capabilities = capabilities,
-      settings = {
-        json = {
-          schemas = require("schemastore").json.schemas(),
-          validate = { enable = true },
-        },
+      json = {
+        schemas = require("schemastore").json.schemas(),
+        validate = { enable = true },
       },
     }
   end,
@@ -77,6 +75,8 @@ local servers = {
       },
     },
   },
+
+  copilot = {},
 
   terraformls = {},
 
