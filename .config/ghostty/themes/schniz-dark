@@ -1,24 +1,25 @@
-# vim: ft=config
-# somewhat like Tomorrow Dark Eighties but I had some changes I don't remember
+# vim: ft=ghostty
+# somewhat like Monokai Pro but cursor color is different
 
-palette=0=#2d2d2d
-palette=1=#f2777a
-palette=10=#99cc99
-palette=11=#ffcc66
-palette=12=#6699cc
-palette=13=#cc99cc
-palette=14=#66cccc
-palette=15=#f2f0ec
-palette=2=#99cc99
-palette=3=#ffcc66
-palette=4=#6699cc
-palette=5=#cc99cc
-palette=6=#66cccc
-palette=7=#d3d0c8
-palette=8=#747369
-palette=9=#f2777a
-background=#2d2d2d
-cursor-color=#d3d0c8
-foreground=#d9d9d9
-selection-foreground=#d3d0c8
-selection-background=#515151
+palette = 0=#2d2a2e
+palette = 1=#ff6188
+palette = 2=#a9dc76
+palette = 3=#ffd866
+palette = 4=#fc9867
+palette = 5=#ab9df2
+palette = 6=#78dce8
+palette = 7=#fcfcfa
+palette = 8=#727072
+palette = 9=#ff6188
+palette = 10=#a9dc76
+palette = 11=#ffd866
+palette = 12=#fc9867
+palette = 13=#ab9df2
+palette = 14=#78dce8
+palette = 15=#fcfcfa
+background = #2d2a2e
+foreground = #fcfcfa
+cursor-color = #c1c0c0
+cursor-text = #000000
+selection-background = #5b595c
+selection-foreground = #fcfcfa

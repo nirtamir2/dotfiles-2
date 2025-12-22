@@ -1,7 +1,16 @@
+# vim: ft=ghostty
+
 theme = dark:Monokai Pro,light:GitHub Light High Contrast
 
-background-opacity = 0.95
+# background-opacity = 0.95
 background-blur-radius = 10
+
+# make the cursor pop
+adjust-cursor-thickness = 2
+cursor-color = cell-foreground
+cursor-text = cell-background
+
+mouse-hide-while-typing = true
 
 # Fira Code with ligatures |> === !== {}
 font-family = Fira Code Medium
