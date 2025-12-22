@@ -46,3 +46,13 @@ vim.g.ftplugin_sql_omni_key = "<C-j>"
 
 vim.cmd([[set listchars=tab:∙\ ,eol:↲,nbsp:␣,trail:•,extends:⟩,precedes:⟨]])
 vim.o.list = true
+
+vim.o.guicursor =
+  "n-v-c-sm:block,i-ci-ve:blinkwait30-blinkoff30-blinkon30-ver25-Cursor,r-cr-o:hor20,"
+
+if require("schniz.profile").talking() then
+  vim.o.number = false
+  vim.o.statuscolumn = ""
+  vim.o.signcolumn = "no"
+  vim.o.laststatus = 0
+end

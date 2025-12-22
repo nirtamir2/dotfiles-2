@@ -1,9 +1,11 @@
+---@type LazyPluginSpec
 return {
   "nvim-treesitter/nvim-treesitter",
   dependencies = {
     { "JoosepAlviste/nvim-ts-context-commentstring", opts = {} },
     {
       "nvim-treesitter/nvim-treesitter-context",
+      enabled = not require("schniz.profile").talking(),
       opts = { max_lines = 3, multiline_threshold = 1 },
     },
     "nvim-treesitter/nvim-treesitter-textobjects",

@@ -1,9 +1,13 @@
+local profile = require("schniz.profile")
+
+---@type LazySpec
 return {
   "nvim-lualine/lualine.nvim",
   dependencies = {
     "nvim-tree/nvim-web-devicons",
     "linrongbin16/lsp-progress.nvim",
   },
+  enabled = not profile.talking(),
   opts = {
     options = {
       section_separators = "",

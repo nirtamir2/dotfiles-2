@@ -1,7 +1,6 @@
 ---
 description: Run the full test suite with coverage report and show any failures. Focus on the failing tests and suggest fixes.
 agent: plan
-model: anthropic/claude-sonnet-4-20250514
 ---
 
 Please review the code changes implemented in the current branch against `origin/main` or the upstream main branch (`master`, `dev`, depends on the repository).

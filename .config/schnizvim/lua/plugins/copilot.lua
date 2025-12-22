@@ -1,8 +1,10 @@
+---@type LazyPluginSpec
 return {
   "zbirenbaum/copilot.lua",
   dependencies = {
     "zbirenbaum/copilot-cmp",
   },
+  enabled = not require("schniz.profile").talking(),
   build = function()
     vim.cmd("Copilot auth")
   end,

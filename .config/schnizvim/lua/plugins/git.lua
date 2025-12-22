@@ -1,6 +1,7 @@
 return {
   "tpope/vim-fugitive",
   dependencies = { "tpope/vim-rhubarb", "airblade/vim-gitgutter" },
+  enabled = not require("schniz.profile").talking(),
   init = function()
     vim.g.gitgutter_show_msg_on_hunk_jumping = 0
     -- define Browse command

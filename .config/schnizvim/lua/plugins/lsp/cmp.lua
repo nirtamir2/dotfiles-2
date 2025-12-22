@@ -1,9 +1,11 @@
+---@type LazyPluginSpec
 return {
   "hrsh7th/nvim-cmp",
   dependencies = {
     "onsails/lspkind.nvim",
     "hrsh7th/cmp-path",
     "hrsh7th/cmp-nvim-lsp",
+    "saadparwaiz1/cmp_luasnip",
   },
   init = function()
     -- Taken from @javivelasco
@@ -18,6 +20,7 @@ return {
         { name = "copilot" },
         { name = "crates" },
         { name = "codecompanion" },
+        { name = "luasnip" },
       }),
       formatting = {
         format = lspkind.cmp_format({

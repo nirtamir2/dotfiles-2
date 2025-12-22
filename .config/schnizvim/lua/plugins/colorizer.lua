@@ -9,6 +9,6 @@ return {
     "javascript.react",
     "typescript",
     "typescriptreact",
-    "ghosttyconfig",
+    "ghostty",
   },
 }

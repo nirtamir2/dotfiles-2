@@ -1,5 +1,9 @@
+local profile = require("schniz.profile")
+
+---@type LazyPluginSpec
 return {
   "folke/sidekick.nvim",
+  enabled = not profile.talking(),
   opts = {
     cli = {
       mux = {
