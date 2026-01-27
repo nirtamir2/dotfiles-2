@@ -37,10 +37,14 @@ vim.keymap.set("c", "<C-e>", "<End>")
 vim.keymap.set("v", "<leader>yr", function()
   local l1, l2 = vim.fn.line("v"), vim.fn.line(".")
   local path = vim.fn.expand("%:~:.")
-  local result = ("%s:%d-%d"):format(path, math.min(l1, l2), math.max(l1, l2))
+  local lines = tostring(l1)
+  if l1 ~= l2 then
+    lines = ("%d-%d"):format(math.min(l1, l2), math.max(l1, l2))
+  end
+  local result = ("%s:%s"):format(path, lines)
   vim.fn.setreg("+", result)
   vim.notify(
-    string.format("Yanked `%s`", result),
+    ("Yanked `%s`"):format(result),
     "info",
     { title = "yanked", id = "yank", ft = "markdown" }
   )
