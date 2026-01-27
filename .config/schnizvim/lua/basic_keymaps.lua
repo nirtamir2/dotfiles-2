@@ -33,3 +33,18 @@ end, { silent = true })
 -- evil mode muahahaha
 vim.keymap.set("c", "<C-a>", "<Home>")
 vim.keymap.set("c", "<C-e>", "<End>")
+
+vim.keymap.set("v", "<leader>yr", function()
+  local l1, l2 = vim.fn.line("v"), vim.fn.line(".")
+  local path = vim.fn.expand("%:~:.")
+  local result = ("%s:%d-%d"):format(path, math.min(l1, l2), math.max(l1, l2))
+  vim.fn.setreg("+", result)
+  vim.notify(
+    string.format("Yanked `%s`", result),
+    "info",
+    { title = "yanked", id = "yank", ft = "markdown" }
+  )
+end, {
+  silent = true,
+  desc = "Yank relative path + selected line range",
+})
