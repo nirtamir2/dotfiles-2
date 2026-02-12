@@ -24,8 +24,8 @@ keybind = super+shift+d=text:\x13"
 keybind = super+t=text:\x13c
 keybind = super+shift+left_bracket=text:\x13p
 keybind = super+shift+right_bracket=text:\x13n
-keybind = super+right_bracket=text:\x1Bt
-keybind = super+left_bracket=text:\x1BT
+keybind = super+]=text:\x1Bt
+keybind = super+[=text:\x1BT
 keybind = super+shift+enter=text:\x13z
 
 window-padding-balance = true
