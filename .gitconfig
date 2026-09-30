@@ -1,0 +1,84 @@
+[include]
+  path = ~/home.gitconfig
+
+[includeIf "gitdir:~/dev/news-spectator/"]
+  path = ~/news-spectator.gitconfig
+
+[includeIf "gitdir:~/dev/youleap/"]
+  path = ~/youleap.gitconfig
+
+[includeIf "gitdir:~/dev/genie-labs/"]
+  path = ~/genie-labs.gitconfig
+
+[color]
+  diff = auto
+  stats = auto
+  branch = auto
+  ui = auto
+[alias]
+  ; Stuff from https://github.com/ahmetsait/toolgit
+  graph = log --graph --pretty=format:'%C(red)%h%C(reset) -%C(yellow)%d%C(reset) %s %C(green)(%cr) %C(bold blue)<%an>%C(reset)%n' --abbrev-commit --date=relative --branches
+  amend = commit --amend --no-edit
+  gc-all = -c gc.reflogExpire=0 -c gc.reflogExpireUnreachable=0 -c gc.rerereresolved=0 -c gc.rerereunresolved=0 -c gc.pruneExpire=now gc
+  dir = rev-parse --git-dir
+  root = rev-parse --show-toplevel
+
+
+  lg = log --graph --pretty=format:'%Cred%h%Creset %C(cyan)%an%Creset - %C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+  player = shortlog -sn
+  d = diff
+  dt = difftool
+  co = commit
+  cp = commit -p
+  ch = checkout
+  s = status
+  ss = select
+  b = branch
+  db = delete-branch
+  a = add
+  sneak = commit --amend --no-edit
+  log-fn = "!f() { git log -L :$1:$2; }; f"
+  pr = "!f() { git fetch -fu ${2:-$(git remote |grep ^upstream || echo origin)} refs/pull/$1/head:pr/$1 && git checkout pr/$1; }; f"
+  investigate = blame
+[mergetool]
+  keepBackup = true
+[core]
+	editor = code --wait
+  excludesfile = ~/.gitignore_global
+  pager = delta --plus-style="syntax #195019" --minus-style="normal #601919" --paging=always
+	autocrlf = input
+  # For case-sensitive file systems (e.g. macOS default APFS) https://www.dev-diaries.com/social-posts/git-case-insensitivity/
+  ignoreCase = true
+[push]
+  default = current
+[help]
+  autocorrect = prompt
+[interactive]
+  diffFilter = delta --color-only
+[commit]
+  verbose = true
+	gpgSign = true
+[init]
+  defaultBranch = main
+[pull]
+  rebase = false
+[fetch]
+  prune = true
+[delta]
+  side-by-side = true
+
+[gpg]
+	program = gpg
+
+[rerere]
+  enabled = true
+
+[credential "https://github.com"]
+  helper =
+  helper = !gh auth git-credential
+[credential "https://gist.github.com"]
+  helper =
+  helper = !gh auth git-credential
+
+[include]
+  path = ~/.gitconfig.local

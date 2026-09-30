@@ -1,27 +1,9 @@
+# Schnitz's compact layout, with Starship's default colors and prompt symbol.
 "$schema" = 'https://starship.rs/config-schema.json'
-
 add_newline = false
 format = "$directory$git_branch$character"
 right_format = "$cmd_duration"
 
-[directory]
-style = "bold white"
-
-[character] # The name of the module we are configuring is "character"
-success_symbol = "[✡](bold blue)"
-error_symbol = "[✡](bold red)"
-
 [git_branch]
 format = "[$symbol$branch(:$remote_branch)]($style) "
 truncation_length = 15
-style = "bold cyan"
-
-[git_status]
-style = "bold purple"
-format = "$ahead_behind "
-# an arrow up character
-ahead = "[↑](red)"
-behind = "[↓](red)"
-# a two sided arrow
-diverged = "[⇔](purple)"
-up_to_date = "[◦](green)"

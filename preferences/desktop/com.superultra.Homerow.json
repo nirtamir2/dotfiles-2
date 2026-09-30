@@ -1,0 +1,8 @@
+{
+  "non-search-shortcut": "\u2303\u2325\u21e7\u2318H",
+  "scroll-shortcut": "\u2303\u2325\u21e7\u2318J",
+  "map-arrow-keys-to-scroll": true,
+  "launch-at-login": true,
+  "enable-hyper-key": true,
+  "auto-switch-input-source-id": "com.apple.keylayout.ABC"
+}

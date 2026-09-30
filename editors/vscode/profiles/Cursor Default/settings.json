@@ -1,0 +1,196 @@
+{
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "eslint.workingDirectories": [
+    {
+      "mode": "auto"
+    }
+  ],
+  "editor.accessibilitySupport": "off",
+  "files.autoSave": "afterDelay",
+  "gitlens.codeLens.enabled": false,
+  "gitlens.currentLine.enabled": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.rebaseEditor.ordering": "asc",
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "workbench.editorAssociations": {
+    "git-rebase-todo": "default",
+    "*.svg": "default"
+  },
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.colorTheme": "Webstorm Darcula",
+  "i18n-ally.extract.autoDetect": true,
+  "editor.fontSize": 16,
+  "i18n-ally.preferredDelimiter": "_",
+  "i18n-ally.sortKeys": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.hovers.enabled": false,
+  "tailwindCSS.emmetCompletions": true,
+  "editor.lineHeight": 1.6,
+  "editor.wordWrap": "on",
+  "console-ninja.featureSet": "Community",
+  "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
+  "editor.bracketPairColorization.enabled": false,
+  "editor.smartSelect.selectLeadingAndTrailingWhitespace": false,
+  "editor.smartSelect.selectSubwords": false,
+  "terminal.integrated.fontSize": 16,
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[astro]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "gitFileExplorer.gitCommand": "git diff --name-only -z",
+  "gitlens.views.commits.files.layout": "list",
+  "workbench.editor.closeOnFileDelete": true,
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editor.limit.enabled": true,
+  "workbench.editor.limit.perEditorGroup": true,
+  "workbench.editor.limit.value": 5,
+  "search.exclude": {
+    "**/.cache": true,
+    "**/.expo": true,
+    "**/.git": true,
+    "**/.github": false,
+    "**/.nuxt": true,
+    "**/.output": true,
+    "**/.pnpm": true,
+    "**/.vscode": true,
+    "**/.yarn": true,
+    "**/*.snap": true,
+    "**/bower_components": true,
+    "**/CHANGELOG*": true,
+    "**/dist/**": true,
+    "**/LICENSE*": true,
+    "**/logs": true,
+    "**/node_modules": true,
+    "**/out/**": true,
+    "**/package-lock.json": true,
+    "**/pnpm-lock.yaml": true,
+    "**/temp": true,
+    "**/yarn.lock": true
+  },
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "git.allowNoVerifyCommit": true,
+  "git.confirmNoVerifyCommit": false,
+  "diffEditor.renderSideBySide": true,
+  "i18n-ally.extract.keyPrefix": "{fileNameWithoutExt}",
+  "files.watcherExclude": {
+    "**/node_modules/**": true
+  },
+  "typescript.tsserver.maxTsServerMemory": 12288,
+  "editor.defaultFormatter": "oxc.oxc-vscode",
+  "workbench.editor.customLabels.patterns": {
+    "**/app/**/page.tsx": "${dirname} - page.tsx",
+    "**/app/**/layout.tsx": "${dirname} - layout.tsx",
+    "**/app/**/loading.tsx": "${dirname} - loading.tsx",
+    "**/app/**/error.tsx": "${dirname} - error.tsx",
+    "**/index.*": "${dirname}/${filename}.${extname}"
+  },
+  "workbench.editor.enablePreview": false,
+  "files.simpleDialog.enable": true,
+  "git.blame.editorDecoration.enabled": false,
+  "[snippets]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "diffEditor.experimental.showMoves": true,
+  "git.closeDiffOnOperation": true,
+  "editor.linkedEditing": true,
+  "gitTreeCompare.diffMode": "full",
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "mcpServers": {},
+  "merge-conflict.autoNavigateNextConflict.enabled": true,
+  "files.associations": {
+    "*.svg": "html"
+  },
+  "catalogLens.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false
+  },
+  "kilo-code.allowedCommands": [
+    "git log",
+    "git diff",
+    "git show"
+  ],
+  "kilo-code.deniedCommands": [],
+  "codeium.enableConfig": {
+    "*": true,
+    "markdown": true
+  },
+  "claudeCode.preferredLocation": "panel",
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "cSpell.userWords": [
+    "orpc"
+  ],
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "js/ts.updateImportsOnFileMove.enabled": "always",
+  "js/ts.preferGoToSourceDefinition": true,
+  "editor.codeActions.triggerOnFocusChange": true,
+  "github.copilot.chat.claudeAgent.allowDangerouslySkipPermissions": true,
+  "claudeCode.allowDangerouslySkipPermissions": true,
+  "github.copilot.editor.enableCodeActions": false,
+  "claudeCode.initialPermissionMode": "bypassPermissions",
+  "coderabbit.autoReviewMode": "disabled",
+  "tailwindCSS.classFunctions": [
+    "cva",
+    "clsx",
+    "cn",
+    "cx"
+  ],
+  "js/ts.preferences.autoImportSpecifierExcludeRegexes": [
+    "node_modules"
+  ],
+  "codeium.enableCodeLens": false,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": []
+  },
+  "camouflage.selective.enabled": true,
+  "camouflage.files.patterns": [
+    ".env*",
+    "*.env",
+    "*.sh",
+    "*.yaml",
+    "*.yml",
+    "*.properties",
+    "*.ini",
+    "*.conf",
+    "*.toml"
+  ],
+  "camouflage.parsers.enabled": [
+    "env",
+    "yaml",
+    "properties",
+    "toml"
+  ]
+}

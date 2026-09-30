@@ -1,0 +1,746 @@
+[
+  {
+    "source": "dotfiles",
+    "sha256": "4bfa84a129463c17afcc73085a2190ad38f34fa4a02699768430bba469b1c1ec",
+    "destination": ".private/original-dotfiles/dotfiles",
+    "disposition": "Preserved locally as historical/private source; not automatically executed"
+  },
+  {
+    "source": ".my-config.sample",
+    "sha256": "f0b34aea9f7f865be53d9cc7f707f2ba275ced28d6b64616a1948838008649c0",
+    "destination": ".private/original-dotfiles/.my-config.sample",
+    "disposition": "Preserved locally as historical/private source; not automatically executed"
+  },
+  {
+    "source": "setup",
+    "sha256": "22b4ad70ebe32bde7a1b35b3d98796e49c3515ee4793fe117584598f1878438c",
+    "destination": ".private/original-dotfiles/setup",
+    "disposition": "Preserved locally as historical/private source; not automatically executed"
+  },
+  {
+    "source": "README.md",
+    "sha256": "0439904a97d15ad4264dba081d169f91dcd05a7552a8e4891de89ab04528de0b",
+    "destination": ".private/original-dotfiles/README.md",
+    "disposition": "Preserved locally as historical/private source; not automatically executed"
+  },
+  {
+    "source": "backup.zip",
+    "sha256": "4d7afd8a38e308bcd2fb0a5c52a30d3a6405309f1640dcf8b112bfba90aeb310",
+    "destination": ".private/original-dotfiles/backup.zip",
+    "disposition": "Preserved locally as historical/private source; not automatically executed"
+  },
+  {
+    "source": ".gitignore",
+    "sha256": "2870f6669790b5cefe67cacd8d65d9371d7674323141ed013d64bc834c15a110",
+    "destination": ".private/original-dotfiles/.gitignore",
+    "disposition": "Preserved locally as historical/private source; not automatically executed"
+  },
+  {
+    "source": ".my-config",
+    "sha256": "f0b34aea9f7f865be53d9cc7f707f2ba275ced28d6b64616a1948838008649c0",
+    "destination": ".private/original-dotfiles/.my-config",
+    "disposition": "Preserved locally as historical/private source; not automatically executed"
+  },
+  {
+    "source": "tasks/todo.md",
+    "sha256": "1a7bc2ed3fafbb4344cf74d9db972ae26bb8de681493dd4af58c94533a43492e",
+    "destination": ".private/original-dotfiles/tasks/todo.md",
+    "disposition": "Preserved locally as historical/private source; not automatically executed"
+  },
+  {
+    "source": "tasks/plan.md",
+    "sha256": "646eb365c2119d3a69f92760d2202c5ca6bbedd0b26537cd106dd46a543cd5c7",
+    "destination": ".private/original-dotfiles/tasks/plan.md",
+    "disposition": "Preserved locally as historical/private source; not automatically executed"
+  },
+  {
+    "source": "bootstrap/homebrew",
+    "sha256": "523c702be4c85724047345c37c20a62213d72467b4213009f36e927c525ded0a",
+    "destination": ".private/original-dotfiles/bootstrap/homebrew",
+    "disposition": "Preserved locally as historical/private source; not automatically executed"
+  },
+  {
+    "source": "bootstrap/installations",
+    "sha256": "1124320973c42641b4815c76ac5de5e5bc513fa20409a20187e7163d3377b526",
+    "destination": ".private/original-dotfiles/bootstrap/installations",
+    "disposition": "Preserved locally as historical/private source; not automatically executed"
+  },
+  {
+    "source": "cursor/settings.json",
+    "sha256": "298b961575634bd250c7d1d67d30ad32f538196b1044c0dce25a0ef38ec38d00",
+    "destination": ".private/original-dotfiles/cursor/settings.json",
+    "disposition": "Preserved locally as historical/private source; not automatically executed"
+  },
+  {
+    "source": "cursor/keybindings.json",
+    "sha256": "8480b2d4ad0b334738b70017e962f5b222109946c4238fa5d8aed85a896fb9ef",
+    "destination": ".private/original-dotfiles/cursor/keybindings.json",
+    "disposition": "Preserved locally as historical/private source; not automatically executed"
+  },
+  {
+    "source": "cursor/.gitignore",
+    "sha256": "fdebd66b0539f26f62e56e30ba44db5f972f2e443e472214a52f3d86ada47f02",
+    "destination": ".private/original-dotfiles/cursor/.gitignore",
+    "disposition": "Preserved locally as historical/private source; not automatically executed"
+  },
+  {
+    "source": "cursor/extensions.txt",
+    "sha256": "81f38a4ea03110d2aa324fc02ef69e568382be8873bdbd3410629092bcdcf84b",
+    "destination": ".private/original-dotfiles/cursor/extensions.txt",
+    "disposition": "Preserved locally as historical/private source; not automatically executed"
+  },
+  {
+    "source": "cursor/snippets/typescriptreact.json",
+    "sha256": "d8289e92afaf06cebc19e30d5225ba9f5c5ebe679648877ea0094302cb5b1fe3",
+    "destination": ".private/original-dotfiles/cursor/snippets/typescriptreact.json",
+    "disposition": "Preserved locally as historical/private source; not automatically executed"
+  },
+  {
+    "source": "config/com.googlecode.iterm2.plist",
+    "sha256": "b4485e60a2058a271267d161ad66dbc5a8fe2bb858bb6fe3245b6c1761eb8981",
+    "destination": ".private/original-dotfiles/config/com.googlecode.iterm2.plist",
+    "disposition": "Retired: user uses Warp; original iTerm export preserved privately"
+  },
+  {
+    "source": "config/visual-studio-code-settings.json",
+    "sha256": "e521c68de3133d2226cf2e5f56d1a53bdc4be1292c926566424737bfa99b1f19",
+    "destination": "editors/vscode/settings.json",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "config/home/.zshrc",
+    "sha256": "23f8c05b287eef459c1ce1005523814240c9e9500566863300f85710247e4be3",
+    "destination": ".zshrc",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "config/home/.npmrc",
+    "sha256": "0e422432b3a0af2fcbeb566c7b716c0be152b4736a4e90e091151273eb9690cf",
+    "destination": ".npmrc",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "config/home/.gitignore_global",
+    "sha256": "3e0dc3b0ed077dc016a3e6accc12c25bce1dbc90fa8d62bc68793bc3818166a9",
+    "destination": ".gitignore_global",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "config/home/.gitattributes",
+    "sha256": "ddc02cea04a09e8847caeca3a4772727dc7dde319d2ca5f7ca55f0a8d85aecf1",
+    "destination": ".gitattributes",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "config/home/.vimrc",
+    "sha256": "dc6fa723b8b33e6a793a39556a131f59c7cb1e62bf7940de5cfabe0a67bc19c3",
+    "destination": ".vimrc",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "config/home/.gitconfig",
+    "sha256": "b08158b691f588e5c74f1d81e11574e6bd400af9a9a82d2472aa6312540aa1b3",
+    "destination": ".gitconfig",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "config/home/git-configs/home.gitconfig",
+    "sha256": "5320bb86678aa6de310e6856533cede2a7c0f5fcaef3cfd5b5ad8e5ba2ee1b2b",
+    "destination": "git-configs/home.gitconfig",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "config/home/git-configs/youleap.gitconfig",
+    "sha256": "1f8e351942c91148f5fa034360c9f6c8e85c7d47eb6a37770a9d26ac7c47ff94",
+    "destination": "git-configs/youleap.gitconfig",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "config/home/git-configs/news-spectator.gitconfig",
+    "sha256": "bc8f4698315945330b20e00d461a6c03ebd9751e5a073e7f1113a012ce05fdd1",
+    "destination": "git-configs/news-spectator.gitconfig",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "config/home/git-configs/genie-labs.gitconfig",
+    "sha256": "2f6dfb3e3a6905c125bcbb92180c971c8a3e1eddd1e3f253e4ea27c348a151a3",
+    "destination": "git-configs/genie-labs.gitconfig",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "config/.bin/git-is-worktree-clean",
+    "sha256": "9ab07bd866ce25751af3bde5b85f3530b0622dbcf72ef802ced1721667746e0c",
+    "destination": "bin/git-is-worktree-clean",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "config/.bin/git-delete-gone-branches",
+    "sha256": "708ea57a1703015cd9854305268e2613baa2a2193c06ccb7764b79f65d816088",
+    "destination": "bin/git-delete-gone-branches",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "config/.bin/git-delete-branch",
+    "sha256": "7049abdd579f53384b2d414aa105366c523b545e3619f653d30a3d5e15ae089b",
+    "destination": "bin/git-delete-branch",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "config/.bin/git-mode-restore",
+    "sha256": "582f05a0d984961b5f5135fee77ded1cead8ffb0b190bbc705725a2981a80ea7",
+    "destination": "bin/git-mode-restore",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "config/.bin/mode-restore.sh",
+    "sha256": "d88f3e7acd4dfb7f83f6a9b5e50c9c4a8a1938a47fcc6be0335d2650c3cc1195",
+    "destination": "bin/mode-restore.sh",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "config/.bin/git-in-repo",
+    "sha256": "967585fa458731ef6dbb6a94939e38bd864d4159cfae308e0b319ce316eb5783",
+    "destination": "bin/git-in-repo",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "config/.bin/git-forward",
+    "sha256": "3cb687a08652bdae9c570fbcc36d0968da1a2cffdd448aea871d436f60023421",
+    "destination": "bin/git-forward",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "config/.bin/git-legacy",
+    "sha256": "0d774db6115ceffd4a8bcf0aca4ab1a8acf26b7250881eefbcead8f146bb2cb0",
+    "destination": "bin/git-legacy",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "config/.bin/$",
+    "sha256": "ab65430c4bc1ff3639e22c2f5a6083ac6c3e8906bbfc60060f9b27d302f26ca0",
+    "destination": "bin/$",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "config/.bin/git-merge",
+    "sha256": "5d3ca5be3575a2960856fc350320d054a2ce1cc0c7f06edc2454a04dacd9792f",
+    "destination": "bin/git-merge",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "config/.bin/git-select",
+    "sha256": "829b35b2ff0eeb5fa2e6822c08f517b3fca5ac5ad2cd89b4dd27c24653fc7d38",
+    "destination": "bin/git-select",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "config/.bin/gitroot",
+    "sha256": "582f0417d992b960784b473dae603860ba07970d56ce542ee9a43659d24a9b4e",
+    "destination": "bin/gitroot",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "config/.bin/git-xlog",
+    "sha256": "20c02258eaf98e782e299985cc202bf180f7d468c3b7a6077c9b2cf3fb2f59f6",
+    "destination": "bin/git-xlog",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "config/.bin/git-is-head-detached",
+    "sha256": "725aef8a9622bdc079cba28f33bb2f493ee3c947699e8e65277e79b4cdfeca6e",
+    "destination": "bin/git-is-head-detached",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "config/.bin/sync-env-from-main.sh",
+    "sha256": "9404628df06ed0604cdba856ffed66f2eade90bfe55470545dd4411f88c6718b",
+    "destination": "bin/sync-env-from-main.sh",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "config/.bin/git-force-pull",
+    "sha256": "4c673531bcf41684661f0b38c61bd045e9f530dcc3b4e1d406e52f7bf5782dd8",
+    "destination": "bin/git-force-pull",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "config/.bin/git-pr-select",
+    "sha256": "2ca60f1c89721eb1b6df7ead3422dd53b66775fdb4eecd9b788315a4731c69bc",
+    "destination": "bin/git-pr-select",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "config/.bin/git-is-branch-remote",
+    "sha256": "f9e62e385347f0610099526145ff097b5c33e993a57b36ecfccf9ef244afeed8",
+    "destination": "bin/git-is-branch-remote",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "config/.bin/git-main-branch",
+    "sha256": "b775bf4ebf54512751961aa531b6229d8a12ccfc20b7957d6dc8774daf33ff09",
+    "destination": "bin/git-main-branch",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "config/oh-my-zsh/aliases.zsh",
+    "sha256": "95ab30cf5e3fa700d0ced350e690af5d82f00568464ba56256864617234a2639",
+    "destination": "shell/aliases.zsh",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "config/oh-my-zsh/stefanjudis.zsh-theme",
+    "sha256": "001121d9070cf5a6a3c990c8fe77603ab6218e83b92c4843dbe31029ef28ae2b",
+    "destination": "shell/stefanjudis.zsh-theme",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "config/oh-my-zsh/functions.zsh",
+    "sha256": "7e95210a353b826fa9658bb3000091d3241f5778afbaa3fd444eedc927a346c7",
+    "destination": "shell/functions.zsh",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "config/oh-my-zsh/completions/_dev",
+    "sha256": "93eb3cf1ee90ba32af1bc8950d61811b75f83439ac78d8804bdff7af60a8cc09",
+    "destination": "shell/completions/_dev",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "config/package-lists/nvm-default-packages.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "destination": "packages/nvm-default-packages.txt",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "config/package-lists/visual-studio-code-extensions.txt",
+    "sha256": "7396310a96e9a82098c32c4fcc5f39c725e04d5f238bf6f1e4d3d58e37b4325c",
+    "destination": "packages/visual-studio-code-extensions.txt",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": ".opencode/opencode.db-shm",
+    "sha256": "f8ab32c57ad70565a91b74154bdf5ef6e2fdb38a7fcdfbf05e3db4333a4ece6b",
+    "destination": ".private/original-dotfiles/.opencode/opencode.db-shm",
+    "disposition": "Preserved locally as historical/private source; not automatically executed"
+  },
+  {
+    "source": ".opencode/opencode.db-wal",
+    "sha256": "1fe0a81699972367a5c2aa8c96d56ac3b3b5165ba5ff959f1a543802a069fa7e",
+    "destination": ".private/original-dotfiles/.opencode/opencode.db-wal",
+    "disposition": "Preserved locally as historical/private source; not automatically executed"
+  },
+  {
+    "source": ".opencode/opencode.db",
+    "sha256": "42f67cde08aaa4db17432058fdd3521a7199a1dfd4afe740ca486d6b49226302",
+    "destination": ".private/original-dotfiles/.opencode/opencode.db",
+    "disposition": "Preserved locally as historical/private source; not automatically executed"
+  },
+  {
+    "source": "macos-defaults/dock.yaml",
+    "sha256": "6bd72172199c00a602880439e897c9db23c41c4d2f918c808206f7d2333d9909",
+    "destination": "macos-defaults/dock.yaml",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "macos-defaults/keyboard.yaml",
+    "sha256": "c9477bebb9b2acc717ed8f16a0b8b8ad5bebc2f64a50783a3e6bf52c73135137",
+    "destination": "macos-defaults/keyboard.yaml",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "macos-defaults/statusbar.yaml",
+    "sha256": "b2d57af7b9d9230d693b18bf620d1b89af1fa91e08880cf5dca4b9253a439653",
+    "destination": "macos-defaults/statusbar.yaml",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "macos-defaults/my-dock.yaml",
+    "sha256": "a03c194ca74a4e95f971e1855e81c6facd121a97c5fb9240974e82604cbb0519",
+    "destination": ".private/original-dotfiles/macos-defaults/my-dock.yaml",
+    "disposition": "Preserved locally as historical/private source; not automatically executed"
+  },
+  {
+    "source": "manual-install/BetterDisplay.md",
+    "sha256": "4b78eec1864e10875171325c0f6a6100dd22b1f709343cd41bd97a0b69435307",
+    "destination": "manual-install/BetterDisplay.md",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "manual-install/open-vlc.md",
+    "sha256": "6dab3ecdac19c1d4e033e81ec034602ef238032f3ad238a6217ba5cf0c452f1d",
+    "destination": "manual-install/open-vlc.md",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "manual-install/disable-quick-notes-via-hot-corners.png",
+    "sha256": "867fbeff3ce43631bfc8c7f730ccea79bc65edca9655f1802851fc88c5888e04",
+    "destination": "manual-install/disable-quick-notes-via-hot-corners.png",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "manual-install/cap-so.md",
+    "sha256": "6f441ee514d52b5909c65e9ad1ff8c9e22dfe904b7a62b904a893cb28445cd05",
+    "destination": "manual-install/cap-so.md",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "manual-install/dicate-with-keyboard.md",
+    "sha256": "ad6ee8e65796b4d960cd0eb998e07b8b47f8cbba9ee7dad44b55dc3dcab2ee6f",
+    "destination": "manual-install/dicate-with-keyboard.md",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "manual-install/stretchly.png",
+    "sha256": "cc72b38dea1e61c5cb49cbc054e7539c6d316371c0a6744205eb8b4630ce18eb",
+    "destination": "manual-install/stretchly.png",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "manual-install/mate-os.md",
+    "sha256": "b2b1d10d4e925946ccfa8692d25c268827bcd27691478fbf31178369f4bc331b",
+    "destination": "manual-install/mate-os.md",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "manual-install/keyboard.png",
+    "sha256": "167e80db266ea0d299714dddadb2b6c4d1eb553e021c96a2dc3a36835690a481",
+    "destination": "manual-install/keyboard.png",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "manual-install/dictation.png",
+    "sha256": "a4ea3ed20c2fa9596b10f7c97e956c5c9008fd394449d85865a10c3d2f3925a7",
+    "destination": "manual-install/dictation.png",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "manual-install/zoom-with-ctrl-key-and-scroll.png",
+    "sha256": "3a8619f1144ed596e6420ed14876ccfa7236b3a33419c862be46145444f307ba",
+    "destination": "manual-install/zoom-with-ctrl-key-and-scroll.png",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "manual-install/fabric.so.md",
+    "sha256": "31c9462e12eee049bea519d544d8bab7eeff85fa38b57298893407b3b53db50b",
+    "destination": "manual-install/fabric.so.md",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "manual-install/rectangle.png",
+    "sha256": "8baa7910e182dcc447b23f97e1e8b93fa1110abb9e7cf4985be6ec16da70d972",
+    "destination": "manual-install/rectangle.png",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "manual-install/scriptkit.md",
+    "sha256": "d68024a8ac3a5634a609e6d48fbde26698637834691a69b1650b21b269bce3b8",
+    "destination": "manual-install/scriptkit.md",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "manual-install/ollama-web-ui.md",
+    "sha256": "a1ac40c2091d8074b6d7902dc140325711e89fe109ef3155ed970850fe743c0c",
+    "destination": "manual-install/ollama-web-ui.md",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "manual-install/lang-shortcut.png",
+    "sha256": "ef25bf3d0f5816fa9720b4c0bd162648187e71a02f4dea619389e6de6108643c",
+    "destination": "manual-install/lang-shortcut.png",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "manual-install/homerow-config-clicking.png",
+    "sha256": "46ec68c7506acd5016001ae156fb855b6fc4f5cbe10aa1d1ea8a522a54f8189a",
+    "destination": "manual-install/homerow-config-clicking.png",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "manual-install/homerow.md",
+    "sha256": "02d46c23ad879bfbf225deeb7f771513d32721cb088da86c382d25c2bd3dcc46",
+    "destination": "manual-install/homerow.md",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "manual-install/raycast.png",
+    "sha256": "01486ac604a0c49f37f6caa9eeb9cdacd43b7f6c87b817a48504beba2a6445b4",
+    "destination": "manual-install/raycast.png",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "manual-install/example-git-users.png",
+    "sha256": "c5846d80df18825a1dd0cf499d43b90952f397b39f8e2c493cb75003fe885357",
+    "destination": "manual-install/example-git-users.png",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "manual-install/dictation.md",
+    "sha256": "f60d75c1070aa99479935e7829cd24c4f8bed7ff56746077fad72a73f3ee2ae2",
+    "destination": "manual-install/dictation.md",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "manual-install/trackpad.png",
+    "sha256": "dfd70d923d99de093726e88d5617f77b000266d268b78917fc47f18bb3a9efbb",
+    "destination": "manual-install/trackpad.png",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "manual-install/stretchly2.png",
+    "sha256": "704e86c3ca71ca21d2266fec12714b25a039e8b8cc200ec06f83b687b89544f2",
+    "destination": "manual-install/stretchly2.png",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "manual-install/alt-tab-show-on-screen-including-mouse.png",
+    "sha256": "65901d7633c51aca73440c4ec4d746c9b666b4dae0c1b7c482fc313ab2af905c",
+    "destination": "manual-install/alt-tab-show-on-screen-including-mouse.png",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "manual-install/syncthing.md",
+    "sha256": "87857ccf75d723e33e8cb9c19588cd9e04ea4ec301ba0fc8e3070e32f07ce91b",
+    "destination": "manual-install/syncthing.md",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "manual-install/shortcuts-services.png",
+    "sha256": "cc6e980207467b265592f5fe274eec90d62e0ee990f8710ca53f8bdb6b93b7f0",
+    "destination": "manual-install/shortcuts-services.png",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "manual-install/Pinokio.md",
+    "sha256": "18bf6495a14b903ca238f8c1315a182a2d18590b58c2139d56f2a7bbc286e596",
+    "destination": "manual-install/Pinokio.md",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "manual-install/homerow-config-scroll.png",
+    "sha256": "40ce2474ceb981910087492df7b98aeda7e51e3db2619e13b756ea2f94964d81",
+    "destination": "manual-install/homerow-config-scroll.png",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "manual-install/alt-tab-shortcut-1.png",
+    "sha256": "4be9dde518535950cad5b9c25908a73c7f2b8afd755e63ce7ef788a5e328ccc0",
+    "destination": "manual-install/alt-tab-shortcut-1.png",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "manual-install/alt-tab-shortcut-2.png",
+    "sha256": "95ebe20968a2b3eedfce0c076fa8948bb49665cc24c21a0991ae7782c62bb7f1",
+    "destination": "manual-install/alt-tab-shortcut-2.png",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "manual-install/alt-tab.md",
+    "sha256": "fbe88e1087e6eeb422051be24cd0764eb35ee0e8b492c653c176b043956955c6",
+    "destination": "manual-install/alt-tab.md",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "manual-install/claude-ai.md",
+    "sha256": "139aab61365028732dbccdf5046467a837d248b158060567977cc7a1131ef435",
+    "destination": "manual-install/claude-ai.md",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "manual-install/google translate chrome extension.png",
+    "sha256": "44fb5fdd41e5958a4686ad04e57ff319ba764fe342de8f84bd24fe1d12221fef",
+    "destination": "manual-install/google translate chrome extension.png",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "manual-install/alt-tab-tray-icon.png",
+    "sha256": "3a57b0614ad3b2ff36fa86baf0bc58ee6ffed7758c4918a9f139ddf6155d39d8",
+    "destination": "manual-install/alt-tab-tray-icon.png",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "static/fira-code-iscript/FiraCodeiScript-Bold.ttf",
+    "sha256": "06c8271e9536e094def2153fe54fc4455c134bc263f149f15aada4d132204f52",
+    "destination": "static/fira-code-iscript/FiraCodeiScript-Bold.ttf",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "static/fira-code-iscript/FiraCodeiScript-Italic.ttf",
+    "sha256": "9dc795ec45c7f4e17cec91f93dbfa033e4b6c80f87e1b78d0abfb5c2372eb231",
+    "destination": "static/fira-code-iscript/FiraCodeiScript-Italic.ttf",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "static/fira-code-iscript/FiraCodeiScript-Regular.ttf",
+    "sha256": "75b48ce16ec3addf67fc491f5eaf0fdf52aec5b8d9d70b6e16267c68579bbd3c",
+    "destination": "static/fira-code-iscript/FiraCodeiScript-Regular.ttf",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "raycast/Raycast 2025-08-31 18.51.48.rayconfig",
+    "sha256": "11906b1e2502e14b49f8afd39981e52726cbe0480f068a24ad63b860d89a1a54",
+    "destination": ".private/original-dotfiles/raycast/Raycast 2025-08-31 18.51.48.rayconfig",
+    "disposition": "Preserved locally as historical/private source; not automatically executed"
+  },
+  {
+    "source": "raycast/my-stuff/.gitignore",
+    "sha256": "16d30e4462189fb14dd611bdb708c510630c576a1f35b9383e89a4352da36c97",
+    "destination": "raycast/my-stuff/.gitignore",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "raycast/my-stuff/package-lock.json",
+    "sha256": "715b66c10b30a625e498f42e4c22f716659604577c0663bfe9d694248b97d3c5",
+    "destination": "raycast/my-stuff/package-lock.json",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "raycast/my-stuff/package.json",
+    "sha256": "f1fc60d77d6bf7084a8fb8c1ba360f14d0b5a3cca9c866ffbad8c9cf8571eaf1",
+    "destination": "raycast/my-stuff/package.json",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "raycast/my-stuff/.prettierrc",
+    "sha256": "af858765de11954366be23467b95bae5e1a86818411c6723df7542cea9ffd521",
+    "destination": "raycast/my-stuff/.prettierrc",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "raycast/my-stuff/tsconfig.json",
+    "sha256": "cf0df7ba8665cdc8bd26091af9f77ef1724ef45f6c4bd6890758c447b931ddeb",
+    "destination": "raycast/my-stuff/tsconfig.json",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "raycast/my-stuff/.eslintrc.json",
+    "sha256": "e83643eb09480ca4cba10297b57e6a663405f8e778dd7ed1434317448c817917",
+    "destination": "raycast/my-stuff/.eslintrc.json",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "raycast/my-stuff/assets/command-icon.png",
+    "sha256": "b9aa8e61c90c516ee645070342e3cc4664b998aefc0e908f06a719cb41de4374",
+    "destination": "raycast/my-stuff/assets/command-icon.png",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "raycast/my-stuff/src/open-entry.tsx",
+    "sha256": "ba6d0306417467adad4fa8464d4c019c1545369a13b1b3438a13e251d50145c5",
+    "destination": "raycast/my-stuff/src/open-entry.tsx",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "raycast/my-stuff/src/add-weekly-link.tsx",
+    "sha256": "1f62873ca533e2e2a5b9d9d4a1db11f060569f4ec520b307fbd221c0d06fbb67",
+    "destination": "raycast/my-stuff/src/add-weekly-link.tsx",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "raycast/scripts/quick open/open-blog.sh",
+    "sha256": "93621e13ba72a41dc26dc9f13fec8898b105c627ca9244cb661584b99248ae2a",
+    "destination": "raycast/scripts/quick open/open-blog.sh",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "raycast/scripts/quick open/work-mode.sh",
+    "sha256": "8c46a233ea3d62ea6e837b47705ba4ee05867b840b58f07996b0043fa71ca653",
+    "destination": "raycast/scripts/quick open/work-mode.sh",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "raycast/scripts/quick open/open-eslint-config.sh",
+    "sha256": "562851ab13954c5c64cecf8f091a5da01d45916e2ed6c810265b8554f7699c91",
+    "destination": "raycast/scripts/quick open/open-eslint-config.sh",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "raycast/scripts/quick open/open-dotfiles.sh",
+    "sha256": "80cdf1914978acea1588b6e41de175986606b8433a7bc9b3953e5794cf48153e",
+    "destination": "raycast/scripts/quick open/open-dotfiles.sh",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "raycast/scripts/custom/fix-spelling-and-grammar.js",
+    "sha256": "e93148257b6e5d9c053e83b4ab864ccb3680379488f8bad1dcede33cab797fe6",
+    "destination": "raycast/scripts/custom/fix-spelling-and-grammar.js",
+    "disposition": "Migrated; may be updated to current Mac settings or corrected for portability"
+  },
+  {
+    "source": "scripts/go.sh",
+    "sha256": "4a38c0ca82fb2c362acf5ea1a39367504d6fca0661d76dbbb102c8f23f4b1a44",
+    "destination": ".private/original-dotfiles/scripts/go.sh",
+    "disposition": "Preserved locally as historical/private source; not automatically executed"
+  },
+  {
+    "source": "scripts/pip.sh",
+    "sha256": "c6053d392d7eec1ea9745e0e941262704c52c8fb8214380622e2ed8e6358943b",
+    "destination": ".private/original-dotfiles/scripts/pip.sh",
+    "disposition": "Preserved locally as historical/private source; not automatically executed"
+  },
+  {
+    "source": "scripts/node.sh",
+    "sha256": "ac19f9d63efdacfe88624e0f9aa15b1a2660a1c33d3484ff9913ad28d55aa92c",
+    "destination": ".private/original-dotfiles/scripts/node.sh",
+    "disposition": "Preserved locally as historical/private source; not automatically executed"
+  },
+  {
+    "source": "scripts/work-only.sh",
+    "sha256": "fe433d8dfeb26ca1105e9af19dd75e3a9afcadfbdd37ee71e412156ca045c247",
+    "destination": ".private/original-dotfiles/scripts/work-only.sh",
+    "disposition": "Preserved locally as historical/private source; not automatically executed"
+  },
+  {
+    "source": "scripts/brew.sh",
+    "sha256": "53ab6819f00caa974f349df4860ef675b80a8aceb468207d46038ccd2b8419da",
+    "destination": ".private/original-dotfiles/scripts/brew.sh",
+    "disposition": "Preserved locally as historical/private source; not automatically executed"
+  },
+  {
+    "source": "scripts/rust.sh",
+    "sha256": "f1deda3066ad692778f8e537859682eb5ae814bcc2abfe47a6776bd1c40257c0",
+    "destination": ".private/original-dotfiles/scripts/rust.sh",
+    "disposition": "Preserved locally as historical/private source; not automatically executed"
+  },
+  {
+    "source": "scripts/mac.sh",
+    "sha256": "945d218f6100c5233de15096f0960491f2a9edfda0f6afcf965261194236bf51",
+    "destination": ".private/original-dotfiles/scripts/mac.sh",
+    "disposition": "Preserved locally as historical/private source; not automatically executed"
+  },
+  {
+    "source": "scripts/cask.sh",
+    "sha256": "86af2778befbe826af7845fd21fb6c7725072dbb8fa80b57ceed9c91c2de4351",
+    "destination": ".private/original-dotfiles/scripts/cask.sh",
+    "disposition": "Preserved locally as historical/private source; not automatically executed"
+  },
+  {
+    "source": "scripts/code.sh",
+    "sha256": "3ce41aabf6150ddda93890ed3794d6e8fd72b48a0681243f09641cb57b20cba4",
+    "destination": ".private/original-dotfiles/scripts/code.sh",
+    "disposition": "Preserved locally as historical/private source; not automatically executed"
+  },
+  {
+    "source": "commands/install.sh",
+    "sha256": "70770b46971bcd6d5052643e26b590dc4e56e5354808ce9642983131f143e55b",
+    "destination": ".private/original-dotfiles/commands/install.sh",
+    "disposition": "Preserved locally as historical/private source; not automatically executed"
+  },
+  {
+    "source": "commands/__util.sh",
+    "sha256": "512cd08f98202572a7a05b5706be2d6bd022d01b4f1fce0f9eed397c39f0b2fc",
+    "destination": ".private/original-dotfiles/commands/__util.sh",
+    "disposition": "Preserved locally as historical/private source; not automatically executed"
+  },
+  {
+    "source": "commands/backup.sh",
+    "sha256": "40b52e24989b7d0bfcba535b9d23f9ad908c0209b8425768efb5ae0c2e491542",
+    "destination": ".private/original-dotfiles/commands/backup.sh",
+    "disposition": "Preserved locally as historical/private source; not automatically executed"
+  },
+  {
+    "source": ".vscode/Cursor Default.code-profile",
+    "sha256": "ae64011484ff5d1d69f4de475eb26587e575f837670fe58d777429b1495e1595",
+    "destination": ".private/original-dotfiles/.vscode/Cursor Default.code-profile",
+    "disposition": "Preserved locally as historical/private source; not automatically executed"
+  }
+]

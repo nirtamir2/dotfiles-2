@@ -1,0 +1,114 @@
+{
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "eslint.workingDirectories": [
+        {
+            "mode": "auto"
+        }
+    ],
+    "editor.accessibilitySupport": "off",
+    "files.autoSave": "afterDelay",
+    "gitlens.codeLens.enabled": false,
+    "gitlens.currentLine.enabled": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.rebaseEditor.ordering": "asc",
+    "terminal.integrated.env.osx": {
+        "FIG_NEW_SESSION": "1"
+    },
+    "workbench.editorAssociations": {
+        "git-rebase-todo": "default"
+    },
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "Webstorm Darcula",
+    "i18n-ally.extract.autoDetect": true,
+    "editor.fontSize": 16,
+    "i18n-ally.extract.keyPrefix": "{fileNameWithoutExt}",
+    "i18n-ally.preferredDelimiter": "_",
+    "i18n-ally.sortKeys": true,
+    "vsicons.dontShowNewVersionMessage": true,
+    "gitlens.codeLens.authors.enabled": false,
+    "gitlens.hovers.enabled": false,
+    "tailwindCSS.emmetCompletions": true,
+    "editor.lineHeight": 1.6,
+    "editor.wordWrap": "on",
+    "console-ninja.featureSet": "Community",
+    "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
+    "editor.bracketPairColorization.enabled": false,
+    "editor.smartSelect.selectLeadingAndTrailingWhitespace": false,
+    "starcoderex.bearertoken": "",
+    "editor.smartSelect.selectSubwords": false,
+    "sherlock.userId": "ea7ebf47-6c11-4d51-ad4d-d9f550581af9",
+    "terminal.integrated.fontSize": 16,
+    "eslint.experimental.useFlatConfig": true,
+    "continue.enableTabAutocomplete": true,
+    "[vue]": {
+        "editor.defaultFormatter": "Vue.volar"
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[astro]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "remote.SSH.remotePlatform": {
+        "sandbox.y4fp66.csb": "linux"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "gitFileExplorer.gitCommand": "git diff --name-only -z",
+    "gitlens.views.commits.files.layout": "list",
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.closeOnFileDelete": true,
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.editor.limit.enabled": true,
+    "workbench.editor.limit.perEditorGroup": true,
+    "workbench.editor.limit.value": 5,
+    "search.exclude": {
+        "**/*.snap": true,
+        "**/*.svg": true,
+        "**/.git": true,
+        "**/.github": false,
+        "**/.nuxt": true,
+        "**/.output": true,
+        "**/.pnpm": true,
+        "**/.vscode": true,
+        "**/.yarn": true,
+        "**/assets": true,
+        "**/bower_components": true,
+        "**/dist/**": true,
+        "**/logs": true,
+        "**/node_modules": true,
+        "**/out/**": true,
+        "**/package-lock.json": true,
+        "**/pnpm-lock.yaml": true,
+        "**/public": true,
+        "**/temp": true,
+        "**/yarn.lock": true,
+        "**/CHANGELOG*": true,
+        "**/LICENSE*": true,
+      },
+    //   "editor.cursorSmoothCaretAnimation": "on",
+    //   "editor.guides.bracketPairs": "active",
+    //   "editor.lineNumbers": "interval",
+    //   "editor.renderWhitespace": "boundary",
+    //   "workbench.fontAliasing": "antialiased",
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+
+    
+
+}

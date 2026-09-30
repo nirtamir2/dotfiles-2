@@ -1,0 +1,4 @@
+android-file-transfer
+authy
+docker-machine
+rewind

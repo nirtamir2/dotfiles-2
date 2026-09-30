@@ -1,0 +1,617 @@
+[
+  {
+    "name": "Air",
+    "bundle": "com.jetbrains.air",
+    "version": "261.311.47"
+  },
+  {
+    "name": "Amie",
+    "bundle": "so.amie.electron-app",
+    "version": "240718.0.0"
+  },
+  {
+    "name": "Amphetamine",
+    "bundle": "com.if.Amphetamine",
+    "version": "5.3.2"
+  },
+  {
+    "name": "Android File Transfer",
+    "bundle": "com.google.android.mtpviewer",
+    "version": "1.0.12"
+  },
+  {
+    "name": "Android Studio",
+    "bundle": "com.google.android.studio",
+    "version": "2023.2"
+  },
+  {
+    "name": "Antigravity",
+    "bundle": "com.google.antigravity",
+    "version": "2.0.6"
+  },
+  {
+    "name": "Arc",
+    "bundle": "company.thebrowser.Browser",
+    "version": "1.159.0"
+  },
+  {
+    "name": "Authy Desktop",
+    "bundle": "com.authy.authy-mac",
+    "version": "2.5.0"
+  },
+  {
+    "name": "battery",
+    "bundle": "co.palokaj.battery",
+    "version": "1.2.0"
+  },
+  {
+    "name": "BetterDisplay",
+    "bundle": "pro.betterdisplay.BetterDisplay",
+    "version": "3.5.4"
+  },
+  {
+    "name": "Bitwarden",
+    "bundle": "com.bitwarden.desktop",
+    "version": "2026.6.1"
+  },
+  {
+    "name": "Blender",
+    "bundle": "org.blenderfoundation.blender",
+    "version": "5.2.2"
+  },
+  {
+    "name": "Bluesnooze",
+    "bundle": "com.oliverpeate.Bluesnooze",
+    "version": "1.2"
+  },
+  {
+    "name": "Bunch",
+    "bundle": "com.brettterpstra.Bunch",
+    "version": "1.4.17"
+  },
+  {
+    "name": "Buzz",
+    "bundle": "xyz.block.buzz.app",
+    "version": "0.5.3"
+  },
+  {
+    "name": "Cap",
+    "bundle": "so.cap.desktop",
+    "version": "0.3.0-beta.5.2"
+  },
+  {
+    "name": "CapCut",
+    "bundle": "com.lemon.lvoverseas",
+    "version": "4.0.0"
+  },
+  {
+    "name": "ChatGPT",
+    "bundle": "com.openai.codex",
+    "version": "26.924.22138"
+  },
+  {
+    "name": "ChatGPT Classic",
+    "bundle": "com.openai.chat",
+    "version": "1.2026.184"
+  },
+  {
+    "name": "Claude",
+    "bundle": "com.anthropic.claudefordesktop",
+    "version": "2.7032.0"
+  },
+  {
+    "name": "Claude Code URL Handler",
+    "bundle": "com.anthropic.claude-code-url-handler",
+    "version": ""
+  },
+  {
+    "name": "Clocker - World Clock",
+    "bundle": "com.abhishek.Clocker",
+    "version": "24.03"
+  },
+  {
+    "name": "Clockify Desktop",
+    "bundle": "coing.ClockifyDesktop",
+    "version": "2.10.20"
+  },
+  {
+    "name": "cmux",
+    "bundle": "com.cmuxterm.app",
+    "version": "0.61.0"
+  },
+  {
+    "name": "Code",
+    "bundle": "com.microsoft.VSCode",
+    "version": "1.139.1"
+  },
+  {
+    "name": "CodexBar",
+    "bundle": "com.steipete.codexbar",
+    "version": "0.57.0"
+  },
+  {
+    "name": "Command X",
+    "bundle": "com.sindresorhus.Command-X",
+    "version": "1.4.7"
+  },
+  {
+    "name": "CoScreen",
+    "bundle": "org.coscreen.CoScreen",
+    "version": "8.10.11"
+  },
+  {
+    "name": "Cursor",
+    "bundle": "com.todesktop.230313mzl4w4u92",
+    "version": "3.22.7"
+  },
+  {
+    "name": "Dataflare",
+    "bundle": "app.dataflare.desktop",
+    "version": "0.1.8"
+  },
+  {
+    "name": "DeskPad",
+    "bundle": "com.stengo.DeskPad",
+    "version": "1.3.2"
+  },
+  {
+    "name": "Discord",
+    "bundle": "com.hnc.Discord",
+    "version": "0.0.407"
+  },
+  {
+    "name": "Docker",
+    "bundle": "com.docker.docker",
+    "version": "4.7.1"
+  },
+  {
+    "name": "Enchanted",
+    "bundle": "subj.Enchanted",
+    "version": "1.7.2"
+  },
+  {
+    "name": "Ente Auth",
+    "bundle": "io.ente.auth.mac",
+    "version": "4.4.15"
+  },
+  {
+    "name": "Firefox",
+    "bundle": "org.mozilla.firefox",
+    "version": "153.0"
+  },
+  {
+    "name": "fixkey",
+    "bundle": "fixkey",
+    "version": "1.5.0"
+  },
+  {
+    "name": "Flameshot",
+    "bundle": "org.flameshot",
+    "version": ""
+  },
+  {
+    "name": "Frappe Books",
+    "bundle": "io.frappe.books",
+    "version": "0.24.1"
+  },
+  {
+    "name": "Ghostty",
+    "bundle": "com.mitchellh.ghostty",
+    "version": "1.1.3"
+  },
+  {
+    "name": "GodMode",
+    "bundle": "org.smol.GodMode",
+    "version": "1.0.0-beta.3"
+  },
+  {
+    "name": "Google Chrome",
+    "bundle": "com.google.Chrome",
+    "version": "153.0.8010.53"
+  },
+  {
+    "name": "GPG Keychain",
+    "bundle": "org.gpgtools.gpgkeychain",
+    "version": "1.12"
+  },
+  {
+    "name": "GraphQL Playground",
+    "bundle": "cool.graph.playground",
+    "version": "1.8.10"
+  },
+  {
+    "name": "Grok Bot",
+    "bundle": "com.anysphere.sand",
+    "version": "0.58.0"
+  },
+  {
+    "name": "Hand Mirror",
+    "bundle": "net.rafaelconde.Hand-Mirror",
+    "version": "3.2"
+  },
+  {
+    "name": "Handy",
+    "bundle": "com.pais.handy",
+    "version": "0.9.5"
+  },
+  {
+    "name": "Hex",
+    "bundle": "com.kitlangton.Hex",
+    "version": "0.6.2"
+  },
+  {
+    "name": "Highlight",
+    "bundle": "tv.medal.highlight",
+    "version": "1.3.269"
+  },
+  {
+    "name": "Homerow",
+    "bundle": "com.superultra.Homerow",
+    "version": "1.5.3"
+  },
+  {
+    "name": "Hoppscotch",
+    "bundle": "io.hoppscotch.desktop",
+    "version": "25.1.1-2"
+  },
+  {
+    "name": "HTTP Toolkit",
+    "bundle": "tech.httptoolkit.desktop",
+    "version": "1.26.0"
+  },
+  {
+    "name": "Infr",
+    "bundle": "com.infr.desktop",
+    "version": "0.0.8"
+  },
+  {
+    "name": "Inkscape",
+    "bundle": "org.inkscape.Inkscape",
+    "version": "1.4.0"
+  },
+  {
+    "name": "Insomnia",
+    "bundle": "com.insomnia.app",
+    "version": "10.0.0"
+  },
+  {
+    "name": "iTerm2",
+    "bundle": "com.googlecode.iterm2",
+    "version": "3.5.4"
+  },
+  {
+    "name": "JetBrains Toolbox",
+    "bundle": "com.jetbrains.toolbox",
+    "version": "2.0.4.17212"
+  },
+  {
+    "name": "KeyCastr",
+    "bundle": "io.github.keycastr",
+    "version": "0.10.4"
+  },
+  {
+    "name": "Keynote",
+    "bundle": "com.apple.iWork.Keynote",
+    "version": "14.3"
+  },
+  {
+    "name": "knook",
+    "bundle": "io.github.preetsuthar17.knook",
+    "version": "0.3.1"
+  },
+  {
+    "name": "Lyne",
+    "bundle": "net.lyneapp.lyne",
+    "version": "1.0.4"
+  },
+  {
+    "name": "MacWhisper",
+    "bundle": "com.goodsnooze.MacWhisper",
+    "version": "12.11"
+  },
+  {
+    "name": "MateOS",
+    "bundle": "net.machinet.MateOS",
+    "version": "0.0.12"
+  },
+  {
+    "name": "meetily",
+    "bundle": "com.meetily.ai",
+    "version": "0.2.1"
+  },
+  {
+    "name": "Microsoft Edge",
+    "bundle": "com.microsoft.edgemac",
+    "version": "151.0.4129.78"
+  },
+  {
+    "name": "Microsoft Teams",
+    "bundle": "com.microsoft.teams2",
+    "version": "26213.1006.5011.1671"
+  },
+  {
+    "name": "MiniSim",
+    "bundle": "com.oskarkwasniewski.MiniSim",
+    "version": "0.9.0"
+  },
+  {
+    "name": "MonitorControl",
+    "bundle": "me.guillaumeb.MonitorControl",
+    "version": "4.2.0"
+  },
+  {
+    "name": "Multi",
+    "bundle": "app.multi.multi",
+    "version": "0.531.0"
+  },
+  {
+    "name": "Notion Calendar",
+    "bundle": "com.cron.electron",
+    "version": "1.122.0"
+  },
+  {
+    "name": "noTunes",
+    "bundle": "digital.twisted.noTunes",
+    "version": "3.5"
+  },
+  {
+    "name": "Nova",
+    "bundle": "io.lightmode.nova",
+    "version": "1.10.1"
+  },
+  {
+    "name": "Numbers",
+    "bundle": "com.apple.iWork.Numbers",
+    "version": "14.3"
+  },
+  {
+    "name": "OBS Studio",
+    "bundle": "com.obsproject.obs-studio",
+    "version": "32.0.3"
+  },
+  {
+    "name": "Obsidian",
+    "bundle": "md.obsidian",
+    "version": "1.8.4"
+  },
+  {
+    "name": "Ollama",
+    "bundle": "com.electron.ollama",
+    "version": "0.34.4"
+  },
+  {
+    "name": "Open Design",
+    "bundle": "io.open-design.desktop",
+    "version": "0.15.1"
+  },
+  {
+    "name": "OpenCode",
+    "bundle": "ai.opencode.desktop",
+    "version": "1.18.31"
+  },
+  {
+    "name": "OpenInTerminal",
+    "bundle": "wang.jianing.app.OpenInTerminal",
+    "version": "2.3.7"
+  },
+  {
+    "name": "OpenMTP",
+    "bundle": "io.ganeshrvel.openmtp",
+    "version": "3.2.25"
+  },
+  {
+    "name": "OpenUsage",
+    "bundle": "com.sunstory.openusage",
+    "version": "0.6.8"
+  },
+  {
+    "name": "Orion",
+    "bundle": "com.kagi.kagimacOS",
+    "version": "0.99"
+  },
+  {
+    "name": "Pages",
+    "bundle": "com.apple.iWork.Pages",
+    "version": "14.3"
+  },
+  {
+    "name": "Paper",
+    "bundle": "com.todesktop.2601167vjw8xe",
+    "version": "0.5.0"
+  },
+  {
+    "name": "Pieces",
+    "bundle": "com.pieces.x",
+    "version": "2.9.1"
+  },
+  {
+    "name": "Pieces OS",
+    "bundle": "com.pieces.os",
+    "version": "7.0.1"
+  },
+  {
+    "name": "Pinokio",
+    "bundle": "computer.pinokio",
+    "version": "3.9.0"
+  },
+  {
+    "name": "Pop",
+    "bundle": "com.pop.pop.app",
+    "version": "8.0.21"
+  },
+  {
+    "name": "Postman",
+    "bundle": "com.postmanlabs.mac",
+    "version": "11.77.2"
+  },
+  {
+    "name": "qBittorrent",
+    "bundle": "org.qbittorrent.qBittorrent",
+    "version": "5.0.2"
+  },
+  {
+    "name": "QLMarkdown",
+    "bundle": "org.sbarex.QLMarkdown",
+    "version": "1.0.17"
+  },
+  {
+    "name": "Raycast",
+    "bundle": "com.raycast.macos",
+    "version": "2.5.2.0"
+  },
+  {
+    "name": "Recordly",
+    "bundle": "dev.recordly.app",
+    "version": "1.0.0"
+  },
+  {
+    "name": "Replay",
+    "bundle": "org.mozilla.replay",
+    "version": "91.13.1"
+  },
+  {
+    "name": "Rewind",
+    "bundle": "com.memoryvault.MemoryVault",
+    "version": "1.5607"
+  },
+  {
+    "name": "Robo 3T",
+    "bundle": "com.3tsoftwarelabs.robo3t",
+    "version": ""
+  },
+  {
+    "name": "RootsMagic",
+    "bundle": "RootsMagic",
+    "version": "9.1.3"
+  },
+  {
+    "name": "Safari",
+    "bundle": "com.apple.Safari",
+    "version": "27.0"
+  },
+  {
+    "name": "SamsungPortableSSD_1.0",
+    "bundle": "com.samsung.portablessdplus.software",
+    "version": "1.7.5.4"
+  },
+  {
+    "name": "Shottr",
+    "bundle": "cc.ffitch.shottr",
+    "version": "1.9.1"
+  },
+  {
+    "name": "Slack",
+    "bundle": "com.tinyspeck.slackmacgap",
+    "version": "4.49.81"
+  },
+  {
+    "name": "superwhisper",
+    "bundle": "com.superduper.superwhisper",
+    "version": "1.40.3"
+  },
+  {
+    "name": "Texts",
+    "bundle": "com.kishanbagaria.jack",
+    "version": "0.83.8"
+  },
+  {
+    "name": "The Unarchiver",
+    "bundle": "cx.c3.theunarchiver",
+    "version": "4.3.9"
+  },
+  {
+    "name": "Tor Browser",
+    "bundle": "org.torproject.torbrowser",
+    "version": "13.0.4"
+  },
+  {
+    "name": "Triplex",
+    "bundle": "dev.triplex.app",
+    "version": "0.70.45"
+  },
+  {
+    "name": "tzeva-adom",
+    "bundle": "com.nirtamir.tzeva-adom",
+    "version": "0.2.0"
+  },
+  {
+    "name": "Vivaldi",
+    "bundle": "com.vivaldi.Vivaldi",
+    "version": "8.1.4087.56"
+  },
+  {
+    "name": "VLC",
+    "bundle": "org.videolan.vlc",
+    "version": "3.0.18"
+  },
+  {
+    "name": "VSCode icon in finder",
+    "bundle": "com.apple.automator.VSCode-icon-in-finder",
+    "version": "1.3"
+  },
+  {
+    "name": "Warp",
+    "bundle": "dev.warp.Warp-Stable",
+    "version": "0.2026.09.09.08.26.02"
+  },
+  {
+    "name": "WebStorm",
+    "bundle": "com.jetbrains.WebStorm",
+    "version": "2025.1.4.1"
+  },
+  {
+    "name": "Whispering",
+    "bundle": "com.bradenwong.whispering",
+    "version": "5.1.2"
+  },
+  {
+    "name": "Whispo",
+    "bundle": "app.whispo",
+    "version": "0.1.3"
+  },
+  {
+    "name": "Wispr Flow",
+    "bundle": "com.electron.wispr-flow",
+    "version": "1.0.27"
+  },
+  {
+    "name": "xbar",
+    "bundle": "",
+    "version": ""
+  },
+  {
+    "name": "Xcode",
+    "bundle": "com.apple.dt.Xcode",
+    "version": "26.3"
+  },
+  {
+    "name": "Yaak",
+    "bundle": "app.yaak.desktop",
+    "version": "2024.10.1"
+  },
+  {
+    "name": "Zappy",
+    "bundle": "com.blackbeltlabs.Zappy",
+    "version": "5.0.0"
+  },
+  {
+    "name": "Zed",
+    "bundle": "dev.zed.Zed",
+    "version": "1.0.0"
+  },
+  {
+    "name": "Zen Browser",
+    "bundle": "org.mozilla.com.zen.browser",
+    "version": "1.0.1-a.19"
+  },
+  {
+    "name": "zoom.us",
+    "bundle": "us.zoom.xos",
+    "version": "7.0.6 (84834)"
+  },
+  {
+    "name": "‎WhatsApp",
+    "bundle": "net.whatsapp.WhatsApp",
+    "version": "26.38.18"
+  }
+]

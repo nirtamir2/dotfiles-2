@@ -1,87 +1,17 @@
-#!/bin/bash
-
-# prints the value of $1 if the variable skip_$1 is not set
-function print_unless_disabled() {
-  local varname="skip_$1"
-  if [ -z "${!varname}" ]; then
-    echo "$1"
-  fi
-}
-
-brew install \
-  neovim \
-  mas \
-  tmux \
-  starship \
-  fzf \
-  eza \
-  dsully/tap/macos-defaults \
-  fd \
-  zsh \
-  awscli aws-iam-authenticator \
-  go \
-  graphviz \
-  lua \
-  terraform \
-  zoxide \
-  xh \
-  gh \
-  git \
-  bat \
-  caddy \
-  pgcli \
-  ripgrep \
-  FelixKratz/formulae/borders \
-  delta \
-  lazygit \
-  stow \
-  git-lfs \
-  python-setuptools \
-  presenterm \
-  fswatch \
-  plantuml \
-  cmake \
-  coreutils \
-  gpg \
-  git-secret \
-  watchexec \
-  cormacrelf/tap/dark-notify \
-  tree-sitter-cli \
-  xcode-build-server
-
-brew install --cask \
-  raycast \
-  karabiner-elements \
-  1password 1password-cli \
-  font-fira-code-nerd-font \
-  font-sf-pro \
-  nikitabobko/tap/aerospace \
-  $(print_unless_disabled orbstack) \
-  istat-menus \
-  notion-calendar \
-  mimestream \
-  linear-linear \
-  spotify \
-  google-chrome \
-  ngrok \
-  sony-ps-remote-play \
-  tailscale \
-  obsidian \
-  discord \
-  ghostty
-
-mas install \
-  747648890 `# Telegram` \
-  803453959 `# Slack` \
-  1569813296 `# 1Password for Safari` \
-  310633997 `# WhatsApp` \
-  1480933944 `# Vimari` \
-  1607635845 `# Velja` \
-  1522267256 `# Shareful (share menu extensions)`
-
-if [ ! -d ~/.tmux/plugins/tpm ]; then
-  git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
-fi
-
-sudo-touchid
-brew services start borders
+#!/usr/bin/env bash
+set -euo pipefail
+ROOT="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd)"
+group="${1:-core}"
+if (($#)); then shift; fi
+case "$group" in
+ core) file="$ROOT/Brewfile" ;;
+ daily|extras|work|mas) file="$ROOT/packages/Brewfile.$group" ;;
+ *) echo 'Choose core, daily, extras, work, or mas.' >&2; exit 2 ;;
+esac
+(($# <= 1)) || { echo "Too many arguments." >&2; exit 2; }
+command -v brew >/dev/null || { echo 'Install Homebrew from https://brew.sh first.' >&2; exit 1; }
+case "${1:-}" in
+ --apply) exec brew bundle install --no-upgrade --file="$file" ;;
+ '') exec brew bundle check --no-upgrade --verbose --file="$file" ;;
+ *) echo 'Only --apply is accepted after the package group.' >&2; exit 2 ;;
+esac

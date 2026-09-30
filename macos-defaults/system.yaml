@@ -1,0 +1,14 @@
+---
+description: Typing, file extensions and dialogs
+sudo: false
+current_host: false
+data:
+  NSGlobalDomain:
+    AppleShowAllExtensions: true
+    AppleKeyboardUIMode: 3
+    NSAutomaticQuoteSubstitutionEnabled: false
+    NSAutomaticDashSubstitutionEnabled: false
+    NSNavPanelExpandedStateForSaveMode: true
+    NSNavPanelExpandedStateForSaveMode2: true
+    PMPrintingExpandedStateForPrint: true
+    PMPrintingExpandedStateForPrint2: true

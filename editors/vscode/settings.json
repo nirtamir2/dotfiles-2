@@ -1,0 +1,88 @@
+{
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "eslint.workingDirectories": [
+    {"mode": "auto"}
+  ],
+  "editor.accessibilitySupport": "off",
+  "files.autoSave": "afterDelay",
+  "gitlens.codeLens.enabled": false,
+  "gitlens.currentLine.enabled": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.rebaseEditor.ordering": "asc",
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "workbench.editorAssociations": {
+    "git-rebase-todo": "default"
+  },
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.startupEditor": "none",
+  "workbench.colorTheme": "Webstorm Darcula",
+  "i18n-ally.extract.autoDetect": true,
+  "editor.fontSize": 16,
+  "i18n-ally.extract.keyPrefix": "{fileNameWithoutExt}",
+  "i18n-ally.preferredDelimiter": "_",
+  "i18n-ally.sortKeys": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "gitlens.showWelcomeOnInstall": false,
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.hovers.enabled": false,
+  "tailwindCSS.emmetCompletions": true,
+  "editsHistory.loopAround": true,
+  "editor.lineHeight": 1.6,
+  "editor.wordWrap": "on",
+  "console-ninja.featureSet": "Community",
+ 
+  "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
+  "editor.bracketPairColorization.enabled": false,
+  "editor.smartSelect.selectLeadingAndTrailingWhitespace": false,
+
+  "errorLens.excludeBySource": [
+    "ts(2304)"
+  ],
+  "editor.smartSelect.selectSubwords": false,
+  "terminal.integrated.fontSize": 16,
+  "eslint.experimental.useFlatConfig": true,
+  "continue.enableTabAutocomplete": true,
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "continue.telemetryEnabled": false,
+  "git.mergeEditor": true,
+  "git.closeDiffOnOperation": true,
+  "git.allowNoVerifyCommit": true,
+  "git.enableSmartCommit": true,
+  "git.confirmNoVerifyCommit": false,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.editor.enablePreview": false,
+  "vetur.useWorkspaceDependencies": true,
+  
+    // Privacy
+  "telemetry.telemetryLevel": "off",
+  "sonarlint.disableTelemetry": true,
+  "cody.telemetry.level": "off",
+  "redhat.telemetry.enabled": false,
+  "workbench.enableExperiments": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "claudeCode.preferredLocation": "panel",
+  "window.newWindowProfile": "Cursor Default",
+}

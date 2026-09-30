@@ -1,0 +1,22 @@
+---
+description: Built-in macOS Dictation — press Right Command twice
+sudo: false
+current_host: false
+# Verified in System Settings → Keyboard → Dictation on 30 September 2026.
+# English (United States) and Hebrew (Israel); microphone source: Automatic.
+# Nested dictionaries merge by default: preserve every other system shortcut.
+# 164 is Dictation; retain the unsigned modifier-mask values exactly.
+# Also restored by preferences/macos.json through ./setup install/defaults.
+data:
+  com.apple.assistant.support:
+    Dictation Enabled: true
+  com.apple.speech.recognition.AppleSpeechRecognition.prefs:
+    DictationIMPreferredLanguageIdentifiers: [en_US, he_IL]
+    DictationIMNetworkBasedLocaleIdentifier: en_US
+  com.apple.symbolichotkeys:
+    AppleSymbolicHotKeys:
+      "164":
+        enabled: true
+        value:
+          type: modifier
+          parameters: [1048592, 18446744073708503023]

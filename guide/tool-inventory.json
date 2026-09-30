@@ -1,0 +1,2634 @@
+[
+  {
+    "name": "abseil",
+    "kind": "brew",
+    "description": "C++ Common Libraries",
+    "homepage": "https://abseil.io",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "ada-url",
+    "kind": "brew",
+    "description": "WHATWG-compliant and fast URL parser written in modern C++",
+    "homepage": "https://ada-url.com",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "aerospace",
+    "kind": "cask",
+    "description": "Installed package; see vendor documentation.",
+    "homepage": null,
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "alt-tab",
+    "kind": "cask",
+    "description": "Enable Windows-like alt-tab",
+    "homepage": "https://alt-tab.app/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "android-file-transfer",
+    "kind": "cask",
+    "description": "Transfer files from and to an Android smartphone",
+    "homepage": "https://www.android.com/filetransfer/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "android-studio",
+    "kind": "cask",
+    "description": "Tools for building Android applications",
+    "homepage": "https://developer.android.com/studio/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "antigravity",
+    "kind": "cask",
+    "description": "Agent orchestration platform",
+    "homepage": "https://antigravity.google/product/antigravity-2",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "aom",
+    "kind": "brew",
+    "description": "Codec library for encoding and decoding AV1 video streams",
+    "homepage": "https://aomedia.googlesource.com/aom",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "asc",
+    "kind": "brew",
+    "description": "Fast, lightweight CLI for App Store Connect",
+    "homepage": "https://asccli.sh",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "asciinema",
+    "kind": "brew",
+    "description": "Record and share terminal sessions",
+    "homepage": "https://asciinema.org",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "atlas",
+    "kind": "brew",
+    "description": "Database toolkit",
+    "homepage": "https://atlasgo.io/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "authy",
+    "kind": "cask",
+    "description": "Installed package; see vendor documentation.",
+    "homepage": null,
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "autoconf",
+    "kind": "brew",
+    "description": "Automatic configure script builder",
+    "homepage": "https://www.gnu.org/software/autoconf/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "autojump",
+    "kind": "brew",
+    "description": "Shell extension to jump to frequently used directories",
+    "homepage": "https://github.com/wting/autojump",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "bat",
+    "kind": "brew",
+    "description": "Clone of cat(1) with syntax highlighting and Git integration",
+    "homepage": "https://github.com/sharkdp/bat",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "battery",
+    "kind": "cask",
+    "description": "App for managing battery charging. (Also installs a CLI on first use.)",
+    "homepage": "https://github.com/actuallymentor/battery/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "birdclaw",
+    "kind": "brew",
+    "description": "Present in Homebrew installed list; metadata unavailable.",
+    "homepage": "",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "bitwarden",
+    "kind": "cask",
+    "description": "Desktop password and login vault",
+    "homepage": "https://bitwarden.com/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "blender",
+    "kind": "cask",
+    "description": "3D creation suite",
+    "homepage": "https://www.blender.org/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "block-buzz",
+    "kind": "cask",
+    "description": "Workspace for humans and AI agents",
+    "homepage": "https://github.com/block/buzz",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "bluesnooze",
+    "kind": "cask",
+    "description": "Prevents your sleeping computer from connecting to Bluetooth accessories",
+    "homepage": "https://github.com/odlp/bluesnooze",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "boost",
+    "kind": "brew",
+    "description": "Collection of portable C++ source libraries",
+    "homepage": "https://www.boost.org/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "borders",
+    "kind": "brew",
+    "description": "Present in Homebrew installed list; metadata unavailable.",
+    "homepage": "",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "brotli",
+    "kind": "brew",
+    "description": "Generic-purpose lossless compression algorithm by Google",
+    "homepage": "https://github.com/google/brotli",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "bun",
+    "kind": "brew",
+    "description": "Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.",
+    "homepage": "https://bun.sh/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "bunch",
+    "kind": "cask",
+    "description": "Automation tool",
+    "homepage": "https://bunchapp.co/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "c-ares",
+    "kind": "brew",
+    "description": "Asynchronous DNS library",
+    "homepage": "https://c-ares.org/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "ca-certificates",
+    "kind": "brew",
+    "description": "Mozilla CA certificate store",
+    "homepage": "https://curl.se/docs/caextract.html",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "cairo",
+    "kind": "brew",
+    "description": "Vector graphics library with cross-device output support",
+    "homepage": "https://cairographics.org/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "certifi",
+    "kind": "brew",
+    "description": "Mozilla CA bundle for Python",
+    "homepage": "https://github.com/certifi/python-certifi",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "cffi",
+    "kind": "brew",
+    "description": "C Foreign Function Interface for Python",
+    "homepage": "https://cffi.readthedocs.io/en/latest/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "chatgpt",
+    "kind": "cask",
+    "description": "OpenAI's official ChatGPT desktop app",
+    "homepage": "https://chatgpt.com/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "claude",
+    "kind": "cask",
+    "description": "Anthropic's official Claude AI desktop app",
+    "homepage": "https://claude.com/download",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "claude-code",
+    "kind": "cask",
+    "description": "Terminal-based AI coding assistant",
+    "homepage": "https://claude.com/product/claude-code",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "clockify",
+    "kind": "cask",
+    "description": "Time tracking tool for agencies and freelancers",
+    "homepage": "https://clockify.me/mac-time-tracking",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "cmake",
+    "kind": "brew",
+    "description": "Cross-platform make",
+    "homepage": "https://www.cmake.org/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "cmux",
+    "kind": "cask",
+    "description": "Ghostty-based terminal with vertical tabs and notifications for AI coding agents",
+    "homepage": "https://www.cmux.dev/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "cocoapods",
+    "kind": "brew",
+    "description": "Dependency manager for Cocoa projects",
+    "homepage": "https://cocoapods.org/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "codex",
+    "kind": "cask",
+    "description": "OpenAI's coding agent that runs in your terminal",
+    "homepage": "https://github.com/openai/codex",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "codex-app",
+    "kind": "cask",
+    "description": "OpenAI's Codex desktop app for managing coding agents",
+    "homepage": "https://openai.com/codex",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "codexbar",
+    "kind": "cask",
+    "description": "Installed package; see vendor documentation.",
+    "homepage": null,
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "coreutils",
+    "kind": "brew",
+    "description": "GNU File, Shell, and Text utilities",
+    "homepage": "https://www.gnu.org/software/coreutils/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "coscreen",
+    "kind": "cask",
+    "description": "Collaboration tool with multi-user screen sharing",
+    "homepage": "https://www.coscreen.co/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "cron",
+    "kind": "cask",
+    "description": "Present in Homebrew installed list; metadata unavailable.",
+    "homepage": "",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "curl",
+    "kind": "brew",
+    "description": "Get a file from an HTTP, HTTPS or FTP server",
+    "homepage": "https://curl.se",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "cursor",
+    "kind": "cask",
+    "description": "Write, edit, and chat about your code with AI",
+    "homepage": "https://www.cursor.com/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "datagrip",
+    "kind": "cask",
+    "description": "Databases and SQL IDE",
+    "homepage": "https://www.jetbrains.com/datagrip/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "dav1d",
+    "kind": "brew",
+    "description": "AV1 decoder targeted to be small and fast",
+    "homepage": "https://code.videolan.org/videolan/dav1d",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "deno",
+    "kind": "brew",
+    "description": "Secure runtime for JavaScript and TypeScript",
+    "homepage": "https://deno.com/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "deskpad",
+    "kind": "cask",
+    "description": "Virtual monitor for screen sharing",
+    "homepage": "https://github.com/Stengo/DeskPad",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "discord",
+    "kind": "cask",
+    "description": "Voice and text chat software",
+    "homepage": "https://discord.com/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "docker",
+    "kind": "brew",
+    "description": "Pack, ship and run any application as a lightweight container",
+    "homepage": "https://www.docker.com/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "docker-completion",
+    "kind": "brew",
+    "description": "Bash, Zsh and Fish completion for Docker",
+    "homepage": "https://www.docker.com/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "docker-compose",
+    "kind": "brew",
+    "description": "Isolated development environments using Docker",
+    "homepage": "https://docs.docker.com/compose/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "docker-machine",
+    "kind": "brew",
+    "description": "Create Docker hosts locally and on cloud providers",
+    "homepage": "https://docs.gitlab.com/runner/executors/docker_machine.html",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "double-conversion",
+    "kind": "brew",
+    "description": "Binary-decimal and decimal-binary routines for IEEE doubles",
+    "homepage": "https://github.com/google/double-conversion",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "edencommon",
+    "kind": "brew",
+    "description": "Shared library for Watchman and Eden projects",
+    "homepage": "https://github.com/facebookexperimental/edencommon",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "ente-auth",
+    "kind": "cask",
+    "description": "Desktop client for Ente Auth",
+    "homepage": "https://ente.io/auth/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "exa",
+    "kind": "brew",
+    "description": "Modern replacement for 'ls'",
+    "homepage": "https://the.exa.website",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "eza",
+    "kind": "brew",
+    "description": "Modern, maintained replacement for ls",
+    "homepage": "https://eza.rocks",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "fb303",
+    "kind": "brew",
+    "description": "Thrift functions for querying information from a service",
+    "homepage": "https://github.com/facebook/fb303",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "fbthrift",
+    "kind": "brew",
+    "description": "Facebook's branch of Apache Thrift, including a new C++ server",
+    "homepage": "https://github.com/facebook/fbthrift",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "fd",
+    "kind": "brew",
+    "description": "Simple, fast and user-friendly alternative to find",
+    "homepage": "https://github.com/sharkdp/fd",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "ffmpeg",
+    "kind": "brew",
+    "description": "Play, record, convert, and stream select audio and video codecs",
+    "homepage": "https://ffmpeg.org/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "fig",
+    "kind": "cask",
+    "description": "Installed package; see vendor documentation.",
+    "homepage": null,
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "firefox",
+    "kind": "cask",
+    "description": "Web browser",
+    "homepage": "https://www.mozilla.org/firefox/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "fizz",
+    "kind": "brew",
+    "description": "C++14 implementation of the TLS-1.3 standard",
+    "homepage": "https://github.com/facebookincubator/fizz",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "flameshot",
+    "kind": "cask",
+    "description": "Screenshot software with built-in annotation tools",
+    "homepage": "https://flameshot.org/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "fmt",
+    "kind": "brew",
+    "description": "Open-source formatting library for C++",
+    "homepage": "https://fmt.dev/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "fnm",
+    "kind": "brew",
+    "description": "Fast and simple Node.js version manager",
+    "homepage": "https://github.com/Schniz/fnm",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "folly",
+    "kind": "brew",
+    "description": "Collection of reusable C++ library artifacts developed at Facebook",
+    "homepage": "https://github.com/facebook/folly",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "font-caskaydia-cove-nerd-font",
+    "kind": "cask",
+    "description": "Installed package; see vendor documentation.",
+    "homepage": "https://github.com/ryanoasis/nerd-fonts",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "font-fira-code",
+    "kind": "cask",
+    "description": "Installed package; see vendor documentation.",
+    "homepage": "https://github.com/tonsky/FiraCode",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "font-oswald",
+    "kind": "cask",
+    "description": "Installed package; see vendor documentation.",
+    "homepage": "https://fonts.google.com/specimen/Oswald",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "font-ubuntu",
+    "kind": "cask",
+    "description": "Installed package; see vendor documentation.",
+    "homepage": "https://fonts.google.com/specimen/Ubuntu",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "fontconfig",
+    "kind": "brew",
+    "description": "XML-based font configuration API for X Windows",
+    "homepage": "https://wiki.freedesktop.org/www/Software/fontconfig/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "frappe-books",
+    "kind": "cask",
+    "description": "Book-keeping software for small businesses and freelancers",
+    "homepage": "https://frappe.io/books/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "freetype",
+    "kind": "brew",
+    "description": "Software library to render fonts",
+    "homepage": "https://www.freetype.org/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "fribidi",
+    "kind": "brew",
+    "description": "Implementation of the Unicode BiDi algorithm",
+    "homepage": "https://github.com/fribidi/fribidi",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "fx",
+    "kind": "brew",
+    "description": "Terminal JSON viewer",
+    "homepage": "https://fx.wtf",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "fzf",
+    "kind": "brew",
+    "description": "Command-line fuzzy finder written in Go",
+    "homepage": "https://junegunn.github.io/fzf/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "gcc",
+    "kind": "brew",
+    "description": "GNU compiler collection",
+    "homepage": "https://gcc.gnu.org/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "gdbm",
+    "kind": "brew",
+    "description": "GNU database manager",
+    "homepage": "https://www.gnu.org.ua/software/gdbm/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "gettext",
+    "kind": "brew",
+    "description": "GNU internationalization (i18n) and localization (l10n) library",
+    "homepage": "https://www.gnu.org/software/gettext/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "gflags",
+    "kind": "brew",
+    "description": "Library for processing command-line flags",
+    "homepage": "https://gflags.github.io/gflags/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "gh",
+    "kind": "brew",
+    "description": "GitHub command-line tool",
+    "homepage": "https://cli.github.com/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "ghostscript",
+    "kind": "brew",
+    "description": "Interpreter for PostScript and PDF",
+    "homepage": "https://www.ghostscript.com/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "ghostty",
+    "kind": "cask",
+    "description": "Terminal emulator that uses platform-native UI and GPU acceleration",
+    "homepage": "https://ghostty.org/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "giflib",
+    "kind": "brew",
+    "description": "Library and utilities for processing GIFs",
+    "homepage": "https://giflib.sourceforge.net/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "git",
+    "kind": "brew",
+    "description": "Distributed revision control system",
+    "homepage": "https://git-scm.com",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "git-clean",
+    "kind": "brew",
+    "description": "Present in Homebrew installed list; metadata unavailable.",
+    "homepage": "",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "git-delta",
+    "kind": "brew",
+    "description": "Syntax-highlighting pager for git and diff output",
+    "homepage": "https://dandavison.github.io/delta/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "git-lfs",
+    "kind": "brew",
+    "description": "Git extension for versioning large files",
+    "homepage": "https://git-lfs.com/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "gitin",
+    "kind": "brew",
+    "description": "Present in Homebrew installed list; metadata unavailable.",
+    "homepage": "",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "glib",
+    "kind": "brew",
+    "description": "Core application library for C",
+    "homepage": "https://docs.gtk.org/glib/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "glog",
+    "kind": "brew",
+    "description": "Application-level logging library",
+    "homepage": "https://google.github.io/glog/stable/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "gmp",
+    "kind": "brew",
+    "description": "GNU multiple precision arithmetic library",
+    "homepage": "https://gmplib.org/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "gnu-getopt",
+    "kind": "brew",
+    "description": "Command-line option parsing utility",
+    "homepage": "https://github.com/util-linux/util-linux",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "gnutls",
+    "kind": "brew",
+    "description": "GNU Transport Layer Security (TLS) Library",
+    "homepage": "https://gnutls.org/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "go",
+    "kind": "brew",
+    "description": "Open source programming language to build simple/reliable/efficient software",
+    "homepage": "https://go.dev/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "go-task",
+    "kind": "brew",
+    "description": "Task is a task runner/build tool that aims to be simpler and easier to use",
+    "homepage": "https://taskfile.dev/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "google-chrome",
+    "kind": "cask",
+    "description": "Web browser",
+    "homepage": "https://www.google.com/chrome/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "google-chrome@canary",
+    "kind": "cask",
+    "description": "Web browser",
+    "homepage": "https://www.google.com/chrome/canary/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "gpg-suite",
+    "kind": "cask",
+    "description": "Tools to protect your emails and files",
+    "homepage": "https://gpgtools.org/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "granola",
+    "kind": "cask",
+    "description": "AI-powered notepad for meetings",
+    "homepage": "https://www.granola.ai/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "graphite2",
+    "kind": "brew",
+    "description": "Smart font renderer for non-Roman scripts",
+    "homepage": "https://graphite.sil.org/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "graphql-playground",
+    "kind": "cask",
+    "description": "Installed package; see vendor documentation.",
+    "homepage": null,
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "grex",
+    "kind": "brew",
+    "description": "Command-line tool for generating regular expressions",
+    "homepage": "https://pemistahl.github.io/grex-js/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "grok-bot",
+    "kind": "cask",
+    "description": "AI teammates that work across your apps and tools",
+    "homepage": "https://x.ai/bot",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "handy",
+    "kind": "cask",
+    "description": "Speech to text application",
+    "homepage": "https://handy.computer/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "harfbuzz",
+    "kind": "brew",
+    "description": "OpenType text shaping engine",
+    "homepage": "https://github.com/harfbuzz/harfbuzz",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "hdrhistogram_c",
+    "kind": "brew",
+    "description": "C port of the HdrHistogram",
+    "homepage": "https://github.com/HdrHistogram/HdrHistogram_c",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "highlight",
+    "kind": "brew",
+    "description": "Convert source code to formatted text with syntax highlighting",
+    "homepage": "http://andre-simon.de/doku/highlight/en/highlight.php",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "highway",
+    "kind": "brew",
+    "description": "Performance-portable, length-agnostic SIMD with runtime dispatch",
+    "homepage": "https://github.com/google/highway",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "hoppscotch",
+    "kind": "cask",
+    "description": "Open source API development ecosystem",
+    "homepage": "https://hoppscotch.com/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "http-toolkit",
+    "kind": "cask",
+    "description": "HTTP(S) debugging proxy, analyzer, and client",
+    "homepage": "https://httptoolkit.tech/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "httrack",
+    "kind": "brew",
+    "description": "Website copier/offline browser",
+    "homepage": "https://www.httrack.com/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "hwloc",
+    "kind": "brew",
+    "description": "Portable abstraction of the hierarchical topology of modern architectures",
+    "homepage": "https://www.open-mpi.org/projects/hwloc/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "icu4c@76",
+    "kind": "brew",
+    "description": "C/C++ and Java libraries for Unicode and globalization",
+    "homepage": "https://icu.unicode.org/home",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "icu4c@78",
+    "kind": "brew",
+    "description": "C/C++ and Java libraries for Unicode and globalization",
+    "homepage": "https://icu.unicode.org/home",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "imagemagick",
+    "kind": "brew",
+    "description": "Tools and libraries to manipulate images in select formats",
+    "homepage": "https://imagemagick.org",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "imath",
+    "kind": "brew",
+    "description": "Library of 2D and 3D vector, matrix, and math operations",
+    "homepage": "https://imath.readthedocs.io/en/latest/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "inkscape",
+    "kind": "cask",
+    "description": "Vector graphics editor",
+    "homepage": "https://inkscape.org/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "insomnia",
+    "kind": "cask",
+    "description": "HTTP and GraphQL Client",
+    "homepage": "https://insomnia.rest/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "isl",
+    "kind": "brew",
+    "description": "Integer Set Library for the polyhedral model",
+    "homepage": "https://libisl.sourceforge.io/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "iterm2",
+    "kind": "cask",
+    "description": "Terminal emulator as alternative to Apple's Terminal app",
+    "homepage": "https://iterm2.com/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "jasper",
+    "kind": "brew",
+    "description": "Library for manipulating JPEG-2000 images",
+    "homepage": "https://ece.engr.uvic.ca/~frodo/jasper/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "jbig2dec",
+    "kind": "brew",
+    "description": "JBIG2 decoder and library (for monochrome documents)",
+    "homepage": "https://github.com/ArtifexSoftware/jbig2dec",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "jetbrains-toolbox",
+    "kind": "cask",
+    "description": "JetBrains tools manager",
+    "homepage": "https://www.jetbrains.com/toolbox-app/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "jpeg-turbo",
+    "kind": "brew",
+    "description": "JPEG image codec that aids compression and decompression",
+    "homepage": "https://www.libjpeg-turbo.org/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "jpeg-xl",
+    "kind": "brew",
+    "description": "New file format for still image compression",
+    "homepage": "https://jpeg.org/jpegxl/index.html",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "jq",
+    "kind": "brew",
+    "description": "Lightweight and flexible command-line JSON processor",
+    "homepage": "https://jqlang.github.io/jq/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "karabiner-elements",
+    "kind": "cask",
+    "description": "Keyboard customiser",
+    "homepage": "https://karabiner-elements.pqrs.org/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "keycastr",
+    "kind": "cask",
+    "description": "Open-source keystroke visualiser",
+    "homepage": "https://github.com/keycastr/keycastr",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "knook",
+    "kind": "cask",
+    "description": "Installed package; see vendor documentation.",
+    "homepage": null,
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "krb5",
+    "kind": "brew",
+    "description": "Network authentication protocol",
+    "homepage": "https://web.mit.edu/kerberos/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "krisp",
+    "kind": "cask",
+    "description": "Noise cancelling application",
+    "homepage": "https://krisp.ai/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "kubernetes-cli",
+    "kind": "brew",
+    "description": "Kubernetes command-line interface",
+    "homepage": "https://kubernetes.io/docs/reference/kubectl/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "lame",
+    "kind": "brew",
+    "description": "High quality MPEG Audio Layer III (MP3) encoder",
+    "homepage": "https://lame.sourceforge.io/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "leptonica",
+    "kind": "brew",
+    "description": "Image processing and image analysis library",
+    "homepage": "http://www.leptonica.org/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "libarchive",
+    "kind": "brew",
+    "description": "Multi-format archive and compression library",
+    "homepage": "https://www.libarchive.org",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "libb2",
+    "kind": "brew",
+    "description": "Secure hashing function",
+    "homepage": "https://blake2.net/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "libde265",
+    "kind": "brew",
+    "description": "Open h.265 video codec implementation",
+    "homepage": "https://github.com/strukturag/libde265",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "libdeflate",
+    "kind": "brew",
+    "description": "Heavily optimized DEFLATE/zlib/gzip compression and decompression",
+    "homepage": "https://github.com/ebiggers/libdeflate",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "libevent",
+    "kind": "brew",
+    "description": "Asynchronous event library",
+    "homepage": "https://libevent.org/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "libffi",
+    "kind": "brew",
+    "description": "Portable Foreign Function Interface library",
+    "homepage": "https://sourceware.org/libffi/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "libgit2",
+    "kind": "brew",
+    "description": "C library of Git core methods that is re-entrant and linkable",
+    "homepage": "https://libgit2.org/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "libgit2@1.7",
+    "kind": "brew",
+    "description": "C library of Git core methods that is re-entrant and linkable",
+    "homepage": "https://libgit2.org/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "libheif",
+    "kind": "brew",
+    "description": "ISO/IEC 23008-12:2017 HEIF file format decoder and encoder",
+    "homepage": "https://www.libde265.org/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "libidn",
+    "kind": "brew",
+    "description": "International domain name library",
+    "homepage": "https://www.gnu.org/software/libidn/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "libidn2",
+    "kind": "brew",
+    "description": "International domain name library (IDNA2008, Punycode and TR46)",
+    "homepage": "https://www.gnu.org/software/libidn/#libidn2",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "liblqr",
+    "kind": "brew",
+    "description": "C/C++ seam carving library",
+    "homepage": "https://liblqr.wikidot.com/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "libmicrohttpd",
+    "kind": "brew",
+    "description": "Light HTTP/1.1 server library",
+    "homepage": "https://www.gnu.org/software/libmicrohttpd/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "libmpc",
+    "kind": "brew",
+    "description": "C library for the arithmetic of high precision complex numbers",
+    "homepage": "https://www.multiprecision.org/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "libnghttp2",
+    "kind": "brew",
+    "description": "HTTP/2 C Library",
+    "homepage": "https://nghttp2.org/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "libnghttp3",
+    "kind": "brew",
+    "description": "HTTP/3 library written in C",
+    "homepage": "https://nghttp2.org/nghttp3/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "libngtcp2",
+    "kind": "brew",
+    "description": "IETF QUIC protocol implementation",
+    "homepage": "https://nghttp2.org/ngtcp2/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "libomp",
+    "kind": "brew",
+    "description": "LLVM's OpenMP runtime library",
+    "homepage": "https://openmp.llvm.org/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "libpng",
+    "kind": "brew",
+    "description": "Library for manipulating PNG images",
+    "homepage": "https://www.libpng.org/pub/png/libpng.html",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "libpq",
+    "kind": "brew",
+    "description": "Postgres C API library",
+    "homepage": "https://www.postgresql.org/docs/current/libpq.html",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "libraw",
+    "kind": "brew",
+    "description": "Library for reading RAW files from digital photo cameras",
+    "homepage": "https://www.libraw.org/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "libsodium",
+    "kind": "brew",
+    "description": "NaCl networking and cryptography library",
+    "homepage": "https://libsodium.org/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "libssh2",
+    "kind": "brew",
+    "description": "C library implementing the SSH2 protocol",
+    "homepage": "https://libssh2.org/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "libtasn1",
+    "kind": "brew",
+    "description": "ASN.1 structure parser library",
+    "homepage": "https://www.gnu.org/software/libtasn1/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "libtiff",
+    "kind": "brew",
+    "description": "TIFF library and utilities",
+    "homepage": "https://libtiff.gitlab.io/libtiff/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "libtool",
+    "kind": "brew",
+    "description": "Generic library support script",
+    "homepage": "https://www.gnu.org/software/libtool/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "libunistring",
+    "kind": "brew",
+    "description": "C string library for manipulating Unicode strings",
+    "homepage": "https://www.gnu.org/software/libunistring/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "libuv",
+    "kind": "brew",
+    "description": "Multi-platform support library with a focus on asynchronous I/O",
+    "homepage": "https://libuv.org/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "libvmaf",
+    "kind": "brew",
+    "description": "Perceptual video quality assessment based on multi-method fusion",
+    "homepage": "https://github.com/Netflix/vmaf",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "libvpx",
+    "kind": "brew",
+    "description": "VP8/VP9 video codec",
+    "homepage": "https://www.webmproject.org/code/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "libvterm",
+    "kind": "brew",
+    "description": "C99 library which implements a VT220 or xterm terminal emulator",
+    "homepage": "https://www.leonerd.org.uk/code/libvterm/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "libx11",
+    "kind": "brew",
+    "description": "X.Org: Core X11 protocol client library",
+    "homepage": "https://www.x.org/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "libxau",
+    "kind": "brew",
+    "description": "X.Org: A Sample Authorization Protocol for X",
+    "homepage": "https://www.x.org/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "libxcb",
+    "kind": "brew",
+    "description": "X.Org: Interface to the X Window System protocol",
+    "homepage": "https://www.x.org/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "libxdmcp",
+    "kind": "brew",
+    "description": "X.Org: X Display Manager Control Protocol library",
+    "homepage": "https://www.x.org/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "libxext",
+    "kind": "brew",
+    "description": "X.Org: Library for common extensions to the X11 protocol",
+    "homepage": "https://www.x.org/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "libxrender",
+    "kind": "brew",
+    "description": "X.Org: Library for the Render Extension to the X11 protocol",
+    "homepage": "https://www.x.org/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "libyaml",
+    "kind": "brew",
+    "description": "YAML Parser",
+    "homepage": "https://github.com/yaml/libyaml",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "little-cms2",
+    "kind": "brew",
+    "description": "Color management engine supporting ICC profiles",
+    "homepage": "https://www.littlecms.com/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "llhttp",
+    "kind": "brew",
+    "description": "Port of http_parser to llparse",
+    "homepage": "https://llhttp.org/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "llvm",
+    "kind": "brew",
+    "description": "Next-gen compiler infrastructure",
+    "homepage": "https://llvm.org/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "localias",
+    "kind": "brew",
+    "description": "Present in Homebrew installed list; metadata unavailable.",
+    "homepage": "",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "loop",
+    "kind": "cask",
+    "description": "Window manager",
+    "homepage": "https://github.com/MrKai77/Loop",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "lpeg",
+    "kind": "brew",
+    "description": "Parsing Expression Grammars For Lua",
+    "homepage": "https://www.inf.puc-rio.br/~roberto/lpeg/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "lua",
+    "kind": "brew",
+    "description": "Powerful, lightweight programming language",
+    "homepage": "https://www.lua.org/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "luajit",
+    "kind": "brew",
+    "description": "Just-In-Time Compiler (JIT) for the Lua programming language",
+    "homepage": "https://luajit.org/luajit.html",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "lumen",
+    "kind": "brew",
+    "description": "Present in Homebrew installed list; metadata unavailable.",
+    "homepage": "",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "luv",
+    "kind": "brew",
+    "description": "Bare libuv bindings for lua",
+    "homepage": "https://github.com/luvit/luv",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "lz4",
+    "kind": "brew",
+    "description": "Extremely Fast Compression algorithm",
+    "homepage": "https://lz4.github.io/lz4/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "lzo",
+    "kind": "brew",
+    "description": "Real-time data compression library",
+    "homepage": "https://www.oberhumer.com/opensource/lzo/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "m4",
+    "kind": "brew",
+    "description": "Macro processing language",
+    "homepage": "https://www.gnu.org/software/m4/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "mackup",
+    "kind": "brew",
+    "description": "Keep your Mac's application settings in sync",
+    "homepage": "https://github.com/lra/mackup",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "macos-defaults",
+    "kind": "brew",
+    "description": "Present in Homebrew installed list; metadata unavailable.",
+    "homepage": "",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "mas",
+    "kind": "brew",
+    "description": "Mac App Store command-line interface",
+    "homepage": "https://github.com/mas-cli/mas",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "mcfly",
+    "kind": "brew",
+    "description": "Fly through your shell history",
+    "homepage": "https://github.com/cantino/mcfly",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "merve",
+    "kind": "brew",
+    "description": "C++ lexer for extracting named exports from CommonJS modules",
+    "homepage": "https://github.com/nodejs/merve",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "microsoft-auto-update",
+    "kind": "cask",
+    "description": "Provides updates to various Microsoft products",
+    "homepage": "https://docs.microsoft.com/officeupdates/release-history-microsoft-autoupdate",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "microsoft-edge",
+    "kind": "cask",
+    "description": "Multi-platform web browser",
+    "homepage": "https://www.microsoft.com/en-us/edge?form=",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "microsoft-teams",
+    "kind": "cask",
+    "description": "Meet, chat, call, and collaborate in just one place",
+    "homepage": "https://www.microsoft.com/en/microsoft-teams/group-chat-software/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "minisim",
+    "kind": "cask",
+    "description": "App for launching iOS and Android simulators",
+    "homepage": "https://www.minisim.app/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "mole",
+    "kind": "brew",
+    "description": "Deep clean and optimize your Mac",
+    "homepage": "https://mole.fit",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "monitorcontrol",
+    "kind": "cask",
+    "description": "Tool to control external monitor brightness & volume",
+    "homepage": "https://github.com/MonitorControl/MonitorControl",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "mpdecimal",
+    "kind": "brew",
+    "description": "Library for decimal floating point arithmetic",
+    "homepage": "https://www.bytereef.org/mpdecimal/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "mpfr",
+    "kind": "brew",
+    "description": "C library for multiple-precision floating-point computations",
+    "homepage": "https://www.mpfr.org/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "msgpack",
+    "kind": "brew",
+    "description": "Library for a binary-based efficient data interchange format",
+    "homepage": "https://msgpack.org/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "nbytes",
+    "kind": "brew",
+    "description": "Library of byte handling functions extracted from Node.js core",
+    "homepage": "https://github.com/nodejs/nbytes",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "ncurses",
+    "kind": "brew",
+    "description": "Text-based UI library",
+    "homepage": "https://invisible-island.net/ncurses/announce.html",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "neovim",
+    "kind": "brew",
+    "description": "Ambitious Vim-fork focused on extensibility and agility",
+    "homepage": "https://neovim.io/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "nettle",
+    "kind": "brew",
+    "description": "Low-level cryptographic library",
+    "homepage": "https://www.lysator.liu.se/~nisse/nettle/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "ngrok",
+    "kind": "cask",
+    "description": "Reverse proxy, secure introspectable tunnels to localhost",
+    "homepage": "https://ngrok.com/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "node",
+    "kind": "brew",
+    "description": "Open-source, cross-platform JavaScript runtime environment",
+    "homepage": "https://nodejs.org/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "notion-calendar",
+    "kind": "cask",
+    "description": "Calendar for professionals and teams",
+    "homepage": "https://www.notion.com/product/calendar",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "notunes",
+    "kind": "cask",
+    "description": "Simple application that will prevent iTunes or Apple Music from launching",
+    "homepage": "https://github.com/tombonez/noTunes",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "numpy",
+    "kind": "brew",
+    "description": "Package for scientific computing with Python",
+    "homepage": "https://www.numpy.org/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "obs",
+    "kind": "cask",
+    "description": "Open-source software for live streaming and screen recording",
+    "homepage": "https://obsproject.com/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "obs-advanced-scene-switcher",
+    "kind": "cask",
+    "description": "Automated scene switcher for OBS Studio",
+    "homepage": "https://obsproject.com/forum/resources/advanced-scene-switcher.395",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "obsidian",
+    "kind": "cask",
+    "description": "Knowledge base that works on top of a local folder of plain text Markdown files",
+    "homepage": "https://obsidian.md/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "ollama",
+    "kind": "brew",
+    "description": "Create, run, and share large language models (LLMs)",
+    "homepage": "https://ollama.com/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "oniguruma",
+    "kind": "brew",
+    "description": "Regular expressions library",
+    "homepage": "https://github.com/kkos/oniguruma/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "open-design",
+    "kind": "cask",
+    "description": "Local-first, agent-native design tool",
+    "homepage": "https://open-design.ai/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "openblas",
+    "kind": "brew",
+    "description": "Optimized BLAS library",
+    "homepage": "https://www.openblas.net/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "openexr",
+    "kind": "brew",
+    "description": "High dynamic-range image file format",
+    "homepage": "https://www.openexr.com/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "openinterminal",
+    "kind": "cask",
+    "description": "Finder Toolbar app to open the current directory in Terminal or Editor",
+    "homepage": "https://github.com/Ji4n1ng/OpenInTerminal",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "openjdk",
+    "kind": "brew",
+    "description": "Development kit for the Java programming language",
+    "homepage": "https://openjdk.org/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "openjpeg",
+    "kind": "brew",
+    "description": "Library for JPEG-2000 image manipulation",
+    "homepage": "https://www.openjpeg.org/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "openssl@1.1",
+    "kind": "brew",
+    "description": "Cryptography and SSL/TLS Toolkit",
+    "homepage": "https://openssl.org/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "openssl@3",
+    "kind": "brew",
+    "description": "Cryptography and SSL/TLS Toolkit",
+    "homepage": "https://openssl-library.org",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "openvino",
+    "kind": "brew",
+    "description": "Open Visual Inference And Optimization toolkit for AI inference",
+    "homepage": "https://docs.openvino.ai",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "opus",
+    "kind": "brew",
+    "description": "Audio codec",
+    "homepage": "https://www.opus-codec.org/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "orion",
+    "kind": "cask",
+    "description": "WebKit based web browser",
+    "homepage": "https://browser.kagi.com/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "p11-kit",
+    "kind": "brew",
+    "description": "Library to load and enumerate PKCS#11 modules",
+    "homepage": "https://p11-glue.github.io/p11-glue/p11-kit.html",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "pango",
+    "kind": "brew",
+    "description": "Framework for layout and rendering of i18n text",
+    "homepage": "https://www.gtk.org/docs/architecture/pango",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "paper-design",
+    "kind": "cask",
+    "description": "Design tool for creating interfaces and prototypes",
+    "homepage": "https://paper.design/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "pcre",
+    "kind": "brew",
+    "description": "Perl compatible regular expressions library",
+    "homepage": "https://www.pcre.org/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "pcre2",
+    "kind": "brew",
+    "description": "Perl compatible regular expressions library with a new API",
+    "homepage": "https://www.pcre.org/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "pixman",
+    "kind": "brew",
+    "description": "Low-level library for pixel manipulation",
+    "homepage": "https://cairographics.org/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "pkgconf",
+    "kind": "brew",
+    "description": "Package compiler and linker metadata toolkit",
+    "homepage": "https://github.com/pkgconf/pkgconf",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "pnpm",
+    "kind": "brew",
+    "description": "Fast, disk space efficient package manager",
+    "homepage": "https://pnpm.io/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "poetry",
+    "kind": "brew",
+    "description": "Python package management tool",
+    "homepage": "https://python-poetry.org/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "pop",
+    "kind": "cask",
+    "description": "Present in Homebrew installed list; metadata unavailable.",
+    "homepage": "",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "pop-app",
+    "kind": "cask",
+    "description": "Remote pair programming",
+    "homepage": "https://pop.com/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "postgresql@17",
+    "kind": "brew",
+    "description": "Object-relational database system",
+    "homepage": "https://www.postgresql.org/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "postman",
+    "kind": "cask",
+    "description": "Collaboration platform for API development",
+    "homepage": "https://www.postman.com/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "potrace",
+    "kind": "brew",
+    "description": "Convert bitmaps to vector graphics",
+    "homepage": "https://potrace.sourceforge.net/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "protobuf",
+    "kind": "brew",
+    "description": "Protocol buffers (Google's data interchange format)",
+    "homepage": "https://protobuf.dev/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "pscale",
+    "kind": "brew",
+    "description": "CLI for PlanetScale Database",
+    "homepage": "https://www.planetscale.com/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "pugixml",
+    "kind": "brew",
+    "description": "Light-weight C++ XML processing library",
+    "homepage": "https://pugixml.org/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "pycparser",
+    "kind": "brew",
+    "description": "C parser in Python",
+    "homepage": "https://github.com/eliben/pycparser",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "pyenv",
+    "kind": "brew",
+    "description": "Python version management",
+    "homepage": "https://github.com/pyenv/pyenv",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "python-certifi",
+    "kind": "brew",
+    "description": "Present in Homebrew installed list; metadata unavailable.",
+    "homepage": "",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "python-packaging",
+    "kind": "brew",
+    "description": "Core utilities for Python packages",
+    "homepage": "https://packaging.pypa.io/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "python@3.10",
+    "kind": "brew",
+    "description": "Interpreted, interactive, object-oriented programming language",
+    "homepage": "https://www.python.org/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "python@3.11",
+    "kind": "brew",
+    "description": "Interpreted, interactive, object-oriented programming language",
+    "homepage": "https://www.python.org/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "python@3.12",
+    "kind": "brew",
+    "description": "Interpreted, interactive, object-oriented programming language",
+    "homepage": "https://www.python.org/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "python@3.13",
+    "kind": "brew",
+    "description": "Interpreted, interactive, object-oriented programming language",
+    "homepage": "https://www.python.org/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "python@3.14",
+    "kind": "brew",
+    "description": "Interpreted, interactive, object-oriented programming language",
+    "homepage": "https://www.python.org/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "qbittorrent",
+    "kind": "cask",
+    "description": "Peer to peer Bitorrent client",
+    "homepage": "https://www.qbittorrent.org/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "qlmarkdown",
+    "kind": "cask",
+    "description": "Quick Look generator for Markdown files",
+    "homepage": "https://github.com/sbarex/QLMarkdown",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "radare2",
+    "kind": "brew",
+    "description": "Reverse engineering framework",
+    "homepage": "https://radare.org",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "raycast",
+    "kind": "cask",
+    "description": "Control your tools with a few keystrokes",
+    "homepage": "https://raycast.com/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "readline",
+    "kind": "brew",
+    "description": "Library for command-line editing",
+    "homepage": "https://tiswww.case.edu/php/chet/readline/rltop.html",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "recipeui",
+    "kind": "cask",
+    "description": "Installed package; see vendor documentation.",
+    "homepage": null,
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "rectangle",
+    "kind": "cask",
+    "description": "Move and resize windows using keyboard shortcuts or snap areas",
+    "homepage": "https://rectangleapp.com/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "ripgrep",
+    "kind": "brew",
+    "description": "Search tool like grep and The Silver Searcher",
+    "homepage": "https://github.com/BurntSushi/ripgrep",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "robo-3t",
+    "kind": "cask",
+    "description": "Installed package; see vendor documentation.",
+    "homepage": null,
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "rtmpdump",
+    "kind": "brew",
+    "description": "Tool for downloading RTMP streaming media",
+    "homepage": "https://rtmpdump.mplayerhq.hu/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "ruby",
+    "kind": "brew",
+    "description": "Powerful, clean, object-oriented scripting language",
+    "homepage": "https://www.ruby-lang.org/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "rust",
+    "kind": "brew",
+    "description": "Safe, concurrent, practical language",
+    "homepage": "https://www.rust-lang.org/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "sbx",
+    "kind": "cask",
+    "description": "Build, run, and govern agents across the software development lifecycle",
+    "homepage": "https://github.com/docker/sbx-releases",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "screenpipe",
+    "kind": "brew",
+    "description": "Library to build personalized AI powered by what you've seen, said, or heard",
+    "homepage": "https://github.com/mediar-ai/screenpipe",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "sdl2-compat",
+    "kind": "brew",
+    "description": "SDL2 compatibility layer that uses SDL3 behind the scenes",
+    "homepage": "https://github.com/libsdl-org/sdl2-compat",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "sdl3",
+    "kind": "brew",
+    "description": "Low-level access to audio, keyboard, mouse, joystick, and graphics",
+    "homepage": "https://libsdl.org/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "shared-mime-info",
+    "kind": "brew",
+    "description": "Database of common MIME types",
+    "homepage": "https://wiki.freedesktop.org/www/Software/shared-mime-info",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "shellcheck",
+    "kind": "brew",
+    "description": "Static analysis and lint tool, for (ba)sh scripts",
+    "homepage": "https://www.shellcheck.net/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "shottr",
+    "kind": "cask",
+    "description": "Screenshot measurement and annotation tool",
+    "homepage": "https://shottr.cc/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "simdjson",
+    "kind": "brew",
+    "description": "SIMD-accelerated C++ JSON parser",
+    "homepage": "https://simdjson.org",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "simdutf",
+    "kind": "brew",
+    "description": "Unicode conversion routines, fast",
+    "homepage": "https://simdutf.github.io/simdutf/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "slack",
+    "kind": "cask",
+    "description": "Team communication and collaboration software",
+    "homepage": "https://slack.com/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "snappy",
+    "kind": "brew",
+    "description": "Compression/decompression library aiming for high speed",
+    "homepage": "https://google.github.io/snappy/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "sqlite",
+    "kind": "brew",
+    "description": "Command-line interface for SQLite",
+    "homepage": "https://sqlite.org/index.html",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "starship",
+    "kind": "brew",
+    "description": "Cross-shell prompt for astronauts",
+    "homepage": "https://starship.rs/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "stow",
+    "kind": "brew",
+    "description": "Organize software neatly under a single directory tree (e.g. /usr/local)",
+    "homepage": "https://www.gnu.org/software/stow/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "svt-av1",
+    "kind": "brew",
+    "description": "AV1 encoder",
+    "homepage": "https://gitlab.com/AOMediaCodec/SVT-AV1",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "syncthing",
+    "kind": "brew",
+    "description": "Open source continuous file synchronization application",
+    "homepage": "https://syncthing.net/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "tbb",
+    "kind": "brew",
+    "description": "Rich and complete approach to parallelism in C++",
+    "homepage": "https://uxlfoundation.github.io/oneTBB/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "terraform",
+    "kind": "brew",
+    "description": "Tool to build, change, and version infrastructure",
+    "homepage": "https://www.terraform.io/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "tesseract",
+    "kind": "brew",
+    "description": "OCR (Optical Character Recognition) engine",
+    "homepage": "https://tesseract-ocr.github.io/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "texts",
+    "kind": "cask",
+    "description": "Word processor that uses plain text Markdown",
+    "homepage": "http://www.texts.io/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "tor-browser",
+    "kind": "cask",
+    "description": "Web browser focusing on security",
+    "homepage": "https://www.torproject.org/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "tree-sitter",
+    "kind": "brew",
+    "description": "Incremental parsing library",
+    "homepage": "https://tree-sitter.github.io/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "unbound",
+    "kind": "brew",
+    "description": "Validating, recursive, caching DNS resolver",
+    "homepage": "https://www.unbound.net",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "unibilium",
+    "kind": "brew",
+    "description": "Very basic terminfo library",
+    "homepage": "https://github.com/neovim/unibilium",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "uv",
+    "kind": "brew",
+    "description": "Extremely fast Python package installer and resolver, written in Rust",
+    "homepage": "https://docs.astral.sh/uv/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "uvwasi",
+    "kind": "brew",
+    "description": "WASI syscall API built atop libuv",
+    "homepage": "https://github.com/nodejs/uvwasi",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "virtualenv",
+    "kind": "brew",
+    "description": "Tool for creating isolated virtual python environments",
+    "homepage": "https://virtualenv.pypa.io/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "visual-studio-code",
+    "kind": "cask",
+    "description": "Open-source code editor",
+    "homepage": "https://code.visualstudio.com/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "vivaldi",
+    "kind": "cask",
+    "description": "Web browser with built-in email client focusing on customization and control",
+    "homepage": "https://vivaldi.com/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "vlc",
+    "kind": "cask",
+    "description": "Multimedia player",
+    "homepage": "https://www.videolan.org/vlc/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "wakeclaude",
+    "kind": "cask",
+    "description": "Installed package; see vendor documentation.",
+    "homepage": null,
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "wangle",
+    "kind": "brew",
+    "description": "Modular, composable client/server abstractions framework",
+    "homepage": "https://github.com/facebook/wangle",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "warp",
+    "kind": "cask",
+    "description": "Rust-based terminal",
+    "homepage": "https://www.warp.dev/terminal",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "watchman",
+    "kind": "brew",
+    "description": "Watch files and take action when they change",
+    "homepage": "https://facebook.github.io/watchman/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "webp",
+    "kind": "brew",
+    "description": "Image format providing lossless and lossy compression for web images",
+    "homepage": "https://developers.google.com/speed/webp/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "webstorm",
+    "kind": "cask",
+    "description": "JavaScript IDE",
+    "homepage": "https://www.jetbrains.com/webstorm/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "wget",
+    "kind": "brew",
+    "description": "Internet file retriever",
+    "homepage": "https://www.gnu.org/software/wget/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "whatsapp",
+    "kind": "cask",
+    "description": "Native desktop client for WhatsApp",
+    "homepage": "https://www.whatsapp.com/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "wifi-password",
+    "kind": "brew",
+    "description": "Show the current WiFi network password",
+    "homepage": "https://github.com/rauchg/wifi-password",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "worktrunk",
+    "kind": "brew",
+    "description": "CLI for Git worktree management, designed for parallel AI agent workflows",
+    "homepage": "https://worktrunk.dev",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "x264",
+    "kind": "brew",
+    "description": "H.264/AVC encoder",
+    "homepage": "https://www.videolan.org/developers/x264.html",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "x265",
+    "kind": "brew",
+    "description": "H.265/HEVC encoder",
+    "homepage": "https://github.com/Multicorewareinc/x265",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "xbar",
+    "kind": "cask",
+    "description": "View output from scripts in the menu bar",
+    "homepage": "https://xbarapp.com/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "xorgproto",
+    "kind": "brew",
+    "description": "X.Org: Protocol Headers",
+    "homepage": "https://www.x.org/",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "xurl",
+    "kind": "cask",
+    "description": "Installed package; see vendor documentation.",
+    "homepage": null,
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "xxhash",
+    "kind": "brew",
+    "description": "Extremely fast non-cryptographic hash algorithm",
+    "homepage": "https://xxhash.com",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "xz",
+    "kind": "brew",
+    "description": "General-purpose data compression with high compression ratio",
+    "homepage": "https://tukaani.org/xz/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "yaak",
+    "kind": "cask",
+    "description": "REST, GraphQL and gRPC client",
+    "homepage": "https://yaak.app/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "yarn",
+    "kind": "brew",
+    "description": "JavaScript package manager",
+    "homepage": "https://yarnpkg.com/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "yasm",
+    "kind": "brew",
+    "description": "Modular BSD reimplementation of NASM",
+    "homepage": "https://www.tortall.net/projects/yasm/manual/html/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "yt-dlp",
+    "kind": "brew",
+    "description": "Feature-rich command-line audio/video downloader",
+    "homepage": "https://github.com/yt-dlp/yt-dlp",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "z3",
+    "kind": "brew",
+    "description": "High-performance theorem prover",
+    "homepage": "https://github.com/Z3Prover/z3",
+    "installed": true,
+    "direct": false
+  },
+  {
+    "name": "zappy",
+    "kind": "cask",
+    "description": "Screen capture tool for remote teams",
+    "homepage": "https://zapier.com/zappy",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "zed",
+    "kind": "cask",
+    "description": "Multiplayer code editor",
+    "homepage": "https://zed.dev/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "zen",
+    "kind": "cask",
+    "description": "Gecko based web browser",
+    "homepage": "https://zen-browser.app/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "zen-browser",
+    "kind": "cask",
+    "description": "Present in Homebrew installed list; metadata unavailable.",
+    "homepage": "",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "zoom",
+    "kind": "cask",
+    "description": "Video communication and virtual meeting platform",
+    "homepage": "https://www.zoom.us/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "zoxide",
+    "kind": "brew",
+    "description": "Shell extension to navigate your filesystem faster",
+    "homepage": "https://github.com/ajeetdsouza/zoxide",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "zsh",
+    "kind": "brew",
+    "description": "UNIX shell (command interpreter)",
+    "homepage": "https://www.zsh.org/",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "zsh-completions",
+    "kind": "brew",
+    "description": "Additional completion definitions for zsh",
+    "homepage": "https://github.com/zsh-users/zsh-completions",
+    "installed": true,
+    "direct": true
+  },
+  {
+    "name": "zstd",
+    "kind": "brew",
+    "description": "Zstandard is a real-time compression algorithm",
+    "homepage": "https://facebook.github.io/zstd/",
+    "installed": true,
+    "direct": true
+  }
+]

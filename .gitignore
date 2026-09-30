@@ -1,0 +1,12 @@
+.DS_Store
+node_modules/
+__pycache__/
+.private/
+.local/
+.env
+.env.*
+!.env.example
+*.rayconfig
+.my-config
+.my-config.sh
+.sites-runtime/

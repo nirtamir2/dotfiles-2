@@ -11,6 +11,7 @@ fi
 
 REPO="$(basename "$(gitroot)")"
 
-NEWPATH=~/Code/vercel/features/"$NAME"/"$REPO"
-git worktree add -B "schniz/$NAME" "$NEWPATH"
+NEWPATH="${WORKTREE_ROOT:-$HOME/dev/worktrees}/$NAME/$REPO"
+mkdir -p "$(dirname "$NEWPATH")"
+git worktree add -b "${GIT_BRANCH_PREFIX:-nirtamir}/$NAME" "$NEWPATH"
 echo "$NEWPATH"

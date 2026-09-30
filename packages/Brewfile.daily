@@ -1,0 +1,7 @@
+# Confirmed daily apps not already in the core Brewfile.
+cask "homerow"
+cask "zappy"
+cask "google-chrome"
+cask "obsidian"
+cask "font-hack"
+cask "font-jetbrains-mono"

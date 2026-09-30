@@ -1,0 +1,172 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "alt+cmd+z",
+        "command": "git.revertSelectedRanges",
+        "when": "isInDiffEditor"
+    },
+    {
+        "key": "cmd+k cmd+r",
+        "command": "-git.revertSelectedRanges",
+        "when": "isInDiffEditor"
+    },
+    {
+        "key": "shift+cmd+backspace",
+        "command": "-search.searchEditor.action.deleteFileResults",
+        "when": "inSearchEditor"
+    },
+    {
+        "key": "shift+cmd+backspace",
+        "command": "editsHistory.moveCursorToPreviousEdit"
+    },
+    {
+        "key": "cmd+j",
+        "command": "-editsHistory.moveCursorToPreviousEdit"
+    },
+    {
+        "key": "shift+cmd+j",
+        "command": "-editsHistory.moveCursorToPreviouslyEditedFile"
+    },
+    {
+        "key": "shift+cmd+k",
+        "command": "-editsHistory.moveCursorToNextEditedFile"
+    },
+    {
+        "key": "shift+cmd+u",
+        "command": "-editsHistory.moveCursorToPreviousEditInSameFile"
+    },
+    {
+        "key": "cmd+u",
+        "command": "-editsHistory.createEditAtCursor"
+    },
+    {
+        "key": "cmd+i",
+        "command": "-editsHistory.removeEditsFromLine"
+    },
+    {
+        "key": "shift+cmd+i",
+        "command": "-editsHistory.moveCursorToNextEditInSameFile"
+    },
+    {
+        "key": "ctrl+shift+cmd+backspace",
+        "command": "editsHistory.moveCursorToNextEdit"
+    },
+    {
+        "key": "cmd+k",
+        "command": "-editsHistory.moveCursorToNextEdit"
+    },
+    {
+        "key": "shift+cmd+backspace",
+        "command": "gotoLastEdit.goBack",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+-",
+        "command": "-gotoLastEdit.goBack",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+cmd+backspace",
+        "command": "gotoLastEdit.goForward",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+=",
+        "command": "-gotoLastEdit.goForward",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+cmd+backspace",
+        "command": "-workbench.action.navigateToLastEditLocation"
+    },
+    {
+        "key": "alt+cmd+left",
+        "command": "-workbench.action.previousEditor"
+    },
+    {
+        "key": "alt+cmd+right",
+        "command": "-workbench.action.nextEditor"
+    },
+    {
+        "key": "cmd+e",
+        "command": "-actions.findWithSelection"
+    },
+    {
+        "key": "shift+alt+o",
+        "command": "-editor.action.organizeImports",
+        "when": "editorTextFocus && !editorReadonly && supportedCodeAction =~ /(\\s|^)source\\.organizeImports\\b/"
+    },
+    {
+        "key": "cmd+e",
+        "command": "workbench.action.quickOpen"
+    },
+    {
+        "key": "cmd+up",
+        "command": "block-travel.jumpUp",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+up",
+        "command": "-block-travel.jumpUp",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+down",
+        "command": "block-travel.jumpDown",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+down",
+        "command": "-block-travel.jumpDown",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+cmd+down",
+        "command": "block-travel.selectDown",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+down",
+        "command": "-block-travel.selectDown",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+cmd+up",
+        "command": "block-travel.selectUp",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+up",
+        "command": "-block-travel.selectUp",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+cmd+j",
+        "command": "-liveshare.join",
+        "when": "liveshare:state != 'Joined' && liveshare:state != 'Shared'"
+    },
+    {
+        "key": "alt+cmd+j",
+        "command": "editor.action.surroundWithSnippet"
+    },
+    {
+        "key": "cmd+j",
+        "command": "editor.action.insertSnippet"
+    },
+    {
+        "key": "cmd+j",
+        "command": "-workbench.action.togglePanel"
+    },
+    {
+        "key": "ctrl+m",
+        "command": "editor.emmet.action.matchTag"
+    },
+    {
+        "key": "shift+cmd+delete",
+        "command": "editor.emmet.action.removeTag"
+    },
+    {
+        "key": "cmd+i",
+        "command": "composerMode.agent"
+    }
+]

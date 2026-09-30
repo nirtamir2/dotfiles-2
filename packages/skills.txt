@@ -1,0 +1,25 @@
+pnpx skills add pbakaus/impeccable
+pnpx skills add https://github.com/vercel-labs/skills --skill find-skills
+pnpx skills add https://github.com/vercel-labs/agent-skills --skill vercel-react-best-practices
+pnpx skills add https://github.com/anthropics/skills --skill frontend-design
+pnpx skills add https://github.com/remotion-dev/skills --skill remotion-best-practices
+pnpx skills add https://github.com/vercel-labs/agent-skills --skill vercel-composition-patterns
+pnpx skills add https://github.com/anthropics/skills --skill skill-creator
+pnpx skills add https://github.com/nextlevelbuilder/ui-ux-pro-max-skill --skill ui-ux-pro-max
+pnpx skills add https://github.com/coreyhaines31/marketingskills --skill copywriting
+pnpx skills add https://github.com/vercel-labs/agent-browser --skill agent-browser
+pnpx skills add https://github.com/coreyhaines31/marketingskills --skill marketing-psychology
+pnpx skills add emilkowalski/skill
+pnpx skills add addyosmani/web-quality-skills
+pnpx skills add addyosmani/agent-skills
+pnpx skills add nutlope/hallmark
+pnpx skills add heygen-com/hyperframes
+pnpx skills add https://github.com/Leonxlnx/taste-skill
+npx skills add jakubkrehel/skills
+pnpx skills add dietrichgebert/ponytail
+pnpx skills add kentcdodds/kcd-skills
+pnpx skills add ayghri/i-have-adhd
+npx skills add https://github.com/kostja94/marketing-skills --skill twitter-x-posts
+npx skills add jakubkrehel/skills
+npx skills add https://github.com/composiohq/awesome-claude-skills --skill twitter-algorithm-optimizer
+npx skills add Leonxlnx/unlazy

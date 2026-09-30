@@ -1,0 +1,64 @@
+{
+  "com.apple.dock": {
+    "autohide": true,
+    "autohide-delay": 0.0,
+    "show-recents": false,
+    "static-only": true
+  },
+  "com.apple.finder": {
+    "AppleShowAllFiles": true,
+    "FXDefaultSearchScope": "SCcf",
+    "ShowPathbar": true,
+    "ShowStatusBar": true,
+    "CreateDesktop": false
+  },
+  "NSGlobalDomain": {
+    "KeyRepeat": 1,
+    "InitialKeyRepeat": 15,
+    "ApplePressAndHoldEnabled": false,
+    "com.apple.keyboard.fnState": true,
+    "NSStatusItemSpacing": 12,
+    "NSStatusItemSelectionPadding": 6,
+    "AppleShowAllExtensions": true,
+    "AppleKeyboardUIMode": 3,
+    "NSAutomaticQuoteSubstitutionEnabled": false,
+    "NSAutomaticDashSubstitutionEnabled": false,
+    "NSNavPanelExpandedStateForSaveMode": true,
+    "NSNavPanelExpandedStateForSaveMode2": true,
+    "PMPrintingExpandedStateForPrint": true,
+    "PMPrintingExpandedStateForPrint2": true
+  },
+  "com.apple.screencapture": {
+    "show-thumbnail": false,
+    "location": "/tmp"
+  },
+  "com.apple.assistant.support": {
+    "Dictation Enabled": true
+  },
+  "com.apple.speech.recognition.AppleSpeechRecognition.prefs": {
+    "DictationIMPreferredLanguageIdentifiers": ["en_US", "he_IL"],
+    "DictationIMNetworkBasedLocaleIdentifier": "en_US"
+  },
+  "com.apple.symbolichotkeys": {
+    "AppleSymbolicHotKeys": {
+      "dict_entries": {
+        "164": {
+          "enabled": true,
+          "value": {
+            "type": "modifier",
+            "parameters": [1048592, 18446744073708503023]
+          }
+        }
+      }
+    }
+  },
+  "com.apple.universalaccess": {
+    "closeViewScrollWheelToggle": true
+  },
+  "com.apple.AppleMultitouchTrackpad": {
+    "HIDScrollZoomModifierMask": 262144
+  },
+  "com.apple.driver.AppleBluetoothMultitouch.trackpad": {
+    "HIDScrollZoomModifierMask": 262144
+  }
+}

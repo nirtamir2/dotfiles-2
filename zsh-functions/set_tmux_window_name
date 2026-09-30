@@ -34,10 +34,6 @@ function set_tmux_window_name() {
     dir=$(basename "$cwd")
   fi
 
-  # Check if we're in ~/Code/vercel/[dirname]
-  if [[ "$cwd" == "$HOME/Code/vercel/"* ]]; then
-    dir="▲/$dir"
-  fi
 
   tmux rename-window -t "$window_id" "$dir" 2> /dev/null
 }

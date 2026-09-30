@@ -1,20 +1,4 @@
-#!/bin/bash
-
-set -e
-
-ROOT_DIRECTORY="$HOME/Code/dotfiles"
-
-mkdir -p "$HOME/.config"
-(cd $ROOT_DIRECTORY/.config && stow .)
-
-echo " --> Setup links from $ROOT_DIRECTORY"
-
-ln -vnfs "$ROOT_DIRECTORY" "$HOME/.dotfiles"
-ln -vnfs "$ROOT_DIRECTORY/.gvimrc" "$HOME/.gvimrc"
-ln -vnfs "$ROOT_DIRECTORY/.oh-my-zsh-custom" "$HOME/.oh-my-zsh-custom"
-ln -vnfs "$ROOT_DIRECTORY/.vimrc" "$HOME/.vimrc"
-ln -vnfs "$ROOT_DIRECTORY/.zshrc" "$HOME/.zshrc"
-ln -vnfs "$ROOT_DIRECTORY/Brewfile" "$HOME/Brewfile"
-ln -vnfs "$ROOT_DIRECTORY/bin" "$HOME/bin"
-ln -vnfs "$ROOT_DIRECTORY/npmbin" "$HOME/npmbin"
-ln -vnfs "$ROOT_DIRECTORY/.jq" "$HOME/.jq"
+#!/usr/bin/env bash
+set -euo pipefail
+ROOT="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd)"
+exec "$ROOT/setup" link "$@"

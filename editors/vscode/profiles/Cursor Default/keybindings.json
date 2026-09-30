@@ -1,0 +1,298 @@
+[
+  {
+    "key": "alt+cmd+z",
+    "command": "git.revertSelectedRanges",
+    "when": "isInDiffEditor"
+  },
+  {
+    "key": "cmd+k cmd+r",
+    "command": "-git.revertSelectedRanges",
+    "when": "isInDiffEditor"
+  },
+  {
+    "key": "shift+cmd+backspace",
+    "command": "-search.searchEditor.action.deleteFileResults",
+    "when": "inSearchEditor"
+  },
+  {
+    "key": "shift+cmd+j",
+    "command": "-editsHistory.moveCursorToPreviouslyEditedFile"
+  },
+  {
+    "key": "shift+cmd+k",
+    "command": "-editsHistory.moveCursorToNextEditedFile"
+  },
+  {
+    "key": "shift+cmd+u",
+    "command": "-editsHistory.moveCursorToPreviousEditInSameFile"
+  },
+  {
+    "key": "cmd+u",
+    "command": "-editsHistory.createEditAtCursor"
+  },
+  {
+    "key": "cmd+i",
+    "command": "-editsHistory.removeEditsFromLine"
+  },
+  {
+    "key": "shift+cmd+i",
+    "command": "-editsHistory.moveCursorToNextEditInSameFile"
+  },
+  {
+    "key": "ctrl+shift+cmd+backspace",
+    "command": "editsHistory.moveCursorToNextEdit"
+  },
+  {
+    "key": "cmd+k",
+    "command": "-editsHistory.moveCursorToNextEdit"
+  },
+  {
+    "key": "shift+cmd+backspace",
+    "command": "gotoLastEdit.goBack",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+-",
+    "command": "-gotoLastEdit.goBack",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+cmd+backspace",
+    "command": "gotoLastEdit.goForward",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+=",
+    "command": "-gotoLastEdit.goForward",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+cmd+backspace",
+    "command": "-workbench.action.navigateToLastEditLocation"
+  },
+  {
+    "key": "alt+cmd+left",
+    "command": "-workbench.action.previousEditor"
+  },
+  {
+    "key": "alt+cmd+right",
+    "command": "-workbench.action.nextEditor"
+  },
+  {
+    "key": "cmd+e",
+    "command": "-actions.findWithSelection"
+  },
+  {
+    "key": "shift+alt+o",
+    "command": "-editor.action.organizeImports",
+    "when": "editorTextFocus && !editorReadonly && supportedCodeAction =~ /(\\s|^)source\\.organizeImports\\b/"
+  },
+  {
+    "key": "cmd+e",
+    "command": "workbench.action.quickOpen"
+  },
+  {
+    "key": "cmd+up",
+    "command": "block-travel.jumpUp",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+up",
+    "command": "-block-travel.jumpUp",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+down",
+    "command": "block-travel.jumpDown",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+down",
+    "command": "-block-travel.jumpDown",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+cmd+down",
+    "command": "block-travel.selectDown",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+down",
+    "command": "-block-travel.selectDown",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+cmd+up",
+    "command": "block-travel.selectUp",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+up",
+    "command": "-block-travel.selectUp",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+cmd+j",
+    "command": "-liveshare.join",
+    "when": "liveshare:state != 'Joined' && liveshare:state != 'Shared'"
+  },
+  {
+    "key": "alt+cmd+j",
+    "command": "editor.action.surroundWithSnippet"
+  },
+  {
+    "key": "cmd+j",
+    "command": "editor.action.insertSnippet"
+  },
+  {
+    "key": "cmd+j",
+    "command": "-workbench.action.togglePanel"
+  },
+  {
+    "key": "shift+cmd+delete",
+    "command": "editor.emmet.action.removeTag"
+  },
+  {
+    "key": "cmd+i",
+    "command": "composerMode.agent"
+  },
+  {
+    "key": "ctrl+shift+alt+down",
+    "command": "editor.action.dirtydiff.next",
+    "when": "editorTextFocus && !textCompareEditorActive"
+  },
+  {
+    "key": "alt+f3",
+    "command": "-editor.action.dirtydiff.next",
+    "when": "editorTextFocus && !textCompareEditorActive"
+  },
+  {
+    "key": "ctrl+shift+alt+down",
+    "command": "notebook.diff.action.next",
+    "when": "activeEditor == 'workbench.editor.notebookTextDiffEditor'"
+  },
+  {
+    "key": "alt+f3",
+    "command": "-notebook.diff.action.next",
+    "when": "activeEditor == 'workbench.editor.notebookTextDiffEditor'"
+  },
+  {
+    "key": "ctrl+shift+alt+up",
+    "command": "editor.action.dirtydiff.previous",
+    "when": "editorTextFocus && !textCompareEditorActive"
+  },
+  {
+    "key": "shift+alt+f3",
+    "command": "-editor.action.dirtydiff.previous",
+    "when": "editorTextFocus && !textCompareEditorActive"
+  },
+  {
+    "key": "ctrl+shift+alt+up",
+    "command": "notebook.diff.action.previous",
+    "when": "activeEditor == 'workbench.editor.notebookTextDiffEditor'"
+  },
+  {
+    "key": "shift+alt+f3",
+    "command": "-notebook.diff.action.previous",
+    "when": "activeEditor == 'workbench.editor.notebookTextDiffEditor'"
+  },
+  {
+    "key": "shift+cmd+z",
+    "command": "-extension.vscode-git-automator.addAndCommitCurrentFile"
+  },
+  {
+    "comment": "Focus the active editor group when the escape key is pressed and no text editor is focused https://stackoverflow.com/questions/55190841/how-can-i-make-vscode-focus-on-the-active-editor-by-hitting-escape",
+    "key": "escape",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "!editorTextFocus"
+  },
+  {
+    "key": "f4",
+    "command": "git.openFile",
+    "when": "config.git.enabled && isInDiffEditor && !git.missing && gitOpenRepositoryCount != '0' && resourceScheme =~ /^git$|^file$/"
+  },
+  {
+    "key": "cmd+n",
+    "command": "-workbench.action.files.newUntitledFile"
+  },
+  {
+    "key": "cmd+n",
+    "command": "workbench.files.action.createFileFromExplorer"
+  },
+  {
+    "key": "shift+cmd+k",
+    "command": "-editor.action.deleteLines",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "up",
+    "command": "list.focusUp",
+    "when": "!inputFocus && listFocus"
+  },
+  {
+    "key": "down",
+    "command": "list.focusDown",
+    "when": "!inputFocus && listFocus"
+  },
+  {
+    "key": "home",
+    "command": "list.focusFirst",
+    "when": "!inputFocus && listFocus"
+  },
+  {
+    "key": "end",
+    "command": "list.focusLast",
+    "when": "!inputFocus && listFocus"
+  },
+  {
+    "key": "pageup",
+    "command": "list.focusPageUp",
+    "when": "!inputFocus && listFocus"
+  },
+  {
+    "key": "pagedown",
+    "command": "list.focusPageDown",
+    "when": "!inputFocus && listFocus"
+  },
+  {
+    "comment": "When cmd+shift+f - focus on the result when key down",
+    "key": "down",
+    "command": "runCommands",
+    "when": "searchInputBoxFocus",
+    "args": {
+      "commands": [
+        "search.action.focusSearchList",
+        "list.focusDown"
+      ]
+    }
+  },
+  {
+    "comment": "When in changes view - focus on the results",
+    "key": "down",
+    "command": "runCommands",
+    "when": "focusedView == workbench.scm && inputFocus",
+    "args": {
+      "commands": [
+        "list.focusFirst",
+        "list.focusDown",
+        "list.focusDown",
+        "list.focusDown"
+      ]
+    }
+  },
+  {
+    "comment": "In Source Control view, discard Git changes for the selected file(s) when the list (not the input) is focused",
+    "key": "cmd+alt+z",
+    "command": "git.clean",
+    "when": "focusedView == workbench.scm && !inputFocus && listFocus"
+  },
+  {
+    "key": "ctrl+m",
+    "command": "editor.emmet.action.matchTag"
+  },
+  {
+    "key": "shift+cmd+c",
+    "command": "-workbench.action.terminal.openNativeConsole",
+    "when": "!terminalFocus"
+  }
+]

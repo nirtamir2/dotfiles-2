@@ -1,0 +1,13 @@
+{
+  "verified": "2026-09-30",
+  "source": "Live System Settings > Keyboard > Dictation and native defaults export",
+  "app": "macOS Dictation",
+  "enabled": true,
+  "shortcut": "Press Right Command Key Twice",
+  "languages": ["English (United States)", "Hebrew (Israel)"],
+  "microphone": "Automatic",
+  "restore": "preferences/macos.json",
+  "shortcut_domain": "com.apple.symbolichotkeys",
+  "shortcut_key": "AppleSymbolicHotKeys",
+  "shortcut_entry": "164"
+}

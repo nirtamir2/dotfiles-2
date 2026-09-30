@@ -1,0 +1,44 @@
+[
+  {
+    "kind": "brew",
+    "name": "screenpipe",
+    "reason": "Disabled in current Homebrew catalog",
+    "retained": true
+  },
+  {
+    "kind": "cask",
+    "name": "apiark",
+    "reason": "Not found in current Homebrew catalog",
+    "retained": true
+  },
+  {
+    "kind": "cask",
+    "name": "graphql-playground",
+    "reason": "Not found in current Homebrew catalog",
+    "retained": true
+  },
+  {
+    "kind": "cask",
+    "name": "pop",
+    "reason": "Not found in current Homebrew catalog",
+    "retained": true
+  },
+  {
+    "kind": "cask",
+    "name": "qbittorrent",
+    "reason": "Disabled in current Homebrew catalog",
+    "retained": true
+  },
+  {
+    "kind": "cask",
+    "name": "stretchly",
+    "reason": "Disabled in current Homebrew catalog",
+    "retained": true
+  },
+  {
+    "kind": "cask",
+    "name": "zen-browser",
+    "reason": "Not found in current Homebrew catalog",
+    "retained": true
+  }
+]

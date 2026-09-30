@@ -1,0 +1,45 @@
+{
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.accessibilitySupport": "off",
+  "files.autoSave": "afterDelay",
+  "gitlens.codeLens.enabled": false,
+  "gitlens.currentLine.enabled": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.rebaseEditor.ordering": "asc",
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "workbench.editorAssociations": {
+    "git-rebase-todo": "default"
+  },
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.startupEditor": "none",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorTheme": "Webstorm Darcula",
+  "i18n-ally.extract.autoDetect": true,
+  "editor.fontSize": 16,
+  "i18n-ally.extract.keyPrefix": "{fileNameWithoutExt}",
+  "i18n-ally.preferredDelimiter": "_",
+  "i18n-ally.sortKeys": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "gitlens.showWelcomeOnInstall": false,
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.hovers.enabled": false,
+  "tailwindCSS.emmetCompletions": true,
+  "editsHistory.loopAround": true,
+  "editor.lineHeight": 1.6,
+  "editor.wordWrap": "on",
+  "console-ninja.featureSet": "Community",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
+  "editor.bracketPairColorization.enabled": false
+}

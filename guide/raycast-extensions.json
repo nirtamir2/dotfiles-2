@@ -1,0 +1,1828 @@
+[
+  {
+    "name": "(Basic) Bookmarks",
+    "description": "Companion bookmarking utility for bmrks.com",
+    "commands": [
+      {
+        "name": "Create Bookmark",
+        "description": "Create a new bookmark"
+      },
+      {
+        "name": "Search Bookmarks",
+        "description": "Search your bookmarks"
+      },
+      {
+        "name": "Manage Groups",
+        "description": "Manage groups of bookmarks"
+      }
+    ]
+  },
+  {
+    "name": "Aleph Tools",
+    "description": "A set of text tools to work with Hebrew text in Raycast.",
+    "commands": [
+      {
+        "name": "Remove Niqqud",
+        "description": "Removes all niqqud from your current selection and paste it back to your selection."
+      },
+      {
+        "name": "Reverse Text",
+        "description": "Reverses the order of the letters in your current selection and paste it back to your selection."
+      },
+      {
+        "name": "To Hebrew",
+        "description": "Converts your current selection to Hebrew and paste it back to your selection."
+      },
+      {
+        "name": "To Latin",
+        "description": "Converts your current selection to Latin and paste it back to your selection."
+      }
+    ]
+  },
+  {
+    "name": "App Keeper Manager",
+    "description": "This extention offers users the ability to manage currently running applications, with options to choose which apps to keep open and which to close during cleanup. It's especially suited for users looking to optimize their work environment and increase productivity. Users can set apps to “Always Keep,” ensuring they aren't closed during cleanup operations. The extension also provides an intuitive interface to add or remove apps from the preset keep list and features a one-click function to close non-kept apps.",
+    "commands": [
+      {
+        "name": "Close Unnecessary Programs",
+        "description": "- Select programs to keep\n- Set programs to always keep\n- Execute closing of unnecessary programs"
+      }
+    ]
+  },
+  {
+    "name": "Apple Reminders",
+    "description": "Manage Apple Reminders.",
+    "commands": [
+      {
+        "name": "My Reminders",
+        "description": "View and complete your reminders."
+      },
+      {
+        "name": "Create Reminder",
+        "description": "Create and prioritize new reminders."
+      },
+      {
+        "name": "Create Reminder from Current Tab",
+        "description": "Create a reminder from the active browser tab."
+      },
+      {
+        "name": "Create Reminder from Selected Email",
+        "description": "Create a reminder from the selected email in Apple Mail."
+      },
+      {
+        "name": "Menu Bar Reminders",
+        "description": "Manage your reminders in the menu bar."
+      },
+      {
+        "name": "Quick Add Reminder",
+        "description": "Quickly add a reminder in Reminders."
+      },
+      {
+        "name": "Manage Locations",
+        "description": "Manage your saved locations."
+      },
+      {
+        "name": "Customize Create Reminder Form",
+        "description": "Choose which fields appear in the create reminder form and reorder them."
+      },
+      {
+        "name": "Manage Create Actions",
+        "description": "Choose which Shortcuts run after reminders are created."
+      }
+    ]
+  },
+  {
+    "name": "Auto Quit App",
+    "description": "Automatically quit the application after all windows are closed",
+    "commands": [
+      {
+        "name": "Set Auto Quit App",
+        "description": "Set the applications that need to exit automatically"
+      },
+      {
+        "name": "Auto Quit App",
+        "description": "Automatically quit the application after all windows are closed"
+      }
+    ]
+  },
+  {
+    "name": "Brew",
+    "description": "Search, install and manage Homebrew formulae and casks",
+    "commands": [
+      {
+        "name": "Show Installed",
+        "description": "List installed brew formulae & casks"
+      },
+      {
+        "name": "Search",
+        "description": "Search brew formulae & casks"
+      },
+      {
+        "name": "Show Upgrades",
+        "description": "Review available upgrades, choose which to apply, and run it"
+      },
+      {
+        "name": "Show Vulnerabilities",
+        "description": "Check installed formulae for known vulnerabilities (Homebrew 7)"
+      },
+      {
+        "name": "Run Doctor",
+        "description": "Check your Homebrew installation for problems and fix them"
+      },
+      {
+        "name": "Upgrade All",
+        "description": "Upgrade brew formulae & casks"
+      },
+      {
+        "name": "Manage Services",
+        "description": "Start, stop & restart Homebrew services"
+      },
+      {
+        "name": "Services Menu Bar",
+        "description": "Control Homebrew services from the menu bar"
+      },
+      {
+        "name": "Clean up",
+        "description": "Clean files and packages from the cache that are older than 120 days"
+      },
+      {
+        "name": "Clear Cache",
+        "description": "Clear the cached Formulae, Casks, and installed packages files"
+      }
+    ]
+  },
+  {
+    "name": "Bunch",
+    "description": "Control Bunch via Raycast. Bunch is a Mac automation tool.",
+    "commands": [
+      {
+        "name": "Search Bunches",
+        "description": "Search bunches, support tag:tag1+tag2 and tag:tag1,tag2 to search by tag."
+      },
+      {
+        "name": "Create Bunch",
+        "description": "Create a bunch."
+      },
+      {
+        "name": "Close All Bunches",
+        "description": "Close all running bunches."
+      },
+      {
+        "name": "Open Bunch Folder",
+        "description": "Open Bunch folder."
+      },
+      {
+        "name": "Get Bunch Preferences",
+        "description": "View several of Bunch’s preferences."
+      },
+      {
+        "name": "Open Bunch Preferences",
+        "description": "Open Bunch Preferences dialog."
+      },
+      {
+        "name": "Search Bunch References",
+        "description": "Search Bunch syntax references."
+      },
+      {
+        "name": "Process Bunch Text",
+        "description": "Process raw Bunch text."
+      },
+      {
+        "name": "Refresh Browsers",
+        "description": "If your Bunches make use of the display command to create single site browsers, you can reload their contents via this command."
+      }
+    ]
+  },
+  {
+    "name": "Change Case",
+    "description": "Transform a string between camelCase, snake_case, CONSTANT_CASE, and more",
+    "commands": [
+      {
+        "name": "Change Case",
+        "description": "Change the case of the selected text or text in the clipboard"
+      },
+      {
+        "name": "Convert to camelCase",
+        "description": "Convert selected text or clipboard to camelCase"
+      },
+      {
+        "name": "Convert to Capital Case",
+        "description": "Convert selected text or clipboard to Capital Case"
+      },
+      {
+        "name": "Convert to CONSTANT_CASE",
+        "description": "Convert selected text or clipboard to CONSTANT_CASE"
+      },
+      {
+        "name": "Convert to dot.case",
+        "description": "Convert selected text or clipboard to dot.case"
+      },
+      {
+        "name": "Convert to Header-Case",
+        "description": "Convert selected text or clipboard to Header-Case"
+      },
+      {
+        "name": "Convert to lower case",
+        "description": "Convert selected text or clipboard to lower case"
+      },
+      {
+        "name": "Convert to lower First",
+        "description": "Convert selected text or clipboard to lower First"
+      },
+      {
+        "name": "Convert to no case",
+        "description": "Convert selected text or clipboard to no case"
+      },
+      {
+        "name": "Convert to kebab-case",
+        "description": "Convert selected text or clipboard to kebab-case"
+      },
+      {
+        "name": "Convert to KEBAB-UPPER-CASE",
+        "description": "Convert selected text or clipboard to KEBAB-UPPER-CASE"
+      },
+      {
+        "name": "Convert to PascalCase",
+        "description": "Convert selected text or clipboard to PascalCase"
+      },
+      {
+        "name": "Convert to Pascal_Snake_Case",
+        "description": "Convert selected text or clipboard to Pascal_Snake_Case"
+      },
+      {
+        "name": "Convert to path/case",
+        "description": "Convert selected text or clipboard to path/case"
+      },
+      {
+        "name": "Convert to rAndOm cAsE",
+        "description": "Convert selected text or clipboard to rAndOm cAsE"
+      },
+      {
+        "name": "Convert to Sentence case",
+        "description": "Convert selected text or clipboard to Sentence case"
+      },
+      {
+        "name": "Convert to snake_case",
+        "description": "Convert selected text or clipboard to snake_case"
+      },
+      {
+        "name": "Convert to aLtErNaTiNg cAsE",
+        "description": "Convert selected text or clipboard to aLtErNaTiNg cAsE"
+      },
+      {
+        "name": "Convert to sWAP cASE",
+        "description": "Convert selected text or clipboard to sWAP cASE"
+      },
+      {
+        "name": "Convert to Title Case",
+        "description": "Convert selected text or clipboard to Title Case"
+      },
+      {
+        "name": "Convert to UPPER CASE",
+        "description": "Convert selected text or clipboard to UPPER CASE"
+      },
+      {
+        "name": "Convert to Upper first",
+        "description": "Convert selected text or clipboard to Upper first"
+      }
+    ]
+  },
+  {
+    "name": "ChatGPT",
+    "description": "Interact with OpenAI's ChatGPT directly from your command bar",
+    "commands": [
+      {
+        "name": "Ask Question",
+        "description": "Ask ChatGPT via Raycast"
+      },
+      {
+        "name": "Saved Answers",
+        "description": "Collection of your saved answer"
+      },
+      {
+        "name": "History",
+        "description": "Collection of your recent answer"
+      },
+      {
+        "name": "Conversations",
+        "description": "Collection of your recent conversation"
+      },
+      {
+        "name": "Models",
+        "description": "Collection of your custom and default model"
+      },
+      {
+        "name": "Summarize Website",
+        "description": "Summarize Website and YouTube video"
+      },
+      {
+        "name": "Ask Selected Image",
+        "description": "Template with a plain detail view"
+      },
+      {
+        "name": "Ask Clipboard Image",
+        "description": "Template with a plain detail view"
+      },
+      {
+        "name": "AI Commands",
+        "description": "Run and manage AI commands"
+      }
+    ]
+  },
+  {
+    "name": "ClickUp - Tasks & Docs Explorer",
+    "description": "Browse ClickUp tasks and docs from Raycast",
+    "commands": [
+      {
+        "name": "Tasks Explorer",
+        "description": "Browse ClickUp tasks from Raycast"
+      },
+      {
+        "name": "Quick Capture",
+        "description": "Quickly capture tasks to your default ClickUp list"
+      },
+      {
+        "name": "View Default List",
+        "description": "View your default ClickUp list"
+      },
+      {
+        "name": "Docs Explorer",
+        "description": "Browse ClickUp docs from Raycast"
+      },
+      {
+        "name": "My Tasks",
+        "description": "View tasks assigned to you"
+      },
+      {
+        "name": "Browse Lists",
+        "description": "Browse all ClickUp lists"
+      }
+    ]
+  },
+  {
+    "name": "Clockify",
+    "description": "Control Clockify time tracking from Raycast",
+    "commands": [
+      {
+        "name": "Time Tracking",
+        "description": "Manage Clockify time entries with Raycast"
+      },
+      {
+        "name": "Current Timer",
+        "description": "Show current Clockify timer in menu bar"
+      }
+    ]
+  },
+  {
+    "name": "Cobalt",
+    "description": "Download videos and audio from popular social media platforms with ease.",
+    "commands": [
+      {
+        "name": "Download Media",
+        "description": "Download video and/or audio from social media with customizable settings."
+      },
+      {
+        "name": "Download History",
+        "description": "View your previously downloaded media."
+      }
+    ]
+  },
+  {
+    "name": "Coffee",
+    "description": "Prevent the sleep function on your computer",
+    "commands": [
+      {
+        "name": "Caffeinate",
+        "description": "Prevent your computer from sleeping"
+      },
+      {
+        "name": "Decaffeinate",
+        "description": "Turn off the caffeine"
+      },
+      {
+        "name": "Caffeinate While",
+        "description": "Prevent your computer from sleeping while a certain app is running"
+      },
+      {
+        "name": "Caffeinate Status Menu Bar",
+        "description": "Get the status of the current caffeination in your menu bar"
+      },
+      {
+        "name": "Toggle Caffeinate",
+        "description": "Toggle caffeination"
+      },
+      {
+        "name": "Caffeinate for ...",
+        "description": "Prevent your computer from sleeping for a certain time"
+      },
+      {
+        "name": "Caffeinate Until",
+        "description": "Prevent your computer from sleeping until a certain time. Type one like 5pm, or leave the field empty to pick a date and time."
+      },
+      {
+        "name": "Schedule Caffeination",
+        "description": "Schedule caffeination"
+      },
+      {
+        "name": "Caffeinate Status",
+        "description": "Show the current caffeination status"
+      }
+    ]
+  },
+  {
+    "name": "Collected Notes",
+    "description": "Manage your Collected Notes blog",
+    "commands": [
+      {
+        "name": "List Collected Notes",
+        "description": "Manage your Collected Notes posts"
+      },
+      {
+        "name": "Create Collected Note",
+        "description": "Create a new Note"
+      }
+    ]
+  },
+  {
+    "name": "Color Palette Picker",
+    "description": "A simple color picker for Tailwind CSS and Radix UI color palettes.",
+    "commands": [
+      {
+        "name": "Pick Tailwind Color",
+        "description": "Pick a color and get the nearest Tailwind CSS color"
+      },
+      {
+        "name": "Pick Radix Color",
+        "description": "Pick a color and get the nearest Radix UI color"
+      }
+    ]
+  },
+  {
+    "name": "Color Picker",
+    "description": "Pick and organize colors, everywhere on your Mac",
+    "commands": [
+      {
+        "name": "Pick Color",
+        "description": "Pick a color on your desktop"
+      },
+      {
+        "name": "Extract Color from Selected Image",
+        "description": "Extract colors from the selected File Explorer image"
+      },
+      {
+        "name": "Menu Bar Color Picker",
+        "description": "Access your colors from the menu bar"
+      },
+      {
+        "name": "Organize Colors",
+        "description": "Organize your colors"
+      },
+      {
+        "name": "Favorite Colors",
+        "description": "View and use your favorite colors"
+      },
+      {
+        "name": "Generate Colors",
+        "description": "Generate colors using AI"
+      },
+      {
+        "name": "Color Names",
+        "description": "Get the name of a color"
+      },
+      {
+        "name": "Color Wheel",
+        "description": "Pick a color with color wheel"
+      },
+      {
+        "name": "Convert Color",
+        "description": "Convert any color to a different format"
+      }
+    ]
+  },
+  {
+    "name": "Convert TypeScript to JavaScript",
+    "description": "Remove type information from TypeScript code to make it compatible with JavaScript REPLs and other applications",
+    "commands": [
+      {
+        "name": "Convert & Paste as JavaScript",
+        "description": "Retrieve clipboard content, transform it to JavaScript, and paste it"
+      },
+      {
+        "name": "Copy TypeScript as JavaScript",
+        "description": "Get selected text from the active application, transform it to JavaScript, and keep it in the clipboard"
+      }
+    ]
+  },
+  {
+    "name": "Date Converter",
+    "description": "Convert a variety of date formats",
+    "commands": [
+      {
+        "name": "Convert Date",
+        "description": "Parse and convert a date"
+      }
+    ]
+  },
+  {
+    "name": "Downloads Manager",
+    "description": "Search and organize your downloads",
+    "commands": [
+      {
+        "name": "Manage Downloads",
+        "description": "Search and organize your downloaded files"
+      },
+      {
+        "name": "Open Latest Download",
+        "description": "Opens the last downloaded file or folder"
+      },
+      {
+        "name": "Copy Latest Download",
+        "description": "Copies the last downloaded file or folder"
+      },
+      {
+        "name": "Paste Latest Download",
+        "description": "Pastes the last downloaded file or folder to the foremost active app"
+      },
+      {
+        "name": "Show Latest Download",
+        "description": "Show the last downloaded file or folder in Finder"
+      },
+      {
+        "name": "Delete Latest Download",
+        "description": "Delete the last downloaded file or folder"
+      },
+      {
+        "name": "Toggle Deletion Behavior",
+        "description": "Toggle between moving downloads to Trash and permanently deleting them"
+      }
+    ]
+  },
+  {
+    "name": "Easy Dictionary",
+    "description": "Easily look up words or translate text, support 48+ languages, support Linguee and Youdao dictionary, support OpenAI, DeepL, Google, Bing, Apple, Baidu, Tencent, Volcano, Youdao and Caiyun translation.",
+    "commands": [
+      {
+        "name": "Search Word",
+        "description": "Automatically detect the input text language, and query preferred language dictionary or translate the text."
+      },
+      {
+        "name": "Manage Providers",
+        "description": "Order built-in providers and configure AI providers."
+      },
+      {
+        "name": "OCR Translate",
+        "description": "Screenshot OCR, and query text from image."
+      },
+      {
+        "name": "Favorite Words",
+        "description": "Browse and manage words you saved from Easydict."
+      }
+    ]
+  },
+  {
+    "name": "Emoji Search",
+    "description": "Finds emojis and inserts or copies them.",
+    "commands": [
+      {
+        "name": "Search Emoji",
+        "description": "Finds emojis and inserts or copies them."
+      }
+    ]
+  },
+  {
+    "name": "Fancy Text",
+    "description": "A fancy text generator to turn your normal text into fancy text",
+    "commands": [
+      {
+        "name": "Fancy Text",
+        "description": "Convert your normal text to fancy text"
+      }
+    ]
+  },
+  {
+    "name": "Flaticon — Search Icons",
+    "description": "Search icons on Flaticon",
+    "commands": [
+      {
+        "name": "Search Icons",
+        "description": "Search icons on Flaticon"
+      }
+    ]
+  },
+  {
+    "name": "Folder Search",
+    "description": "Search for folders on your Mac",
+    "commands": [
+      {
+        "name": "Search Folders",
+        "description": "Search for folders on your Mac"
+      },
+      {
+        "name": "Move to a Folder",
+        "description": "Move selected files to a folder"
+      }
+    ]
+  },
+  {
+    "name": "Generate Nanoid",
+    "description": "A tiny, secure, URL friendly, unique string ID generator for JavaScript",
+    "commands": [
+      {
+        "name": "Generate Nanoid",
+        "description": "Copy a new nanoid"
+      }
+    ]
+  },
+  {
+    "name": "GIF Search",
+    "description": "Search the Internet for animated GIFs",
+    "commands": [
+      {
+        "name": "Search for GIFs",
+        "description": "Search for GIFs across multiple services…"
+      },
+      {
+        "name": "Browse Favorite GIFs",
+        "description": "Browse and search your favorite GIFs across all services"
+      },
+      {
+        "name": "Browse Recent GIFs",
+        "description": "Browse and search your recently used GIFs across all services"
+      }
+    ]
+  },
+  {
+    "name": "Git Repos",
+    "description": "Quickly access your local git repositories and open them in your favorite editor or any app",
+    "commands": [
+      {
+        "name": "List Repos",
+        "description": "Quickly access your local git repositories and open them in your favorite editor or any app"
+      },
+      {
+        "name": "Remove Repo",
+        "description": "Safely remove a local git repository from your filesystem"
+      },
+      {
+        "name": "Clone Repo",
+        "description": "Clone a git repository into one of your configured scan directories"
+      }
+    ]
+  },
+  {
+    "name": "GitHub",
+    "description": "Work with issues, pull requests, manage workflows, search repositories and stay on top of notifications",
+    "commands": [
+      {
+        "name": "My Pull Requests",
+        "description": "List pull requests you created, participated in, or were mentioned in."
+      },
+      {
+        "name": "Search Pull Requests",
+        "description": "Search recent pull requests globally in all repositories."
+      },
+      {
+        "name": "Create Pull Request",
+        "description": "Create a pull request in one of your GitHub repositories."
+      },
+      {
+        "name": "My Issues",
+        "description": "List issues created by you, assigned to you or mentioning you."
+      },
+      {
+        "name": "Search Issues",
+        "description": "Search recent issues globally in all repositories."
+      },
+      {
+        "name": "Create Issue",
+        "description": "Create an issue in one of your GitHub repositories."
+      },
+      {
+        "name": "Create Branch",
+        "description": "Create a branch in one of your GitHub repositories"
+      },
+      {
+        "name": "Search Repositories",
+        "description": "Search in your public or private repositories by name."
+      },
+      {
+        "name": "My Latest Repositories",
+        "description": "List your repositories by latest updated"
+      },
+      {
+        "name": "My Starred Repositories",
+        "description": "List repositories you have starred"
+      },
+      {
+        "name": "My Packages",
+        "description": "List packages you published to GitHub Packages"
+      },
+      {
+        "name": "Workflow Runs",
+        "description": "Manage workflow runs for a selected GitHub repository."
+      },
+      {
+        "name": "Notifications",
+        "description": "List inbox notifications from all repositories or a selected repository."
+      },
+      {
+        "name": "Unread Notifications",
+        "description": "Shows unread notifications in the macOS menu bar."
+      },
+      {
+        "name": "Search Discussions",
+        "description": "Search recent Discussions globally in all repositories"
+      },
+      {
+        "name": "My Discussions",
+        "description": "Show your Discussions"
+      },
+      {
+        "name": "My Projects",
+        "description": "Show your Projects"
+      },
+      {
+        "name": "My Issues Menu Bar",
+        "description": "Display My Issues in the Menu Bar"
+      },
+      {
+        "name": "My GitHub Stats Menu Bar",
+        "description": "Display your GitHub profile stats (followers, stars received, PRs, issues, commits) in the Menu Bar"
+      },
+      {
+        "name": "My Pull Requests Menu Bar",
+        "description": "Display My Pull Requests in the Menu Bar"
+      },
+      {
+        "name": "My Packages Menu Bar",
+        "description": "Display My Packages in the Menu Bar"
+      },
+      {
+        "name": "Download Repository as ZIP",
+        "description": "Download a repository or directory as a ZIP archive (does not create a Git clone)"
+      }
+    ]
+  },
+  {
+    "name": "Google Chrome",
+    "description": "Search open tabs, bookmarks and history in Google Chrome.",
+    "commands": [
+      {
+        "name": "New Tab",
+        "description": "Open a new Google Chrome tab."
+      },
+      {
+        "name": "Search Tabs",
+        "description": "List all tabs and go to the selected."
+      },
+      {
+        "name": "Search History",
+        "description": "Search browser history."
+      },
+      {
+        "name": "Search Bookmarks",
+        "description": "Search browser bookmarks."
+      },
+      {
+        "name": "Search All",
+        "description": "Search browser all tabs and history,bookmarks."
+      },
+      {
+        "name": "Create New Window",
+        "description": "Create New Window."
+      },
+      {
+        "name": "Create New Incognito Window",
+        "description": "Create New Incognito Window."
+      },
+      {
+        "name": "Create New Guest Window",
+        "description": "Create New Guest Window."
+      },
+      {
+        "name": "Open Current Tab in Guest",
+        "description": "Open the current active tab's URL in a new Chrome Guest window."
+      },
+      {
+        "name": "Name Window",
+        "description": "Name the currently active Google Chrome window."
+      },
+      {
+        "name": "Search Windows",
+        "description": "List all open windows and focus the selected one."
+      }
+    ]
+  },
+  {
+    "name": "Google Fonts",
+    "description": "Search and use fonts from Google Fonts",
+    "commands": [
+      {
+        "name": "Search Fonts",
+        "description": "Search and use fonts from Google Fonts"
+      }
+    ]
+  },
+  {
+    "name": "Google Translate",
+    "description": "Simple translation using Google Translate",
+    "commands": [
+      {
+        "name": "Translate",
+        "description": "Simple translation via Google Translate"
+      },
+      {
+        "name": "Translate Form",
+        "description": "Simple translation via Google Translate"
+      },
+      {
+        "name": "Quick Translate",
+        "description": "Quickly translate to multiple languages"
+      },
+      {
+        "name": "Instant Translate Copy",
+        "description": "Instantly translate selected text and copy to clipboard"
+      },
+      {
+        "name": "Instant Translate Paste",
+        "description": "Instantly translate selected text and paste to active app"
+      },
+      {
+        "name": "Instant Translate View",
+        "description": "Instantly translate selected text with HUD display"
+      }
+    ]
+  },
+  {
+    "name": "Granola",
+    "description": "Create, manage, and review notes in Granola",
+    "commands": [
+      {
+        "name": "Search Notes",
+        "description": "Search all notes from Granola"
+      },
+      {
+        "name": "Create Note",
+        "description": "Create a new note in Granola"
+      },
+      {
+        "name": "Export Transcripts",
+        "description": "Select multiple notes and export their transcripts"
+      },
+      {
+        "name": "Export Notes",
+        "description": "Select multiple notes and export them"
+      },
+      {
+        "name": "Create Note from Transcript",
+        "description": "Create a new note in Granola from a transcript"
+      },
+      {
+        "name": "Search People",
+        "description": "Search people from your Granola meetings"
+      },
+      {
+        "name": "Search Companies",
+        "description": "Search companies from your Granola meetings"
+      }
+    ]
+  },
+  {
+    "name": "Hide All Apps",
+    "description": "This extension hides all Applications—including Finder—leaving you with only the Desktop.",
+    "commands": [
+      {
+        "name": "Hide All Apps",
+        "description": "Hides All Applications"
+      }
+    ]
+  },
+  {
+    "name": "Iconify — Search Icons",
+    "description": "Search icons via Iconify",
+    "commands": [
+      {
+        "name": "View Icons",
+        "description": "View available icons"
+      },
+      {
+        "name": "Search All Icons",
+        "description": "Search through all available icons"
+      }
+    ]
+  },
+  {
+    "name": "Image Modification",
+    "description": "Apply filters and transformations to various image formats, and convert between them.",
+    "commands": [
+      {
+        "name": "Flip Images Horizontally",
+        "description": "Flip the selected images horizontally"
+      },
+      {
+        "name": "Flip Images Vertically",
+        "description": "Flip the selected images vertically"
+      },
+      {
+        "name": "Rotate Images",
+        "description": "Rotate the selected images by the specified amount of degrees"
+      },
+      {
+        "name": "Convert Images",
+        "description": "Convert the selected images to the specified format"
+      },
+      {
+        "name": "Resize Images",
+        "description": "Resize the selected images to the specified width and/or height"
+      },
+      {
+        "name": "Scale Images",
+        "description": "Scale the selected images by the provided factor"
+      },
+      {
+        "name": "Pad Images",
+        "description": "Pad images to the specified size using the provided color"
+      },
+      {
+        "name": "Apply Image Filter",
+        "description": "Apply filters to images using Apple's CIFilters"
+      },
+      {
+        "name": "Optimize Images",
+        "description": "Optimize images by compressing them"
+      },
+      {
+        "name": "Create New Image",
+        "description": "Create a new image by specifying its dimensions, color, and pattern."
+      },
+      {
+        "name": "Strip Exif Data",
+        "description": "Remove EXIF data from images"
+      },
+      {
+        "name": "Remove Background",
+        "description": "Remove the background from images using on-device processing"
+      }
+    ]
+  },
+  {
+    "name": "Jira",
+    "description": "Manage Jira issues with customizable views, sprint-aware sections, and quick actions.",
+    "commands": [
+      {
+        "name": "Create Issue",
+        "description": "Create and assign new issues."
+      },
+      {
+        "name": "Open Issues",
+        "description": "View your open issues with optional Active Sprint, All Sprints, and Backlog sections."
+      },
+      {
+        "name": "Reported Issues",
+        "description": "View and modify issues that were reported by you."
+      },
+      {
+        "name": "Watched Issues",
+        "description": "View and modify issues that you are watching."
+      },
+      {
+        "name": "Active Sprints",
+        "description": "View and modify issues of active sprints."
+      },
+      {
+        "name": "My Filters",
+        "description": "View and modify issues of your saved filters."
+      },
+      {
+        "name": "Recently Updated Issues",
+        "description": "View and modify issues that have recently been updated."
+      },
+      {
+        "name": "Search Issues",
+        "description": "Search issues globally in all projects."
+      },
+      {
+        "name": "Open Issue from Clipboard",
+        "description": "Open an issue by its key from the clipboard."
+      }
+    ]
+  },
+  {
+    "name": "Jira2Git",
+    "description": "The tool for making Jira and Git work together smoothly as silk for a better development experience.",
+    "commands": [
+      {
+        "name": "Transform Jira URL to Git Branch Name",
+        "description": "Transform Jira issue URL to Git branch name and copy to clipboard."
+      }
+    ]
+  },
+  {
+    "name": "Keyboard Shortcut Sequences",
+    "description": "Configure, save, and run sequences of keyboard shortcuts",
+    "commands": [
+      {
+        "name": "New Shortcut Sequence",
+        "description": "Create a new shortcut sequence configuration"
+      },
+      {
+        "name": "Run Shortcut Sequence",
+        "description": "Run a shortcut sequence from your list of configured sequences"
+      }
+    ]
+  },
+  {
+    "name": "Kill Process",
+    "description": "Terminate processes sorted by CPU or memory usage",
+    "commands": [
+      {
+        "name": "Kill Process",
+        "description": "Lists all running processes, ordered by CPU or memory usage and allows (force) killing one"
+      }
+    ]
+  },
+  {
+    "name": "Lorem Ipsum",
+    "description": "Generate placeholder content",
+    "commands": [
+      {
+        "name": "Generate Paragraphs",
+        "description": "Generate random paragraphs and copy them to the clipboard"
+      },
+      {
+        "name": "Generate Sentences",
+        "description": "Generate random sentences and copy them to the clipboard"
+      },
+      {
+        "name": "Generate Words",
+        "description": "Generate random words and copy them to the clipboard"
+      },
+      {
+        "name": "Generate with AI",
+        "description": "Use AI to generate some placeholder text"
+      }
+    ]
+  },
+  {
+    "name": "Markdown Blog Manager",
+    "description": "Create, browse and edit your file based Markdown blog.",
+    "commands": [
+      {
+        "name": "Markdown Posts",
+        "description": "Browse and edit your posts in your Markdown blog."
+      },
+      {
+        "name": "New Markdown Post",
+        "description": "Create a new Markdown blog post."
+      }
+    ]
+  },
+  {
+    "name": "Ollama AI",
+    "description": "Perform Local Inference with Ollama",
+    "commands": [
+      {
+        "name": "Chat with Ollama",
+        "description": "Chat with Ollama"
+      },
+      {
+        "name": "Summarize Website",
+        "description": "Summarize content from current Website."
+      },
+      {
+        "name": "Change Tone to Casual",
+        "description": "Make selected text more casual"
+      },
+      {
+        "name": "Explain Code Step by Step",
+        "description": "Explain the selected code step by step"
+      },
+      {
+        "name": "Change Tone to Confident",
+        "description": "Make selected text more confident"
+      },
+      {
+        "name": "Explain This in Simple Terms",
+        "description": "Explain selected text in simple terms"
+      },
+      {
+        "name": "Fix Spelling and Grammar",
+        "description": "Fix selected text from spelling and grammar error"
+      },
+      {
+        "name": "Change Tone to Friendly",
+        "description": "Make selected text more friendly"
+      },
+      {
+        "name": "Describe Content of Image",
+        "description": "Describe content of the image on the clipboard or selected from finder"
+      },
+      {
+        "name": "Get Text from Image",
+        "description": "Get text from image on the clipboard or selected from finder"
+      },
+      {
+        "name": "Improve Writing",
+        "description": "Improve writing of selected text"
+      },
+      {
+        "name": "Make Longer",
+        "description": "Make selected text longer"
+      },
+      {
+        "name": "Change Tone to Professional",
+        "description": "Make selected text more professional"
+      },
+      {
+        "name": "Make Shorter",
+        "description": "Make selected text shorter"
+      },
+      {
+        "name": "Translate",
+        "description": "Translate selected text"
+      },
+      {
+        "name": "Rephrase as Tweet",
+        "description": "Rephrase selected text as Tweet"
+      },
+      {
+        "name": "Manage Models",
+        "description": "Manage installed models"
+      },
+      {
+        "name": "Loaded Models",
+        "description": "Show models loaded on ram"
+      },
+      {
+        "name": "Create Custom Command",
+        "description": "Create a custom command"
+      },
+      {
+        "name": "Custom Command",
+        "description": "Create a custom command using a quicklinks"
+      },
+      {
+        "name": "Manage MCP Server",
+        "description": "Manage configured MCP Server"
+      }
+    ]
+  },
+  {
+    "name": "One Time Password",
+    "description": "Generate time-based one-time passwords",
+    "commands": [
+      {
+        "name": "One Time Password",
+        "description": "Generate time-based one-time passwords"
+      },
+      {
+        "name": "Paste Recent OTP",
+        "description": "Paste the OTP code from the most recently used account into the active app"
+      }
+    ]
+  },
+  {
+    "name": "One-Time Secret",
+    "description": "Allows secrets to be transmitted using the One-Time Secret website.",
+    "commands": [
+      {
+        "name": "Send One-Time Secret",
+        "description": "Stores a secret on One-Time Secret and gives back the shareable URL."
+      },
+      {
+        "name": "Send from Clipboard",
+        "description": "Creates a one-time secret from the clipboard (no passphrase) and copies the link."
+      },
+      {
+        "name": "Recent Secrets",
+        "description": "Lists recent secrets for your account (requires username and API token in preferences)."
+      }
+    ]
+  },
+  {
+    "name": "OpenAI GPT",
+    "description": "Interact with OpenAI GPT AI",
+    "commands": [
+      {
+        "name": "Query OpenAI GPT",
+        "description": "Interact with OpenAI GPT AI"
+      }
+    ]
+  },
+  {
+    "name": "Outline Page",
+    "description": "Check for CSS bugs by outlining all the elements in your web page.",
+    "commands": [
+      {
+        "name": "Outline Page",
+        "description": "Outline all the elements in this page."
+      }
+    ]
+  },
+  {
+    "name": "Perplexity",
+    "description": "Query Perplexity from within Raycast",
+    "commands": [
+      {
+        "name": "Ask Perplexity",
+        "description": "Search Perplexity with your query"
+      }
+    ]
+  },
+  {
+    "name": "Pomodoro",
+    "description": "Pomodoro extension with menu-bar timer",
+    "commands": [
+      {
+        "name": "Show Pomodoro in Menu Bar",
+        "description": "Start, pause, stop or continue pomodoro intervals"
+      },
+      {
+        "name": "Control Pomodoro Timer",
+        "description": "Start, pause, stop or continue pomodoro intervals"
+      },
+      {
+        "name": "View Pomodoro Stats",
+        "description": "Shows the stats of the Pomodoro timer"
+      },
+      {
+        "name": "Slack Pomodoro in Menu Bar",
+        "description": "Start, pause, stop or continue pomodoro intervals and update Slack status"
+      },
+      {
+        "name": "Slack Control Pomodoro Timer",
+        "description": "Start, pause, stop or continue pomodoro intervals and update Slack status"
+      }
+    ]
+  },
+  {
+    "name": "Port Manager",
+    "description": "Find open ports and close them",
+    "commands": [
+      {
+        "name": "Kill Process Listening on",
+        "description": "Kill the process listening on a given port"
+      },
+      {
+        "name": "Named Ports",
+        "description": "Name ports to make them easier to find in the open port list"
+      },
+      {
+        "name": "Open Ports",
+        "description": "Show and Close Opened Ports"
+      },
+      {
+        "name": "Open Ports in Menu Bar",
+        "description": "List open ports in menu bar"
+      }
+    ]
+  },
+  {
+    "name": "Quick Open Project",
+    "description": "Find and open projects on your system",
+    "commands": [
+      {
+        "name": "Quick Open Project",
+        "description": "Find and open projects on your system, using frecency and fuzzy search. Indexes a given list of paths (CSV), e.g. `~/code,~/work`"
+      }
+    ]
+  },
+  {
+    "name": "QuickTime Recording",
+    "description": "Start screen recording, movie recording and sound recording instantly.",
+    "commands": [
+      {
+        "name": "Start Movie Recording",
+        "description": "Start movie recording using QuickTime player."
+      },
+      {
+        "name": "Start Screen Recording",
+        "description": "Start screen recording using QuickTime player."
+      },
+      {
+        "name": "Start Audio Recording",
+        "description": "Start audio recording using QuickTime player."
+      }
+    ]
+  },
+  {
+    "name": "Raindrop.io",
+    "description": "Search your Raindrop.io bookmarks",
+    "commands": [
+      {
+        "name": "Latest Bookmarks",
+        "description": "Display your latest bookmarks"
+      },
+      {
+        "name": "Search Bookmarks",
+        "description": "Search bookmarks using operators"
+      },
+      {
+        "name": "Add Bookmarks",
+        "description": "Add bookmarks to Raindrop"
+      },
+      {
+        "name": "Save Browser Tab",
+        "description": "Save the current browser tab to Raindrop"
+      },
+      {
+        "name": "Quick Add Bookmark",
+        "description": "Quickly save a bookmark"
+      }
+    ]
+  },
+  {
+    "name": "Random Data Generator",
+    "description": "Generate random data using Faker library",
+    "commands": [
+      {
+        "name": "Generate Random Data",
+        "description": "Generate random data using Faker library"
+      },
+      {
+        "name": "Open Quicklink",
+        "description": "Used internally to run quicklinks from the generate command."
+      }
+    ]
+  },
+  {
+    "name": "ray.so",
+    "description": "Create beautiful images of your code using ray.so",
+    "commands": [
+      {
+        "name": "Create Image from Code",
+        "description": "Use Ray.so to create beautiful images of your code"
+      },
+      {
+        "name": "Generate Image",
+        "description": "Use Ray.so to create beautiful images of your code"
+      }
+    ]
+  },
+  {
+    "name": "Remember This",
+    "description": "Remember This is an app designed to help you stay motivated and focused on completing your work by its due date. Simply enter any information, such as tasks, notes, or reminders, and set a due date. After the due date passes, the app automatically forgets the information, creating a sense of urgency to complete the task before it's lost forever. This unique feature inspires you to work efficiently and stay on top of your deadlines. With Remember This, you can say goodbye to forgotten tasks and missed deadlines, and hello to increased productivity.",
+    "commands": [
+      {
+        "name": "Remember This",
+        "description": "Add something for the extension to remember!"
+      },
+      {
+        "name": "Menubar",
+        "description": "Show a countdown in your menubar which will countdown to the next thing in you todo!"
+      },
+      {
+        "name": "List of Reminders",
+        "description": "View a list of all the items being remembered."
+      }
+    ]
+  },
+  {
+    "name": "Remove Paywall",
+    "description": "Remove the paywall from the selected or clipboard URL.",
+    "commands": [
+      {
+        "name": "Remove Paywall",
+        "description": "Remove the paywall from the selected or clipboard URL."
+      },
+      {
+        "name": "Remove Paywall from Current Tab",
+        "description": "Remove the paywall from the URL in your active browser tab."
+      },
+      {
+        "name": "Remove Paywall from Clipboard",
+        "description": "Remove the paywall from a clipboard URL."
+      }
+    ]
+  },
+  {
+    "name": "Ruler",
+    "description": "Measure Distance Between Two Points",
+    "commands": [
+      {
+        "name": "Ruler",
+        "description": "Measure Distance Between Two Points"
+      }
+    ]
+  },
+  {
+    "name": "ScreenOCR",
+    "description": "Extract text from screen captures and clipboard images locally via OCR",
+    "commands": [
+      {
+        "name": "Select Recognition Languages",
+        "description": "Choose recognition languages on macOS or an installed OCR language on Windows"
+      },
+      {
+        "name": "Recognize Text",
+        "description": "Detect all text from the captured screen area"
+      },
+      {
+        "name": "Recognize Text on Entire Screen",
+        "description": "Recognize text on the current display on macOS or across all monitors on Windows"
+      },
+      {
+        "name": "Recognize Text in Clipboard Image (Windows Only)",
+        "description": "Extract text from an image or supported image file in the Windows clipboard"
+      },
+      {
+        "name": "Detect Barcode/QR Code",
+        "description": "Detect barcodes and QR codes from the captured screen area (macOS only)"
+      }
+    ]
+  },
+  {
+    "name": "Screenshot",
+    "description": "Capture your screen with macOS native tools",
+    "commands": [
+      {
+        "name": "All in One",
+        "description": "Capture and Crop All in One"
+      },
+      {
+        "name": "Capture Area",
+        "description": "Capture Area of Screen"
+      },
+      {
+        "name": "Capture Window",
+        "description": "Capture App Window"
+      },
+      {
+        "name": "Capture Window to Clipboard",
+        "description": "Capture App Window To Clipboard"
+      },
+      {
+        "name": "Capture Screen",
+        "description": "Capture Screen"
+      },
+      {
+        "name": "Capture Timer",
+        "description": "Capture Screen after a Timer (default 5 seconds)"
+      },
+      {
+        "name": "Capture to Clipboard",
+        "description": "Capture Area of Screen to Clipboard"
+      },
+      {
+        "name": "Capture and Annotate",
+        "description": "Capture Screen and Annotate"
+      }
+    ]
+  },
+  {
+    "name": "Set Audio Device",
+    "description": "Switch the active audio device of your mac.",
+    "commands": [
+      {
+        "name": "Set Output Device",
+        "description": "Sets the active audio output device."
+      },
+      {
+        "name": "Set Input Device",
+        "description": "Sets the active audio input device."
+      },
+      {
+        "name": "Set Output Volume",
+        "description": "Set the volume of an output device."
+      },
+      {
+        "name": "Set Input Volume",
+        "description": "Set the volume of an input device."
+      },
+      {
+        "name": "Enforce Input Device",
+        "description": "Keeps your default input device and pinned volumes in place. Runs silently in the background every minute. If you disable this, your default device and pinned volumes will stop being enforced — macOS may switch devices or reset volumes after sleep, Bluetooth reconnects, etc."
+      },
+      {
+        "name": "Enforce Output Device",
+        "description": "Keeps your default output device and pinned volumes in place. Runs silently in the background every minute. If you disable this, your default device and pinned volumes will stop being enforced — macOS may switch devices or reset volumes after sleep, Bluetooth reconnects, etc."
+      },
+      {
+        "name": "Customize Order (Replaced)",
+        "description": "This command has been replaced. Use Cmd+Shift+D in Set Output/Input Device to set a default device."
+      },
+      {
+        "name": "Set Output Device to Favourite",
+        "description": "Sets the active audio output device to the favourite specified in the preferences"
+      },
+      {
+        "name": "Toggle Favourites",
+        "description": "Toggle the active audio output device between the favourites specified in the preferences"
+      },
+      {
+        "name": "Use Combo 1",
+        "description": "Switch to the first input/output device combination"
+      },
+      {
+        "name": "Use Combo 2",
+        "description": "Switch to the second input/output device combination"
+      },
+      {
+        "name": "Use Combo 3",
+        "description": "Switch to the third input/output device combination"
+      }
+    ]
+  },
+  {
+    "name": "Silent Mention",
+    "description": "Silently mention a handle, a URL or a hashtag.",
+    "commands": [
+      {
+        "name": "Silent Mention",
+        "description": "Silently mention a handle, a URL or a hashtag."
+      },
+      {
+        "name": "Copy Zero Width Space",
+        "description": "Simply copy a zero width space to your clipboard."
+      }
+    ]
+  },
+  {
+    "name": "Single Focus",
+    "description": "Closes all the open apps except the frontmost one",
+    "commands": [
+      {
+        "name": "Quit Non-Focused",
+        "description": "Close All The Open Apps Except Frontmost"
+      }
+    ]
+  },
+  {
+    "name": "Speedtest",
+    "description": "Test the performance and quality of your internet connection via speedtest.net",
+    "commands": [
+      {
+        "name": "Test Internet Speed",
+        "description": "Test the performance and quality of your internet connection via speedtest.net"
+      }
+    ]
+  },
+  {
+    "name": "Svgl",
+    "description": "Search SVG logos via svgl",
+    "commands": [
+      {
+        "name": "Search SVG Logos",
+        "description": "Search SVG logos via svgl"
+      },
+      {
+        "name": "Request SVG Logo",
+        "description": "Request SVG logo to the svgl repository"
+      },
+      {
+        "name": "Setup shadcn/ui Registry",
+        "description": "Copy svgl registry JSON to clipboard"
+      }
+    ]
+  },
+  {
+    "name": "Tailwind CSS",
+    "description": "Utilities to work with Tailwind CSS",
+    "commands": [
+      {
+        "name": "Search Documentation",
+        "description": "Search documentation and open it in the browser"
+      },
+      {
+        "name": "Search Classes",
+        "description": "Search Tailwind CSS utility classes"
+      },
+      {
+        "name": "Search Colors",
+        "description": "Search Tailwind CSS default color palette"
+      },
+      {
+        "name": "Search Components",
+        "description": "Search Tailwind UI components"
+      }
+    ]
+  },
+  {
+    "name": "TempMail",
+    "description": "Temporary email mailbox using the mail.gw API",
+    "commands": [
+      {
+        "name": "Open Mailbox",
+        "description": "Open TempMail inbox to manage and view emails and addresses"
+      },
+      {
+        "name": "Reset TempMail",
+        "description": "Resets TempMail to default settings"
+      }
+    ]
+  },
+  {
+    "name": "Thesaurus",
+    "description": "Search Merrian-Webster's Thesaurus",
+    "commands": [
+      {
+        "name": "Thesaurus Search",
+        "description": "Thesaurus search"
+      },
+      {
+        "name": "Thesaurus Search Selected",
+        "description": "Search the thesaurus using the selected text"
+      }
+    ]
+  },
+  {
+    "name": "Timers",
+    "description": "Start, stop, and save countdown timers, directly in Raycast, with no external dependencies.",
+    "commands": [
+      {
+        "name": "Start 2 Minute Timer",
+        "description": "Set a countdown for 2 minutes."
+      },
+      {
+        "name": "Start 5 Minute Timer",
+        "description": "Set a countdown for 5 minutes."
+      },
+      {
+        "name": "Start 10 Minute Timer",
+        "description": "Set a countdown for 10 minutes."
+      },
+      {
+        "name": "Start 15 Minute Timer",
+        "description": "Set a countdown for 15 minutes."
+      },
+      {
+        "name": "Start 25 Minute Timer",
+        "description": "Set a countdown for 25 minutes."
+      },
+      {
+        "name": "Start 30 Minute Timer",
+        "description": "Set a countdown for 30 minutes."
+      },
+      {
+        "name": "Start 45 Minute Timer",
+        "description": "Set a countdown for 45 minutes."
+      },
+      {
+        "name": "Start 60 Minute Timer",
+        "description": "Set a countdown for 60 minutes."
+      },
+      {
+        "name": "Start 90 Minute Timer",
+        "description": "Set a countdown for 90 minutes."
+      },
+      {
+        "name": "Start Custom Timer",
+        "description": "Set a countdown for a custom amount of time."
+      },
+      {
+        "name": "Manage Timers",
+        "description": "View, start, or stop existing countdown timers."
+      },
+      {
+        "name": "Timers Menu Bar",
+        "description": "View, start, or stop existing countdown timers from the Menu Bar."
+      },
+      {
+        "name": "Start Stopwatch",
+        "description": "Start a stopwatch"
+      },
+      {
+        "name": "Manage Stopwatches",
+        "description": "View, start, or stop existing stopwatches."
+      },
+      {
+        "name": "Dismiss Ringing Timer",
+        "description": "Stop a ringing alert from a finished timer."
+      },
+      {
+        "name": "Stopwatch Menu Bar",
+        "description": "View, start, or stop existing stopwatches from the Menu Bar."
+      },
+      {
+        "name": "Preview Alert Sounds",
+        "description": "Play samples of different alert sound effects."
+      },
+      {
+        "name": "Stop Running Timer",
+        "description": "Stop the running timer closest to completion."
+      },
+      {
+        "name": "Configure Presets in Menu Bar",
+        "description": "Configure which presets to show in the Timers Menu Bar."
+      }
+    ]
+  },
+  {
+    "name": "Timezone Converter",
+    "description": "Converts any time to any timezone",
+    "commands": [
+      {
+        "name": "Timezone Converter",
+        "description": "Converts any time to any timezone"
+      }
+    ]
+  },
+  {
+    "name": "TinyPNG",
+    "description": "Compress the selected images in Finder with TinyPNG.",
+    "commands": [
+      {
+        "name": "Compress Images",
+        "description": "Compress selected images with TinyPNG."
+      },
+      {
+        "name": "Compress Images Multiple Times",
+        "description": "Compress selected images with TinyPNG multiple times."
+      },
+      {
+        "name": "Resizing Images",
+        "description": "Compress and resizing selected images with TinyPNG."
+      }
+    ]
+  },
+  {
+    "name": "Video Downloader",
+    "description": "Download videos from YouTube, 𝕏, Twitch, Instagram, Bilibili and more",
+    "commands": [
+      {
+        "name": "Download Video",
+        "description": "Download video with parameters"
+      }
+    ]
+  },
+  {
+    "name": "Visual Studio Code",
+    "description": "Control VS Code and compatible editors directly from Raycast",
+    "commands": [
+      {
+        "name": "Search Recent Projects",
+        "description": "Search and open recent projects from VS Code"
+      },
+      {
+        "name": "Open with Visual Studio Code",
+        "description": "Open the currently selected file manager item with VS Code"
+      },
+      {
+        "name": "Open New Window",
+        "description": "Open a new VS Code window"
+      },
+      {
+        "name": "Show Installed Extensions",
+        "description": "Manage installed extensions"
+      },
+      {
+        "name": "Install Extension",
+        "description": "Install extensions from Visual Studio Marketplace"
+      },
+      {
+        "name": "Commands",
+        "description": "Show commands of the VS Code Command Palette"
+      }
+    ]
+  },
+  {
+    "name": "Warp",
+    "description": "Open Warp tabs, windows, and Tab Configs.",
+    "commands": [
+      {
+        "name": "Open Tab Config",
+        "description": "Open a Warp Tab Config or legacy Launch Configuration."
+      },
+      {
+        "name": "Open Directory",
+        "description": "Open a directory in Warp."
+      },
+      {
+        "name": "New Tab",
+        "description": "Open a tab in Warp."
+      },
+      {
+        "name": "New Window",
+        "description": "Open a window in Warp."
+      },
+      {
+        "name": "Open in Warp",
+        "description": "Open selected Finder items in Warp."
+      }
+    ]
+  },
+  {
+    "name": "Web Converter",
+    "description": "Converts everything web related: rem, px, pt, hex, hex (with opacity), rgb, rgba, hsl, hsla, oklch and shows the closest Tailwind CSS color.",
+    "commands": [
+      {
+        "name": "Convert Unit",
+        "description": "Converts everything web related: rem, px, pt, hex, hex (with opacity), rgb, rgba, hsl, hsla, oklch and shows the closest Tailwind CSS color."
+      }
+    ]
+  },
+  {
+    "name": "Xecutor",
+    "description": "Create presets to launch multiple macOS applications and/or urls from within Raycast",
+    "commands": [
+      {
+        "name": "Manage Presets",
+        "description": "Create presets to launch multiple macOS applications and/or urls from within Raycast"
+      },
+      {
+        "name": "Launch Preset",
+        "description": "Launch a preset"
+      }
+    ]
+  }
+]

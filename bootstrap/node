@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+set -euo pipefail
+ROOT="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd)"
+[[ $# -eq 0 || ( $# -eq 1 && "${1:-}" == --globals ) ]] || { echo "Usage: bootstrap/node [--globals]" >&2; exit 2; }
+command -v fnm >/dev/null || { echo 'Install core packages first (fnm).' >&2; exit 1; }
+eval "$(fnm env --shell bash)"
+fnm install --lts
+fnm use lts-latest
+fnm default "$(fnm current)"
+npm install --global pnpm
+if [[ "${1:-}" == --globals ]]; then
+while IFS= read -r package; do
+  [[ -z "$package" || "$package" == \#* ]] || npm install --global "$package"
+done < "$ROOT/packages/npm-global.txt"
+fi
+mkdir -p "$HOME/.local/share/dotfiles"
+pnpm completion zsh > "$HOME/.local/share/dotfiles/pnpm-completion.zsh"

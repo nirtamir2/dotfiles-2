@@ -1,0 +1,11 @@
+---
+description: Finder and file dialogs
+sudo: false
+current_host: false
+data:
+  com.apple.finder:
+    AppleShowAllFiles: true
+    FXDefaultSearchScope: "SCcf"
+    ShowPathbar: true
+    ShowStatusBar: true
+    CreateDesktop: false

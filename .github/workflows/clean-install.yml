@@ -1,14 +1,11 @@
-name: CI
-
-on: [push]
-
+name: Validate dotfiles
+on: [push, pull_request]
 jobs:
-  test:
-    runs-on: macOS-latest
+  validate:
+    runs-on: macos-latest
     steps:
-    - uses: actions/checkout@v1
-    - run: ./setup
-      env:
-        skip_orbstack: "true"
-    # - name: Setup tmate session
-    #   uses: mxschmitt/action-tmate@v1
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 tests/check.py

@@ -1,130 +1,70 @@
-set -kJ
+# Nir's interactive shell. Dependencies are installed explicitly with ./setup shell.
+export DOTFILES_ROOT="${DOTFILES_ROOT:-${${(%):-%N}:A:h}}"
+export ZSH="$HOME/.oh-my-zsh"
+export GOPATH="$HOME/.go-modules"
+export PNPM_HOME="$HOME/Library/pnpm"
+export EDITOR='code --wait'
+export VISUAL='code --wait'
+export LC_ALL=en_US.UTF-8
+export ZSH_PLUGINS_ALIAS_TIPS_TEXT='❗  Use the alias: '
+export BAT_THEME=base16
 
-autoload -Uz compinit
-setopt INC_APPEND_HISTORY
-zstyle ':completion:*' menu select
-zmodload zsh/complist
+typeset -U path PATH
+path=("$DOTFILES_ROOT/bin" "$PNPM_HOME/bin" "$PNPM_HOME" "$HOME/.local/bin" "$HOME/bin" "$HOME/.bin" "$GOPATH/bin" "$HOME/.cargo/bin" "$HOME/.bun/bin" "$HOME/.console-ninja/.bin" "$HOME/.opencode/bin" "$HOME/.antigravity/antigravity/bin" /opt/homebrew/bin /opt/homebrew/sbin /usr/local/bin /usr/local/sbin $path)
+for prefix in /opt/homebrew /usr/local; do
+  for tool in libpq openjdk curl; do
+    [[ -d "$prefix/opt/$tool/bin" ]] && path+=("$prefix/opt/$tool/bin")
+  done
+ done
+[[ -d /Applications/WebStorm.app/Contents/MacOS ]] && path+=(/Applications/WebStorm.app/Contents/MacOS)
 
-# zi
-if [[ ! -d ~/.zi ]]; then
-  mkdir ~/.zi
-  git clone https://github.com/z-shell/zi.git ~/.zi/bin
+unsetopt RM_STAR_SILENT
+setopt RM_STAR_WAIT HIST_IGNORE_SPACE HIST_IGNORE_ALL_DUPS INC_APPEND_HISTORY
+HISTFILE="$HOME/.zsh_history"
+HISTSIZE=50000
+SAVEHIST=50000
+HIST_STAMPS=dd-mm-yyyy
+fpath=("$DOTFILES_ROOT/shell/completions" $fpath)
+ZSH_THEME=''
+plugins=(git last-working-dir)
+if [[ -f "$ZSH/oh-my-zsh.sh" ]]; then
+  # Use an isolated custom directory so the old repo's aliases are not loaded twice.
+  ZSH_CUSTOM="$DOTFILES_ROOT/shell/omz"
+  source "$ZSH/oh-my-zsh.sh"
+else
+  autoload -Uz compinit; compinit
 fi
-source "$HOME/.zi/bin/zi.zsh"
+# Plugin sources live outside the repository; load existing optional plugins explicitly.
+for plugin in zsh-autosuggestions zsh-npm-scripts-autocomplete alias-tips fast-syntax-highlighting; do
+  [[ -f "$ZSH/custom/plugins/$plugin/$plugin.plugin.zsh" ]] && source "$ZSH/custom/plugins/$plugin/$plugin.plugin.zsh"
+done
+source "$DOTFILES_ROOT/shell/aliases.zsh"
+source "$DOTFILES_ROOT/shell/functions.zsh"
+source "$DOTFILES_ROOT/shell/history.zsh"
 
-autoload -Uz _zi
-(( ${+_comps} )) && _comps[zi]=_zi
-
-# zi plugins
-zi ice lucid wait"0" atinit"zpcompinit; zpcdreplay"
-zi light zdharma/fast-syntax-highlighting
-
-# # 0 -- vanilla completion (abc => abc)
-# 1 -- smart case completion (abc => Abc)
-# 2 -- word flex completion (abc => A-big-Car)
-# 3 -- full flex completion (abc => ABraCadabra)
-zstyle ':completion:*' matcher-list '' \
-  'm:{a-z\-}={A-Z\_}' \
-  'r:[^[:alpha:]]||[[:alpha:]]=** r:|=* m:{a-z\-}={A-Z\_}' \
-  'r:|?=** m:{a-z\-}={A-Z\_}'
-# use fzf for tab completion
-# zinit light Aloxaf/fzf-tab
-
-zi ice lucid wait"0" blockf
-zi light zsh-users/zsh-completions
-
-if command -v rbenv &> /dev/null; then
-  zinit ice wait"0" lucid
-  zinit light htlsne/zinit-rbenv
+(( $+commands[fnm] )) && eval "$(fnm env --use-on-cd --shell zsh)"
+source "$DOTFILES_ROOT/shell/navigation.zsh"
+if (( $+commands[fzf] )); then
+  # Keep McFly's Ctrl-R; fzf still supplies Ctrl-T and Alt-C.
+  FZF_CTRL_R_COMMAND='' source <(fzf --zsh)
 fi
-
-zinit wait lucid for OMZL::history.zsh
-zinit wait lucid for OMZP::direnv
-
-# install completions
-zi ice as"completion"
-zi snippet OMZP::docker/completions/_docker
-zi ice as"completion"
-zi snippet OMZP::docker-compose/_docker-compose
-
-export EDITOR=nvim
-export GOPATH=$HOME/Code/go
-
-# emacs keybindings
+(( $+commands[mcfly] )) && eval "$(mcfly init zsh)"
+export STARSHIP_CONFIG="${STARSHIP_CONFIG:-$HOME/.starship.toml}"
+(( $+commands[starship] )) && eval "$(starship init zsh)"
+(( $+commands[wt] )) && eval "$(command wt config shell init zsh)"
+if [[ -f "$HOME/.local/share/dotfiles/pnpm-completion.zsh" ]]; then
+  source "$HOME/.local/share/dotfiles/pnpm-completion.zsh"
+elif [[ -f "$HOME/completion-for-pnpm.zsh" ]]; then
+  source "$HOME/completion-for-pnpm.zsh"
+fi
+[[ -f "$HOME/.vite-plus/env" ]] && source "$HOME/.vite-plus/env"
+[[ -n "$GHOSTTY_RESOURCES_DIR" && -f "$GHOSTTY_RESOURCES_DIR/shell-integration/zsh/ghostty-integration" ]] && source "$GHOSTTY_RESOURCES_DIR/shell-integration/zsh/ghostty-integration"
+[[ -f "$HOME/.zshrc.local" ]] && source "$HOME/.zshrc.local"
+# No npm subprocess at shell startup. Enable NODE_PATH in .zshrc.local if needed.
 bindkey '^A' beginning-of-line
 bindkey '^E' end-of-line
 bindkey '^L' clear-screen
-
-autoload edit-command-line
+autoload -Uz edit-command-line
 zle -N edit-command-line
-bindkey "^X^E" edit-command-line
-
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-# export PATH="$PATH:$HOME/bin:$HOME/Library/Haskell/bin/:$GOPATH:$HOME/.rvm/bin:$HOME/Code/go/bin:$HOME/.gpkg/bin:node_modules/.bin:../node_modules/.bin:../../node_modules/.bin:../../../node_modules/.bin:/usr/local/opt/llvm/bin:/Users/schniz/.luarocks/bin"
-export PATH="$HOME/Code/dotfiles/bin:$HOME/Code/fnm/target/debug:$HOME/Code/gpkg/target/debug:$HOME/.gpkg/bin:$HOME/.cargo/bin:/opt/homebrew/bin:/opt/homebrew/opt/util-linux/bin:$PATH:$GOPATH/bin:./node_modules/.bin:../node_modules/.bin:../../node_modules/.bin"
-
-# fnm
-eval "$(~/Code/schniz/fnm/target/release/fnm env --shell=zsh --use-on-cd --version-file-strategy=recursive --corepack-enabled --resolve-engines)"
-
-source ~/.dotfiles/aliases
-
-# Load all custom zsh functions
-for file in ~/.dotfiles/zsh-functions/*; do
-  source $file
-done
-
-if [ -f ~/.secrets ]; then
-  source ~/.secrets
-fi
-
-configkube() {
-  source <(kubectl completion zsh)
-}
-
-# fzf and zoxide - load synchronously (fast enough)
-command -v fzf &>/dev/null && source <(fzf --zsh)
-command -v zoxide &>/dev/null && eval "$(zoxide init zsh)"
-
-if [ ! "$TMUX" = "" ]; then export TERM=xterm-256color; fi
-
-# starship - use --print-full-init to avoid subshell
-eval "$(starship init zsh --print-full-init)"
-
-function cdgr() {
-  cd $(gitroot)
-}
-
-# Bun
-export BUN_INSTALL="/Users/schniz/.bun"
-export PATH="$BUN_INSTALL/bin:$PATH"
-# bun completions
-# [ -s "/Users/schniz/.bun/_bun" ] && source "/Users/schniz/.bun/_bun"
-
-function screenshell() {
-  if [ "$STARSHIP_CONFIG" = "" ]; then
-    export STARSHIP_CONFIG=~/.config/starship-screenshot.toml
-  else
-    unset STARSHIP_CONFIG
-  fi
-}
-
-# ghostty {
-if [[ -n $GHOSTTY_RESOURCES_DIR ]]; then
-  source "$GHOSTTY_RESOURCES_DIR"/shell-integration/zsh/ghostty-integration
-fi
-# }
-
-# pnpm
-export PNPM_HOME="/Users/schniz/Library/pnpm"
-export PATH="$PNPM_HOME:$PATH"
-# pnpm end
-
-export BAT_THEME='base16'
-export NVIM_APPNAME='schnizvim'
-
-# ni https://github.com/antfu-collective/ni
-export NI_CONFIG_FILE="$HOME/.config/ni/nirc"
-export PATH=$PATH:$HOME/.maestro/bin
-
-# Created by `pipx` on 2026-03-17 15:45:43
-export PATH="$PATH:/Users/schniz/.local/bin"
+bindkey '^X^E' edit-command-line
+true

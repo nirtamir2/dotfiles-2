@@ -1,0 +1,17 @@
+---
+description: Native screen zoom with Control + mouse wheel (Nir uses Right Ctrl)
+sudo: false
+current_host: false
+# System Settings → Accessibility → Zoom.
+# Use scroll gesture with modifier keys to zoom: on; modifier: Control.
+# 262144 = the Control modifier mask; macOS does not select left/right Control.
+# Values read from this Mac on 30 September 2026.
+# The current Zoom style is Full Screen; verify it after restoring/logging out.
+# These keys are also in preferences/macos.json for ./setup install/defaults.
+data:
+  com.apple.universalaccess:
+    closeViewScrollWheelToggle: true
+  com.apple.AppleMultitouchTrackpad:
+    HIDScrollZoomModifierMask: 262144
+  com.apple.driver.AppleBluetoothMultitouch.trackpad:
+    HIDScrollZoomModifierMask: 262144

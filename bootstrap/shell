@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+set -euo pipefail
+omz="$HOME/.oh-my-zsh"
+if [[ ! -d "$omz" ]]; then git clone --depth=1 https://github.com/ohmyzsh/ohmyzsh.git "$omz"; fi
+while read -r name repo; do
+  dest="$omz/custom/plugins/$name"
+  if [[ ! -d "$dest" ]]; then git clone --depth=1 "https://github.com/$repo.git" "$dest"; fi
+done <<'PLUGINS'
+zsh-autosuggestions zsh-users/zsh-autosuggestions
+zsh-npm-scripts-autocomplete grigorii-zander/zsh-npm-scripts-autocomplete
+alias-tips djui/alias-tips
+fast-syntax-highlighting zdharma-continuum/fast-syntax-highlighting
+PLUGINS

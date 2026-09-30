@@ -1,0 +1,8 @@
+---
+description: Screenshot preferences
+sudo: false
+current_host: false
+data:
+  com.apple.screencapture:
+    show-thumbnail: false
+    location: "/tmp"

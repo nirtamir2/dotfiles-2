@@ -1,0 +1,112 @@
+#!/usr/bin/env bash
+# One entry point for a new Mac. Rerun after an interrupted installation.
+set -euo pipefail
+ROOT="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd)"
+dry=false; extras=true; node=true; editor=true; preferences=true
+node_globals=false; work=false; mas=false; tmux=false
+for arg in "$@"; do
+  case "$arg" in
+    --dry-run) dry=true ;;
+    --minimal) extras=false ;;
+    --skip-node) node=false ;;
+    --skip-vscode) editor=false ;;
+    --skip-preferences) preferences=false ;;
+    --with-node-globals) node_globals=true ;;
+    --with-work) work=true ;;
+    --with-mas) mas=true ;;
+    --with-tmux) tmux=true ;;
+    -h|--help) cat <<'HELP'
+Usage: ./setup install [options]
+Default: Homebrew, core + daily + extras packages, shell plugins, Node LTS/pnpm,
+backed-up core/Vim links, a fresh VS Code baseline, and portable app preferences.
+No package upgrades/removals are requested. Existing editor/Warp files are preserved.
+  --dry-run             Print the stages; no files, network or subprocess installers
+  --minimal             Skip extras (keep core and confirmed daily apps)
+  --skip-node           Skip Node/pnpm setup
+  --skip-vscode         Leave VS Code configuration and extensions alone
+  --skip-preferences    Skip desktop files and preference writes
+  --with-node-globals   Also install the historical global npm package list
+  --with-work           Add Slack and Teams
+  --with-mas            Add saved App Store apps (requires App Store sign-in)
+  --with-tmux           Link tmux config and install missing TPM
+HELP
+      exit 0 ;;
+    *) echo "Unknown option: $arg" >&2; exit 2 ;;
+  esac
+done
+if $dry; then
+  echo 'Plan only: install Homebrew from its official installer if missing; install Python if missing.'
+fi
+run() {
+  if $dry; then printf '  '; printf '%q ' "$@"; printf '\n'; else "$@"; fi
+}
+if ! $dry; then
+  [[ "$(uname -s)" == Darwin ]] || { echo 'This installer targets macOS.' >&2; exit 1; }
+  [[ "$EUID" != 0 ]] || { echo 'Run as your normal macOS user, not with sudo.' >&2; exit 1; }
+  state="$HOME/.local/state/dotfiles"
+  mkdir -p "$state"
+  chmod 700 "$state"
+  log="$state/install-$(date +%Y%m%d-%H%M%S)-$$.log"
+  touch "$log"; chmod 600 "$log"
+  exec > >(tee -a "$log") 2>&1
+  on_exit() {
+    local result=$?
+    if (( result != 0 )); then
+      echo "Installation stopped (exit $result). Fix the reported step and rerun the same command. Log: $log"
+      if [[ -n "${PYTHON:-}" && -x "$PYTHON" ]]; then
+        "$PYTHON" "$ROOT/bootstrap/doctor.py" --report || true
+      fi
+    fi
+  }
+  trap on_exit EXIT
+  if ! /usr/bin/xcode-select -p >/dev/null 2>&1; then
+    /usr/bin/xcode-select --install || true
+    echo 'Finish the Apple Command Line Tools installation, then rerun this command.'
+    exit 1
+  fi
+  if [[ -x /opt/homebrew/bin/brew ]]; then eval "$(/opt/homebrew/bin/brew shellenv)";
+  elif [[ -x /usr/local/bin/brew ]]; then eval "$(/usr/local/bin/brew shellenv)"; fi
+  if ! command -v brew >/dev/null; then
+    installer="$(mktemp -t dotfiles-homebrew)"
+    /usr/bin/curl --fail --location --proto '=https' --tlsv1.2 \
+      https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh -o "$installer"
+    /bin/bash "$installer"
+    rm -f "$installer"
+    if [[ -x /opt/homebrew/bin/brew ]]; then eval "$(/opt/homebrew/bin/brew shellenv)";
+    else eval "$(/usr/local/bin/brew shellenv)"; fi
+  fi
+  # Use the declared Homebrew runtime, not macOS's older bootstrap Python.
+  brew list --versions python@3.14 >/dev/null 2>&1 || brew install python@3.14
+  PYTHON="$(brew --prefix python@3.14)/bin/python3.14"
+else
+  PYTHON=python3
+fi
+run "$ROOT/bootstrap/installations" core --apply
+run "$ROOT/bootstrap/installations" daily --apply
+if $extras; then run "$ROOT/bootstrap/installations" extras --apply; fi
+if $work; then run "$ROOT/bootstrap/installations" work --apply; fi
+if $mas; then
+  run brew install mas
+  run "$ROOT/bootstrap/installations" mas --apply
+fi
+run "$ROOT/bootstrap/shell"
+if $node; then
+  if $node_globals; then run "$ROOT/bootstrap/node" --globals;
+  else run "$ROOT/bootstrap/node"; fi
+fi
+run "$PYTHON" "$ROOT/bootstrap/manage.py" link --profile core --replace
+run "$PYTHON" "$ROOT/bootstrap/manage.py" link --profile vim --replace
+if $tmux; then
+  run "$PYTHON" "$ROOT/bootstrap/manage.py" link --profile tmux --replace
+  if [[ ! -d "$HOME/.tmux/plugins/tpm" ]]; then
+    run git clone --depth=1 https://github.com/tmux-plugins/tpm "$HOME/.tmux/plugins/tpm"
+  fi
+fi
+if $editor; then run "$PYTHON" "$ROOT/bootstrap/editor.py" --apply; fi
+if $preferences; then run "$PYTHON" "$ROOT/bootstrap/desktop.py" --apply; fi
+run "$PYTHON" "$ROOT/bootstrap/doctor.py" --report
+if ! $dry; then
+  echo "Automatic stages finished. Read $HOME/.local/state/dotfiles/next-steps.md for manual and failed steps."
+  echo 'Open a new Warp tab. Keep this checkout in place: live dotfiles link to it.'
+  echo "Log: $log"
+fi

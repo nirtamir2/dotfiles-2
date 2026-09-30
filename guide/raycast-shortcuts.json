@@ -1,0 +1,139 @@
+{
+  "verified": "2026-09-26",
+  "source": "Raycast Settings > General, and Shortcuts > Hotkey Set (all rows enabled)",
+  "hyper": "Right Option = Control + Option + Shift + Command (current Karabiner selected profile)",
+  "shortcuts": [
+    {
+      "category": "Launcher",
+      "command": "Open Raycast",
+      "keys": "⌥ Space",
+      "alias": ""
+    },
+    {
+      "category": "Applications",
+      "command": "Buzz",
+      "keys": "Hyper Z",
+      "alias": ""
+    },
+    {
+      "category": "Applications",
+      "command": "ChatGPT",
+      "keys": "Hyper C",
+      "alias": "codex"
+    },
+    {
+      "category": "Applications",
+      "command": "ChatGPT Classic",
+      "keys": "Hyper A",
+      "alias": ""
+    },
+    {
+      "category": "Applications",
+      "command": "Finder",
+      "keys": "Hyper F",
+      "alias": ""
+    },
+    {
+      "category": "Applications",
+      "command": "Google Chrome",
+      "keys": "Hyper B",
+      "alias": "browser"
+    },
+    {
+      "category": "Applications",
+      "command": "Obsidian",
+      "keys": "Hyper N",
+      "alias": "notes"
+    },
+    {
+      "category": "Applications",
+      "command": "Visual Studio Code",
+      "keys": "Hyper I",
+      "alias": "ide"
+    },
+    {
+      "category": "Applications",
+      "command": "Warp",
+      "keys": "Hyper T",
+      "alias": "terminal"
+    },
+    {
+      "category": "Applications",
+      "command": "WhatsApp",
+      "keys": "Hyper M",
+      "alias": "messages"
+    },
+    {
+      "category": "Extensions",
+      "command": "Clipboard History",
+      "keys": "⌃ V",
+      "alias": ""
+    },
+    {
+      "category": "Extensions",
+      "command": "Search Word",
+      "keys": "⌃ ⌃",
+      "alias": ""
+    },
+    {
+      "category": "Extensions",
+      "command": "Search Emoji & Symbols",
+      "keys": "⌃ ⌘ Space",
+      "alias": ""
+    },
+    {
+      "category": "Extensions",
+      "command": "Switch Windows",
+      "keys": "⌃ F",
+      "alias": ""
+    },
+    {
+      "category": "Extensions",
+      "command": "Improve Writing",
+      "keys": "Hyper O",
+      "alias": ""
+    },
+    {
+      "category": "Extensions",
+      "command": "Confetti",
+      "keys": "Hyper F1",
+      "alias": "confetti"
+    },
+    {
+      "category": "Extensions",
+      "command": "Recognize Text",
+      "keys": "⌃ O",
+      "alias": ""
+    },
+    {
+      "category": "Window Management",
+      "command": "Left Half",
+      "keys": "⌃ ⌥ ←",
+      "alias": ""
+    },
+    {
+      "category": "Window Management",
+      "command": "Maximize",
+      "keys": "⌃ ⌥ Return",
+      "alias": ""
+    },
+    {
+      "category": "Window Management",
+      "command": "Move to Next Display",
+      "keys": "⌃ ⌥ ⌘ →",
+      "alias": ""
+    },
+    {
+      "category": "Window Management",
+      "command": "Move to Previous Display",
+      "keys": "⌃ ⌥ ⌘ ←",
+      "alias": ""
+    },
+    {
+      "category": "Window Management",
+      "command": "Right Half",
+      "keys": "⌃ ⌥ →",
+      "alias": ""
+    }
+  ]
+}

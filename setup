@@ -1,26 +1,38 @@
-#!/bin/bash
-
-set -e
-
-./bootstrap/homebrew
-./bootstrap/installations
-(cd .config && stow .)
-
-macos-defaults apply ./macos-defaults
-/System/Library/PrivateFrameworks/SystemAdministration.framework/Resources/activateSettings -u
-
-# ./bootstrap/homebrew
-
-# brew install homebrew/cask-fonts/font-fira-code-nerd-font
-
-# command: (ls /Library/Fonts/Source\ Code\ Pro* &>/dev/null) || (git clone https://github.com/powerline/fonts.git --depth=1 __powerline_fonts__ && (cd __powerline_fonts__ && cp -v SourceCodePro/*.otf /Library/Fonts/) && rm -rf __powerline_fonts__)
-# description: Installing powerline fonts
-
-# command: "(ls ~/.vim/autoload/plug.vim &> /dev/null) || (mkdir -p ~/.vim/autoload && curl -fLo ~/.vim/autoload/plug.vim https://raw.github.com/junegunn/vim-plug/master/plug.vim)"
-# description: Install Vundle.vim, if necessary
-
-# command: "vim +PlugInstall +PlugUpdate +qall"
-# description: Update vim plugins
-# stdout: true
-
-# command: pip3 install -U neovim
+#!/usr/bin/env bash
+set -euo pipefail
+ROOT="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+command_name="${1:-help}"
+if (($#)); then shift; fi
+case "$command_name" in
+  install) exec "$ROOT/bootstrap/new-mac" "$@" ;;
+  doctor) exec python3 "$ROOT/bootstrap/doctor.py" "$@" ;;
+  desktop) exec python3 "$ROOT/bootstrap/desktop.py" "$@" ;;
+  plan|link|restore|status) exec python3 "$ROOT/bootstrap/manage.py" "$command_name" "$@" ;;
+  packages) exec "$ROOT/bootstrap/installations" "$@" ;;
+  shell) exec "$ROOT/bootstrap/shell" "$@" ;;
+  node) exec "$ROOT/bootstrap/node" "$@" ;;
+  vscode) while IFS= read -r extension; do [[ -z "$extension" || "$extension" == \#* ]] || code --install-extension "$extension"; done < "$ROOT/packages/visual-studio-code-extensions.txt" ;;
+  defaults) exec python3 "$ROOT/bootstrap/desktop.py" --apply --system-only ;;
+  guide) open "$ROOT/guide/index.html" ;;
+  check) exec python3 "$ROOT/tests/check.py" ;;
+  help|--help|-h) cat <<'HELP'
+Dotfiles — Nir's tools, Schnitz's layout
+  ./setup install [--dry-run] [--minimal]               Set up a new Mac (extras included)
+  ./setup doctor [--report]                            Check restore gaps; optional saved report
+  ./setup desktop [--apply]                            Preview/seed portable app settings
+  ./setup plan [--profile core|vim|tmux|vscode|npm|all]  Preview links
+  ./setup link [--profile ...] [--replace]              Link; back up conflicts with --replace
+  ./setup status [--profile ...]                       Show installed links
+  ./setup restore PATH                                Restore a link backup (manifest.json)
+  ./setup packages [core|daily|extras|work|mas] [--apply]      Check, or install missing packages
+  ./setup shell                                       Install missing Oh My Zsh plugins
+  ./setup node                                        Install Node LTS and global CLI packages
+  ./setup vscode                                      Install saved VS Code extensions
+  ./setup defaults                                    Apply curated macOS preferences
+  ./setup guide                                       Open the local tools/shortcuts guide
+  ./setup check                                       Validate without changing this Mac
+Default profile is core. No command installs packages or changes macOS implicitly.
+HELP
+  ;;
+  *) echo "Unknown command: $command_name" >&2; exit 2 ;;
+esac

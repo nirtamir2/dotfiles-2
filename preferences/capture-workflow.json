@@ -1,0 +1,17 @@
+{
+  "verified": "2026-09-26",
+  "source": "User description and live com.apple.screencapture location",
+  "region_to_clipboard": "Control+Command+Shift+4",
+  "region_to_file": "Command+Shift+4",
+  "save_location": "/tmp",
+  "images": "Zappy",
+  "quick_gif_video": {
+    "app": "Zappy",
+    "status": "Confirmed by user"
+  },
+  "better_video": "QuickTime Player",
+  "shottr": {
+    "status": "Installed and running; actual capture usage unconfirmed",
+    "decision": "Removal candidate; retain only if scrolling captures, pixel measurements or cleanup tools are used. No uninstall performed."
+  }
+}
