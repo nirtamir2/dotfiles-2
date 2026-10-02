@@ -14,7 +14,7 @@ def run(*args, ok=True):
         raise AssertionError(f'{args}: {result.stderr}\n{result.stdout}')
     return result
 
-for path in ['setup', 'bootstrap/installations', 'bootstrap/node', 'bootstrap/shell', 'bootstrap/links', 'bootstrap/homebrew', 'bootstrap/new-mac', 'bin/schnizvim', 'bin/dotfiles']:
+for path in ['setup', 'bootstrap/installations', 'bootstrap/node', 'bootstrap/shell', 'bootstrap/links', 'bootstrap/homebrew', 'bootstrap/new-mac', 'bin/schnizvim', 'bin/dotfiles', 'bin/skills-explicit']:
     run('bash', '-n', str(ROOT/path))
 for path in ['.zshrc','.zprofile','.zshenv','shell/aliases.zsh','shell/functions.zsh','shell/history.zsh','shell/navigation.zsh']:
     run('zsh', '-n', str(ROOT/path))
@@ -97,4 +97,6 @@ for link in links.links:
     if link.startswith('#'): assert link[1:] in links.ids, link
     elif not link.startswith(('https://','http://')): assert (ROOT/'guide'/link).exists(), link
 run(sys.executable, str(ROOT/'tests/new_mac.py'))
-print('PASS: new-Mac restore tests, syntax, data, link/restore integration, profile discovery, symlink boundaries, Homebrew cancellation, offline guide.')
+run('node', '--check', 'bootstrap/skills/skills.mjs')
+run('node', '--test', 'bootstrap/skills/skills.test.mjs')
+print('PASS: new-Mac restore tests, skill invocation policy, syntax, data, link/restore integration, profile discovery, symlink boundaries, Homebrew cancellation, offline guide.')

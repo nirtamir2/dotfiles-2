@@ -93,6 +93,10 @@ run "$ROOT/bootstrap/shell"
 if $node; then
   if $node_globals; then run "$ROOT/bootstrap/node" --globals;
   else run "$ROOT/bootstrap/node"; fi
+  if ! $dry; then
+    eval "$(fnm env --shell bash)"
+    fnm use default
+  fi
 fi
 run "$PYTHON" "$ROOT/bootstrap/manage.py" link --profile core --replace
 run "$PYTHON" "$ROOT/bootstrap/manage.py" link --profile vim --replace
@@ -105,6 +109,8 @@ fi
 if $editor; then run "$PYTHON" "$ROOT/bootstrap/editor.py" --apply; fi
 if $preferences; then run "$PYTHON" "$ROOT/bootstrap/desktop.py" --apply; fi
 run "$PYTHON" "$ROOT/bootstrap/doctor.py" --report
+run pnpm --dir "$ROOT/bootstrap/skills" install --frozen-lockfile
+run "$ROOT/bin/skills-explicit"
 if ! $dry; then
   echo "Automatic stages finished. Read $HOME/.local/state/dotfiles/next-steps.md for manual and failed steps."
   echo 'Open a new Warp tab. Keep this checkout in place: live dotfiles link to it.'

@@ -105,8 +105,13 @@ is not an automatic install target. `packages/availability-review.json` and
 Unavailable/disabled core-catalog entries are commented out in extras. Third-party
 tap installation and account-dependent commands have not been exercised.
 
-`packages/skills.txt` preserves your requested skill-install commands for manual
-use. Python's `git-smart-squash`, Go's `qrcp`, Rust, custom fonts,
+`packages/skills.txt` preserves your regular skill-install commands. Install skills
+as usual, then run `skills-explicit` to verify and disable automatic
+invocation in Claude Code, Cursor, and Codex. `./setup install` runs this script
+at the end. See [skill invocation settings](docs/SKILLS.md).
+Custom skills, including Twitter, are versioned separately in
+[nirtamir2/agent-skills](https://github.com/nirtamir2/agent-skills).
+Python's `git-smart-squash`, Go's `qrcp`, Rust, custom fonts,
 and manual apps have restore instructions in [docs/MIGRATION.md](docs/MIGRATION.md).
 
 ## Optional workflows

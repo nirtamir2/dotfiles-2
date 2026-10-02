@@ -73,8 +73,10 @@ archive and repository Git history preserve them.
   Rust script installed the toolchain but listed no additional crates.
 - Fonts: retained FiraCodeiScript files under `static/` can be opened in Font Book.
   Install JetBrains Mono for the current VS Code profile if it is missing.
-- Skills: `packages/skills.txt` preserves the user's explicit install list. Run
-  selected commands manually; dotfiles setup does not modify agent skills/accounts.
+- Skills: `packages/skills.txt` preserves the user's regular install commands.
+  Install selected skills as usual, then run `skills-explicit` to verify
+  and disable automatic invocation. `./setup install` runs the script at the end.
+  See [skill invocation settings](SKILLS.md).
 - Work apps and Mac App Store apps are separate opt-in groups; App Store restore
   needs `mas` installed and an authenticated App Store session.
 - Missing/disabled Homebrew declarations are listed in `packages/availability-review.json`.

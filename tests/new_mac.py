@@ -20,6 +20,9 @@ import doctor
 # No installation command is invoked during dry-run; invalid options fail first.
 result=subprocess.run([str(ROOT/'setup'),'install','--dry-run'],capture_output=True,text=True,check=True)
 assert 'extras --apply' in result.stdout and 'core --replace' in result.stdout
+stages = result.stdout.strip().splitlines()
+assert 'pnpm --dir' in stages[-2] and 'install --frozen-lockfile' in stages[-2]
+assert stages[-1].strip() == f'{ROOT}/bin/skills-explicit'
 result=subprocess.run([str(ROOT/'setup'),'install','--dry-run','--minimal','--skip-vscode','--skip-preferences'],capture_output=True,text=True,check=True)
 assert 'extras --apply' not in result.stdout and 'editor.py' not in result.stdout and 'desktop.py' not in result.stdout
 assert subprocess.run([str(ROOT/'setup'),'install','--unknown'],capture_output=True).returncode==2

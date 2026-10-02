@@ -10,6 +10,7 @@ case "$command_name" in
   plan|link|restore|status) exec python3 "$ROOT/bootstrap/manage.py" "$command_name" "$@" ;;
   packages) exec "$ROOT/bootstrap/installations" "$@" ;;
   shell) exec "$ROOT/bootstrap/shell" "$@" ;;
+  skills) exec "$ROOT/bin/skills-explicit" "$@" ;;
   node) exec "$ROOT/bootstrap/node" "$@" ;;
   vscode) while IFS= read -r extension; do [[ -z "$extension" || "$extension" == \#* ]] || code --install-extension "$extension"; done < "$ROOT/packages/visual-studio-code-extensions.txt" ;;
   defaults) exec python3 "$ROOT/bootstrap/desktop.py" --apply --system-only ;;
@@ -26,6 +27,7 @@ Dotfiles — Nir's tools, Schnitz's layout
   ./setup restore PATH                                Restore a link backup (manifest.json)
   ./setup packages [core|daily|extras|work|mas] [--apply]      Check, or install missing packages
   ./setup shell                                       Install missing Oh My Zsh plugins
+  ./setup skills [--check] [--project DIR]              Verify and fix skill invocation settings
   ./setup node                                        Install Node LTS and global CLI packages
   ./setup vscode                                      Install saved VS Code extensions
   ./setup defaults                                    Apply curated macOS preferences
