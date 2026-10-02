@@ -3,8 +3,15 @@
 Custom skills live in [nirtamir2/agent-skills](https://github.com/nirtamir2/agent-skills),
 including the Twitter writing skill. The personal repository is private; authenticate
 to GitHub before installing it. Its regular install command is in `packages/skills.txt`.
-Skill source files and their dependencies live there; this dotfiles repository
-keeps the installation list and the invocation-settings command.
+Only authored custom skills and their dependencies live there. Third-party skills,
+including pstack and its Poteto Mode skill, are installed directly from upstream
+using their own commands in `packages/skills.txt`. This dotfiles repository keeps
+the installation list and the invocation-settings command.
+
+The Skills CLI manages installed copies under `~/.agents/skills` and links them to
+the selected agents. Keep that installed directory separate from your custom-skill
+checkout so installation, updates, and policy enforcement cannot change source
+files. No submodules or vendored third-party skills are needed.
 
 Install skills using the usual commands in `packages/skills.txt`. At the end,
 run the JavaScript script to check all discovered skills and fix their settings:
@@ -55,3 +62,17 @@ skills-explicit /path/to/skill-library/skills
 
 Regular skill or plugin updates can replace these settings. Run the script again
 after installing or updating skills.
+
+To update globally installed skills from their recorded sources, then reapply and
+verify the invocation policy:
+
+```sh
+npx skills update --global
+skills-explicit
+skills-explicit --check
+```
+
+Maintain your custom skills by editing, committing, and pushing their repository,
+then reinstalling it with the command in `packages/skills.txt`. Make lasting changes
+to third-party skills in a fork and install that fork instead of editing installed
+copies that an update will replace.
