@@ -12,6 +12,7 @@ case "$command_name" in
   shell) exec "$ROOT/bootstrap/shell" "$@" ;;
   skills) exec "$ROOT/bin/skills-explicit" "$@" ;;
   node) exec "$ROOT/bootstrap/node" "$@" ;;
+  claude) exec "$ROOT/bootstrap/claude" "$@" ;;
   vscode) while IFS= read -r extension; do [[ -z "$extension" || "$extension" == \#* ]] || code --install-extension "$extension"; done < "$ROOT/packages/visual-studio-code-extensions.txt" ;;
   defaults) exec python3 "$ROOT/bootstrap/desktop.py" --apply --system-only ;;
   guide) open "$ROOT/guide/index.html" ;;
@@ -29,6 +30,7 @@ Dotfiles — Nir's tools, Schnitz's layout
   ./setup shell                                       Install missing Oh My Zsh plugins
   ./setup skills [--check] [--project DIR]              Verify and fix skill invocation settings
   ./setup node                                        Install Node LTS and global CLI packages
+  ./setup claude                                      Install native Claude Code (latest, auto-updates)
   ./setup vscode                                      Install saved VS Code extensions
   ./setup defaults                                    Apply curated macOS preferences
   ./setup guide                                       Open the local tools/shortcuts guide

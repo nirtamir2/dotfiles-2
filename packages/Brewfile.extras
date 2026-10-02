@@ -46,7 +46,7 @@ cask "bunch"
 cask "capcut"
 cask "chatgpt"
 cask "claude"
-cask "claude-code"
+# Claude Code uses the official native installer: ./setup claude
 cask "clockify"
 cask "cmux"
 cask "codex"

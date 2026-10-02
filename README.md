@@ -71,6 +71,7 @@ installation may need you to finish its dialog and rerun.
 ./setup packages daily --apply       # daily apps
 ./setup shell                        # install missing Oh My Zsh and plugins
 ./setup node                         # Node LTS and pnpm
+./setup claude                       # native Claude Code; latest channel, auto-updates
 ./setup node --globals               # also install the historical global Node CLIs
 ./setup vscode                       # install default-profile VS Code extensions
 ./setup packages extras --apply      # additional tools from your old installers
@@ -84,6 +85,12 @@ installation may need you to finish its dialog and rerun.
 T3 Code is declared as `cask "t3-code"` in `packages/Brewfile.extras`, alongside
 Codex. `./setup install` and `./setup packages extras --apply` install it
 automatically through Homebrew; `./setup install --minimal` skips it.
+
+Claude Code uses the official native installer instead of Homebrew, with the
+latest release channel and background auto-updates. `./setup install` installs it
+with extras; `--minimal` skips it. `./setup claude` installs it separately and
+preserves an existing native install. Use `claude update` to update immediately.
+See [Claude installation and migration](manual-install/claude-ai.md).
 
 Native screen zoom (**Right Ctrl + mouse wheel**) is included in `./setup install`
 and `./setup defaults`. You can also use the installed `macos-defaults` tool with

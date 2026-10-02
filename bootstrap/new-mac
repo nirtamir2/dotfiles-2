@@ -83,7 +83,10 @@ else
 fi
 run "$ROOT/bootstrap/installations" core --apply
 run "$ROOT/bootstrap/installations" daily --apply
-if $extras; then run "$ROOT/bootstrap/installations" extras --apply; fi
+if $extras; then
+  run "$ROOT/bootstrap/installations" extras --apply
+  run "$ROOT/bootstrap/claude"
+fi
 if $work; then run "$ROOT/bootstrap/installations" work --apply; fi
 if $mas; then
   run brew install mas

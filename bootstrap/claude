@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# Keep Claude Code on the native latest channel with background auto-updates.
+set -euo pipefail
+[[ $# -eq 0 ]] || { echo 'Usage: ./setup claude' >&2; exit 2; }
+if [[ -x "$HOME/.local/bin/claude" ]]; then
+  "$HOME/.local/bin/claude" --version
+  exit 0
+fi
+if command -v claude >/dev/null; then
+  echo 'Claude Code is already installed outside the native location.' >&2
+  echo 'For Homebrew, run brew uninstall --cask claude-code, then ./setup claude.' >&2
+  exit 1
+fi
+installer="$(mktemp -t dotfiles-claude)"
+trap 'rm -f "$installer"' EXIT
+curl --fail --silent --show-error --location --proto '=https' --tlsv1.2 \
+  https://claude.ai/install.sh -o "$installer"
+bash "$installer" latest
+"$HOME/.local/bin/claude" --version

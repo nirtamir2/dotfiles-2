@@ -22,6 +22,8 @@ archives/exports in a separate secure transfer; they are ignored by Git.
    Homebrew Python runtime. Homebrew may ask for your administrator password.
 3. Installs missing packages from the core, daily and extras Brewfiles, without
    requesting bulk upgrades. Dependencies may still be upgraded by Homebrew.
+   With extras enabled, also installs Claude Code using the official native
+   installer on the latest channel; existing native installs are retained.
 4. Installs missing Oh My Zsh plugins, Node LTS and pnpm. Node LTS becomes the fnm
    default. The historical global npm collection is a separate option.
 5. Links core files, including `.zprofile`, `.zshenv` and the compact prompt, and
