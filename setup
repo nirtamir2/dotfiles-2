@@ -11,6 +11,7 @@ case "$command_name" in
   packages) exec "$ROOT/bootstrap/installations" "$@" ;;
   shell) exec "$ROOT/bootstrap/shell" "$@" ;;
   skills) exec "$ROOT/bin/skills-explicit" "$@" ;;
+  agent-skills) exec "$ROOT/bootstrap/agent-skills" "$@" ;;
   node) exec "$ROOT/bootstrap/node" "$@" ;;
   claude) exec "$ROOT/bootstrap/claude" "$@" ;;
   vscode) while IFS= read -r extension; do [[ -z "$extension" || "$extension" == \#* ]] || code --install-extension "$extension"; done < "$ROOT/packages/visual-studio-code-extensions.txt" ;;
@@ -29,6 +30,7 @@ Dotfiles — Nir's tools, Schnitz's layout
   ./setup packages [core|daily|extras|work|mas] [--apply]      Check, or install missing packages
   ./setup shell                                       Install missing Oh My Zsh plugins
   ./setup skills [--check] [--project DIR]              Verify and fix skill invocation settings
+  ./setup agent-skills                               Restore/install personal skills from ~/dev/work
   ./setup node                                        Install Node LTS and global CLI packages
   ./setup claude                                      Install native Claude Code (latest, auto-updates)
   ./setup vscode                                      Install saved VS Code extensions

@@ -26,4 +26,7 @@ npx skills add Leonxlnx/unlazy
 # Third-party workflow skills: install directly from upstream.
 npx skills add https://github.com/cursor/plugins/tree/main/pstack --global --skill '*' --agent codex claude-code cursor opencode --yes
 # Personal repository: custom skills only.
+# Restore ~/dev/work/agent-skills and install its current contents:
+./setup agent-skills
+# Install published skills directly from GitHub instead:
 npx skills add https://github.com/nirtamir2/agent-skills --global --skill '*' --agent codex claude-code cursor --yes

@@ -118,6 +118,9 @@ invocation in Claude Code, Cursor, and Codex. `./setup install` runs this script
 at the end. See [skill invocation settings](docs/SKILLS.md).
 Custom skills, including Twitter, are versioned separately in
 [nirtamir2/agent-skills](https://github.com/nirtamir2/agent-skills).
+The checkout lives at `~/dev/work/agent-skills`. Run `./setup agent-skills` to
+restore it if missing and install its current skills for Codex, Claude Code, and
+Cursor, including the Twitter character counter's dependencies.
 Python's `git-smart-squash`, Go's `qrcp`, Rust, custom fonts,
 and manual apps have restore instructions in [docs/MIGRATION.md](docs/MIGRATION.md).
 

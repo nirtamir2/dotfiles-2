@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+set -euo pipefail
+ROOT="$(cd -P -- "$(dirname -- "${BASH_SOURCE[0]}")" && cd .. && pwd -P)"
+LIBRARY="$HOME/dev/work/agent-skills"
+[[ $# -eq 0 ]] || { echo 'Usage: ./setup agent-skills' >&2; exit 2; }
+for tool in node npm npx pnpm git; do
+  command -v "$tool" >/dev/null || { echo "Missing $tool; run ./setup node first." >&2; exit 1; }
+done
+if [[ ! -e "$LIBRARY" && ! -L "$LIBRARY" ]]; then
+  mkdir -p "$(dirname -- "$LIBRARY")"
+  git clone https://github.com/nirtamir2/agent-skills.git "$LIBRARY"
+fi
+[[ -d "$LIBRARY/.git" && -f "$LIBRARY/skills/tweet/package-lock.json" ]] || {
+  echo "Expected the personal skill repository at $LIBRARY" >&2; exit 1;
+}
+pnpm --dir "$ROOT/bootstrap/skills" install --frozen-lockfile
+npx --yes skills add "$LIBRARY" \
+  --global --skill '*' --agent codex claude-code cursor --yes
+npm --prefix "$HOME/.agents/skills/tweet" ci --ignore-scripts --no-audit --no-fund
+"$ROOT/bin/skills-explicit" "$HOME/.agents/skills/tweet" "$HOME/.agents/skills/project-start"
+"$ROOT/bin/skills-explicit" --check "$HOME/.agents/skills/tweet" "$HOME/.agents/skills/project-start"
+echo "Personal skill checkout: $LIBRARY"
+echo 'Start a new session: $tweet or $project-start in Codex; /tweet or /project-start in Claude Code or Cursor.'

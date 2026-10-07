@@ -14,7 +14,7 @@ def run(*args, ok=True):
         raise AssertionError(f'{args}: {result.stderr}\n{result.stdout}')
     return result
 
-for path in ['setup', 'bootstrap/installations', 'bootstrap/node', 'bootstrap/claude', 'bootstrap/shell', 'bootstrap/links', 'bootstrap/homebrew', 'bootstrap/new-mac', 'bin/schnizvim', 'bin/dotfiles', 'bin/skills-explicit']:
+for path in ['setup', 'bootstrap/installations', 'bootstrap/node', 'bootstrap/claude', 'bootstrap/agent-skills', 'bootstrap/shell', 'bootstrap/links', 'bootstrap/homebrew', 'bootstrap/new-mac', 'bin/schnizvim', 'bin/dotfiles', 'bin/skills-explicit']:
     run('bash', '-n', str(ROOT/path))
 for path in ['.zshrc','.zprofile','.zshenv','shell/aliases.zsh','shell/functions.zsh','shell/history.zsh','shell/navigation.zsh']:
     run('zsh', '-n', str(ROOT/path))

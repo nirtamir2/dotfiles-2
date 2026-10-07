@@ -13,6 +13,27 @@ the selected agents. Keep that installed directory separate from your custom-ski
 checkout so installation, updates, and policy enforcement cannot change source
 files. No submodules or vendored third-party skills are needed.
 
+## Install personal skills
+
+The personal Git checkout lives at `~/dev/work/agent-skills`. Restore and install it with:
+
+```sh
+./setup agent-skills
+```
+
+This clones the private repository if the checkout is missing, then installs its
+current contents globally for Codex, Claude Code, and Cursor. An existing checkout
+is used as-is, including uncommitted skill edits. The command installs the Twitter
+counter's pinned dependencies in the installed copy and checks explicit invocation
+settings. It can be rerun after editing or pulling the checkout. GitHub authentication
+is needed for the initial clone; Node, npm, npx, pnpm, and Git must be available.
+
+Start a new agent session and use `$tweet` or `$project-start` in Codex, or `/tweet`
+or `/project-start` in Claude Code and Cursor. Local-path installations are refreshed
+with `./setup agent-skills`. To track published updates with `npx skills update --global`,
+use the GitHub install
+command in `packages/skills.txt` instead.
+
 Install skills using the usual commands in `packages/skills.txt`. At the end,
 run the JavaScript script to check all discovered skills and fix their settings:
 
@@ -57,7 +78,7 @@ skill directories or `SKILL.md` files, pass those paths directly:
 
 ```sh
 skills-explicit --project /path/to/project
-skills-explicit /path/to/skill-library/skills
+skills-explicit /path/to/agent-skills/skills
 ```
 
 Regular skill or plugin updates can replace these settings. Run the script again
